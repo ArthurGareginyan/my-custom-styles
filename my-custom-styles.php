@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: My Custom Styles
- * Plugin URI: http://mycyberuniverse.com/my_programs/wp-plugin-my-custom-styles.html ‎
+ * Plugin URI: http://mycyberuniverse.com/my_programs/wp-plugin-my-custom-styles.html
  * Description: EASILY and SAFELY add your custom styles (CSS) to WordPress website's header.
  * Author: Arthur "Berserkr" Gareginyan
  * Author URI: http://mycyberuniverse.com/author.html
