@@ -27,6 +27,7 @@ Your custom styles will keep on working, no matter how many times you upgrade or
 * Syntax highlighting (by CodeMirror).
 * Line numbering (by CodeMirror).
 * Ready for translation (.pot file included).
+* CodeMirror scripts are combined and minified.
 
 **Coming soon:**
 
@@ -114,6 +115,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+= 1.2 =
+* Combined and minified the CodeMirror scripts.
+* Deleted excess line: “delete_option( 'mcstyles_error' )”.
 = 1.1 =
 * Added ready for translation (.pot file included).
 * Added russian translation.
@@ -128,6 +132,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Upgrade Notice ==
+= 1.2 =
+* Combined and minified the CodeMirror scripts.
+* Deleted “delete_option( 'mcstyles_error' )”.
 = 1.1 =
 * Added ready for translation (.pot file included).
 * Added russian translation.

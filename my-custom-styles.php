@@ -5,7 +5,7 @@
  * Description: EASILY and SAFELY add your custom styles (CSS) to WordPress website's header.
  * Author: Arthur "Berserkr" Gareginyan
  * Author URI: http://mycyberuniverse.com/author.html
- * Version: 1.1
+ * Version: 1.2
  * License: GPL3
  * Text Domain: mcstyles
  * Domain Path: /languages/
@@ -92,15 +92,14 @@ add_action( 'admin_init', 'mcstyles_register_settings' );
 /**
  * Enqueue the CodeMirror scripts and styles
  *
- * @since 1.0
+ * @since 1.2
  */
 function mcstyles_enqueue_codemirror_scripts($hook) {
     if ( 'appearance_page_my-custom-styles' != $hook ) {
         return;
     }
-    wp_enqueue_script('codemirror', plugin_dir_url(__FILE__) . 'inc/codemirror/lib/codemirror.js');
-    wp_enqueue_script('codemirror_css', plugin_dir_url(__FILE__) . 'inc/codemirror/mode/css.js');
-    wp_enqueue_style('codemirror_style', plugin_dir_url(__FILE__) . 'inc/codemirror/lib/codemirror.css');
+    wp_enqueue_script('codemirror', plugin_dir_url(__FILE__) . 'inc/codemirror/codemirror-compressed.js');
+    wp_enqueue_style('codemirror_style', plugin_dir_url(__FILE__) . 'inc/codemirror/codemirror.css');
 }
 add_action( 'admin_enqueue_scripts', 'mcstyles_enqueue_codemirror_scripts' );
 
@@ -133,7 +132,6 @@ add_action( 'wp_head', 'mcstyle_add_styling' );
  */
 function mcstyles_uninstall() {
     delete_option( 'mcstyles_settings' );
-    delete_option( 'mcstyles_error' );
 }
 register_uninstall_hook( __FILE__, 'mcstyles_uninstall' );
 
