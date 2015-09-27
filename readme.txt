@@ -4,7 +4,7 @@ Tags: styles, custom, stylesheet, CSS, editor, simple, style, stylesheet, plugin
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQYRXGUG5RNUA
 Requires at least: 3.9
 Tested up to: 4.3
-Stable tag: 1.0
+Stable tag: 1.2
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -33,6 +33,7 @@ Your custom styles will keep on working, no matter how many times you upgrade or
 
 * CSS minifier.
 * Trigger to temporary disable the custom CSS code.
+* Backuping the custom CSS code to a file.
 * (Got more ideas? Tell me!)
 
 For more details please visit - [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-my-custom-styles.html)
@@ -115,6 +116,8 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+= 1.3 =
+* Fixed the issue due to which nothing appears below line 26 until you click below that line.
 = 1.2 =
 * Combined and minified the CodeMirror scripts.
 * Deleted excess line: “delete_option( 'mcstyles_error' )”.
@@ -132,6 +135,8 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Upgrade Notice ==
+= 1.3 =
+* Fixed the issue due to which nothing appears below line 26 until you click below that line.
 = 1.2 =
 * Combined and minified the CodeMirror scripts.
 * Deleted “delete_option( 'mcstyles_error' )”.

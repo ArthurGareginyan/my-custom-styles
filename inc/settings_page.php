@@ -8,7 +8,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 1.2
+ * @since 1.3
  */
 function mcstyles_render_submenu_page() {
 
@@ -73,6 +73,9 @@ function mcstyles_render_submenu_page() {
                                             mode: 'text/css',
                                             indentUnit: 4
                                     });
+                setTimeout(function() {
+                           myCodeMirror.refresh();
+                },1);
 			</script>
 			<style>
 				.CodeMirror {
