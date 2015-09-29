@@ -9,6 +9,23 @@ On the plugin page you find the CSS editor powered by CodeMirror. It have syntax
 Your custom styles will keep on working, no matter how many times you upgrade or switch your theme and plugins.
 
 
+## Features
+
+**Current features:**
+
+* Syntax highlighting (by CodeMirror).
+* Line numbering (by CodeMirror).
+* Ready for translation (.pot file included).
+* CodeMirror scripts are combined and minified.
+
+**Coming soon:**
+
+* CSS minifier.
+* Trigger to temporary disable the custom CSS code.
+* Backuping the custom CSS code to a file.
+* (Got more ideas? Tell me!)
+
+
 ## Contributing
 
 Thank you for considering contributing to the plugin "My Custom Styles"! The contribution guide can be found in the [CONTRIBUTING.md](https://github.com/ArthurGareginyan/my-custom-styles/blob/master/CONTRIBUTING.md).
