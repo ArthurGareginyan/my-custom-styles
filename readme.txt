@@ -113,7 +113,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 * [Developer Website](http://mycyberuniverse.com)
 * [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-my-custom-styles.html)
-
+* [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/my-custom-styles)
 
 == Changelog ==
 = 1.3 =
