@@ -5,7 +5,7 @@
  * Description: EASILY and SAFELY add your custom styles (CSS) to WordPress website's header.
  * Author: Arthur "Berserkr" Gareginyan
  * Author URI: http://mycyberuniverse.com/author.html
- * Version: 1.3
+ * Version: 1.4
  * License: GPL3
  * Text Domain: mcstyles
  * Domain Path: /languages/
@@ -92,14 +92,20 @@ add_action( 'admin_init', 'mcstyles_register_settings' );
 /**
  * Enqueue the CodeMirror scripts and styles
  *
- * @since 1.2
+ * @since 1.4
  */
 function mcstyles_enqueue_codemirror_scripts($hook) {
     if ( 'appearance_page_my-custom-styles' != $hook ) {
         return;
     }
+
+    // CodeMirror
     wp_enqueue_script('codemirror', plugin_dir_url(__FILE__) . 'inc/codemirror/codemirror-compressed.js');
     wp_enqueue_style('codemirror_style', plugin_dir_url(__FILE__) . 'inc/codemirror/codemirror.css');
+    wp_enqueue_script('codemirror-setting', plugin_dir_url(__FILE__) . 'inc/editor.js', array(), false, true);
+
+    // Style sheet
+    wp_enqueue_style('styles', plugin_dir_url(__FILE__) . 'inc/style.css');
 }
 add_action( 'admin_enqueue_scripts', 'mcstyles_enqueue_codemirror_scripts' );
 
@@ -108,7 +114,7 @@ add_action( 'admin_enqueue_scripts', 'mcstyles_enqueue_codemirror_scripts' );
  *
  * @since 1.0
  */
-function mcstyle_add_styling() {
+function mcstyles_add_styling() {
     // Read variables from BD
     $options = get_option( 'mcstyles_settings' );
     $content = esc_textarea( $options['mcstyles-content'] );
@@ -123,7 +129,7 @@ function mcstyle_add_styling() {
         echo '</style>' . "\n";
     }
 }
-add_action( 'wp_head', 'mcstyle_add_styling' );
+add_action( 'wp_head', 'mcstyles_add_styling' );
 
 /**
  * Delete options on uninstall
