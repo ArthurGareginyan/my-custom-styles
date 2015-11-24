@@ -1,10 +1,10 @@
 === My Custom Styles ===
 Contributors: Arthur Gareginyan
-Tags: styles, custom, stylesheet, CSS, editor, simple, style, stylesheet, plugin,
+Tags: custom, CSS, CSS2, CSS3, editor, simple, style, styles, styling, stylesheet, style sheet, plugin,
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQYRXGUG5RNUA
 Requires at least: 3.9
 Tested up to: 4.3
-Stable tag: 1.3
+Stable tag: 1.4
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -43,24 +43,24 @@ For more details please visit - [Dedicated Plugin Page](http://mycyberuniverse.c
 * Your votes really make a difference! Thanks.
 
 == Installation ==
-Install "My Custom Styles” just as you would any other WP Plugin.
+Install "My Custom Styles" just as you would any other WordPress Plugin.
 
 Automatically via WordPress:
 
 1. Log into WordPress Dashboard of your website.
-2. Go to "Plugins" —> “add new plugins".
+2. Go to "`Plugins`" —> "`add new plugins`".
 3. Find this plugin and click install.
-4. Activate this plugin through the "Plugins" tab.
+4. Activate this plugin through the "`Plugins`" tab.
 
 Manual via FTP:
 
 1. Download a copy (zip file) of this plugin from WordPress.org.
 2. Unzip the zip file.
-3. Upload the unzipped directory to your website's plugin directory (/wp-content/plugins/).
+3. Upload the unzipped directory to your website's plugin directory (`/wp-content/plugins/`).
 4. Log into WordPress Dashboard of your website.
-5. Activate this plugin through the "Plugins" tab.
+5. Activate this plugin through the "`Plugins`" tab.
 
-After installation, a "Custom Styles”  menu item will appear in the “Appearance" section. Click on this in order to view plugin's administration page.
+After installation, a "`Custom Styles`"  menu item will appear in the "`Appearance`" section. Click on this in order to view plugin's administration page.
 
 [More help installing Plugins](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins "WordPress Codex: Installing Plugins")
 
@@ -70,12 +70,20 @@ After installation, a "Custom Styles”  menu item will appear in the “Appear
 Sorry, this plugin is available for use only on self-hosted (WordPress.org) websites.
 
 = Can I use this plugin on my language? =
-Yes. But If your language is not available then you can make one. This plugin is ready for translation. The .pot file is included and placed in "languages" folder. Many of plugin users would be delighted if you shared your translation with the community. Just send the translation files (*.po, *.mo) to me at the arthurgareginyan@gmail.com and I will include the translation within the next plugin update.
+Yes. But If your language is not available then you can make one. This plugin is ready for translation. The `.pot` file is included and placed in "`languages`" folder. Many of plugin users would be delighted if you shared your translation with the community. Just send the translation files (`*.po, *.mo`) to me at the arthurgareginyan@gmail.com and I will include the translation within the next plugin update.
 
 = How does it work? =
 If you want to change the layout of your theme or plugin you should look for the element that you want to change. So first you should inspect your theme or plugin.
 
-Then go to page "Appearance" —> "Custom Styles" and enter your custom style (CSS only). Example: #header {background:#000; color:#fff;}
+Then go to page "`Appearance`" —> "`Custom Styles`" and enter your custom style (CSS only). Example:
+`#header {
+    background:#000;
+    color:#fff;
+}
+
+body {
+    background-color: #b0c4de;
+}`
 
 = How much of CSS code (characters) I can enter in the text field? =
 I don't limit the number of characters.
@@ -127,7 +135,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Fixed the issue due to which nothing appears below line 26 until you click below that line.
 = 1.2 =
 * Combined and minified the CodeMirror scripts.
-* Deleted excess line: “delete_option( 'mcstyles_error' )”.
+* Deleted excess line: "delete_option( 'mcstyles_error' )".
 = 1.1 =
 * Added ready for translation (.pot file included).
 * Added russian translation.
@@ -152,7 +160,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Fixed the issue due to which nothing appears below line 26 until you click below that line.
 = 1.2 =
 * Combined and minified the CodeMirror scripts.
-* Deleted “delete_option( 'mcstyles_error' )”.
+* Deleted "delete_option( 'mcstyles_error' )".
 = 1.1 =
 * Added ready for translation (.pot file included).
 * Added russian translation.
