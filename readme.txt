@@ -89,7 +89,7 @@ body {
 I don't limit the number of characters.
 
 = Where to report bug if found? =
-Please visit [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-my-custom-styles.html) and report.
+Please visit [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/my-custom-styles) and report.
 
 = Where to share any ideas or suggestions to make the plugin better? =
 Please visit [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-my-custom-styles.html) and share.

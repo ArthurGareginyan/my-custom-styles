@@ -95,6 +95,8 @@ add_action( 'admin_init', 'mcstyles_register_settings' );
  * @since 1.4
  */
 function mcstyles_enqueue_codemirror_scripts($hook) {
+
+    // Return if the page is not a settings page of this plugin
     if ( 'appearance_page_my-custom-styles' != $hook ) {
         return;
     }
