@@ -8,7 +8,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 1.4
+ * @since 1.5
  */
 function mcstyles_render_submenu_page() {
 
@@ -42,7 +42,6 @@ function mcstyles_render_submenu_page() {
 
 			<!-- SIDEBAR -->
 			<div id="templateside">
-				<?php do_action( 'mcstyles-sidebar-top' ); ?>
 				<p>
 					<?php _e( 'This plugin allows you to easily add custom styles to your website.', 'mcstyles' ) ?>
 				</p>
@@ -55,18 +54,14 @@ function mcstyles_render_submenu_page() {
                         <img src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" alt="Make a donation">
                     </a>
                 </p>
-				<?php do_action( 'mcstyles-sidebar-bottom' ); ?>
 			</div>
 			<!-- END-SIDEBAR -->
 
 			<!-- FORM -->
 			<div id="container">
-				<?php do_action( 'mcstyles-form-top' ); ?>
 				<div>
 					<textarea cols="70" rows="30" name="mcstyles_settings[mcstyles-content]" id="mcstyles_settings[mcstyles-content]" ><?php echo esc_attr( $content ); ?></textarea>
 				</div>
-				<?php do_action( 'mcstyles-textarea-bottom' ); ?>
-				<?php do_action( 'mcstyles-form-bottom' ); ?>
             </div>
 			<!-- END-FORM -->
 
