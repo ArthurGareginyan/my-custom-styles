@@ -4,7 +4,7 @@
  * Plugin URI: http://mycyberuniverse.com/my_programs/wp-plugin-my-custom-styles.html
  * Description: EASILY and SAFELY add your custom styles (CSS) to WordPress website's header.
  * Author: Arthur "Berserkr" Gareginyan
- * Author URI: http://mycyberuniverse.com/author.html
+ * Author URI: http://www.arthurgareginyan.com
  * Version: 1.5
  * License: GPL3
  * Text Domain: mcstyles

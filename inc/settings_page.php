@@ -34,7 +34,7 @@ function mcstyles_render_submenu_page() {
             <?php _e( 'My Custom Styles', 'mcstyles' ); ?>
             <br/>
             <span>
-                <?php _e( 'by <a href="http://mycyberuniverse.com/author.html" target="_blank">Arthur "Berserkr" Gareginyan</a>', 'mcstyles' ); ?>
+                <?php _e( 'by <a href="http://www.arthurgareginyan.com" target="_blank">Arthur "Berserkr" Gareginyan</a>', 'mcstyles' ); ?>
             <span/>
         </h2>
 		<form name="mcstyles-form" action="options.php" method="post" enctype="multipart/form-data">
