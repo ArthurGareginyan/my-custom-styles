@@ -5,7 +5,7 @@
  * Description: EASILY and SAFELY add your custom styles (CSS) to WordPress website's header.
  * Author: Arthur "Berserkr" Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 1.5
+ * Version: 1.6
  * License: GPL3
  * Text Domain: mcstyles
  * Domain Path: /languages/

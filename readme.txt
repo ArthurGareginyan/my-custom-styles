@@ -69,11 +69,11 @@ After installation, a "`Custom Styles`"  menu item will appear in the "`Appeara
 = Will this Plugin work on my WordPress.com website? =
 Sorry, this plugin is available for use only on self-hosted (WordPress.org) websites.
 
-= Can I use this plugin on my language? =
-Yes. But If your language is not available then you can make one. This plugin is ready for translation. The `.pot` file is included and placed in "`languages`" folder. Many of plugin users would be delighted if you shared your translation with the community. Just send the translation files (`*.po, *.mo`) to me at the arthurgareginyan@gmail.com and I will include the translation within the next plugin update.
+= Q. Can I use this plugin on my language? =
+A. Yes. But If your language is not available then you can make one. This plugin is ready for translation. The `.pot` file is included and placed in "`languages`" folder. Many of plugin users would be delighted if you shared your translation with the community. Just send the translation files (`*.po, *.mo`) to me at the arthurgareginyan@gmail.com and I will include the translation within the next plugin update.
 
-= How does it work? =
-If you want to change the layout of your theme or plugin you should look for the element that you want to change. So first you should inspect your theme or plugin.
+= Q. How does it work? =
+A. If you want to change the layout of your theme or plugin you should look for the element that you want to change. So first you should inspect your theme or plugin.
 
 Then go to page "`Appearance`" —> "`Custom Styles`" and enter your custom style (CSS only). Example:
 `#header {
@@ -85,14 +85,14 @@ body {
     background-color: #b0c4de;
 }`
 
-= How much of CSS code (characters) I can enter in the text field? =
-I don't limit the number of characters.
+= Q. How much of CSS code (characters) I can enter in the text field? =
+A. I don't limit the number of characters.
 
-= Where to report bug if found? =
-Please visit [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/my-custom-styles) and report.
+= Q. Where to report bug if found? =
+A. Please visit [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/my-custom-styles) and report.
 
-= Where to share any ideas or suggestions to make the plugin better? =
-Please visit [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-my-custom-styles.html) and share.
+= Q. Where to share any ideas or suggestions to make the plugin better? =
+A. Please visit [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-my-custom-styles.html) and share.
 
 
 == Screenshots ==
@@ -102,6 +102,9 @@ Please visit [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-p
 
 
 == Other Notes ==
+
+"My Custom Styles" is one of the personal software projects of [Arthur Gareginyan](http://www.arthurgareginyan.com).
+
 **License**
 
 This plugin is licensed under the [GNU General Public License, version 3 (GPLv3)](http://www.gnu.org/licenses/gpl-3.0.html)
@@ -125,6 +128,8 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+= 1.6 =
+* Authors URI changed.
 = 1.5 =
 * Removed more unused do_action() from settings_page.php file.
 = 1.4 =
@@ -152,6 +157,8 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Upgrade Notice ==
+= 1.6 =
+* Authors URI changed.
 = 1.5 =
 * Removed more unused do_action() from settings_page.php file.
 = 1.4 =
