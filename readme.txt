@@ -1,10 +1,10 @@
 === My Custom Styles ===
 Contributors: Arthur Gareginyan
 Tags: custom, CSS, CSS2, CSS3, editor, simple, style, styles, styling, stylesheet, style sheet, plugin,
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQYRXGUG5RNUA
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.4
-Stable tag: 1.5
+Stable tag: 1.7
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -66,8 +66,8 @@ After installation, a "`Custom Styles`"  menu item will appear in the "`Appeara
 
 
 == Frequently Asked Questions ==
-= Will this Plugin work on my WordPress.com website? =
-Sorry, this plugin is available for use only on self-hosted (WordPress.org) websites.
+= Q. Will this Plugin work on my WordPress.com website? =
+A. Sorry, this plugin is available for use only on self-hosted (WordPress.org) websites.
 
 = Q. Can I use this plugin on my language? =
 A. Yes. But If your language is not available then you can make one. This plugin is ready for translation. The `.pot` file is included and placed in "`languages`" folder. Many of plugin users would be delighted if you shared your translation with the community. Just send the translation files (`*.po, *.mo`) to me at the arthurgareginyan@gmail.com and I will include the translation within the next plugin update.
@@ -113,7 +113,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 **Support**
 
-* Did you enjoy this plugin? Please [donate to support ongoing development](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQYRXGUG5RNUA). Your contribution would be greatly appreciated.
+* Did you enjoy this plugin? Please [donate to support ongoing development](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS). Your contribution would be greatly appreciated.
 * Do you have any ideas or suggestions to make the plugin better? I can’t wait to hear them! Please share! [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-my-custom-styles.html)
 
 **Please Vote and Enjoy**
@@ -128,6 +128,10 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+= 1.7 =
+* Donate link changed.
+* Localization improved.
+* .pot file updated.
 = 1.6 =
 * Authors URI changed.
 = 1.5 =
@@ -157,6 +161,10 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Upgrade Notice ==
+= 1.7 =
+* Donate link changed.
+* Localization improved.
+* .pot file updated.
 = 1.6 =
 * Authors URI changed.
 = 1.5 =

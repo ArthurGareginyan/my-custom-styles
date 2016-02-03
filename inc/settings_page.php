@@ -8,7 +8,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 1.5
+ * @since 1.7
  */
 function mcstyles_render_submenu_page() {
 
@@ -49,8 +49,8 @@ function mcstyles_render_submenu_page() {
 					<?php _e( 'To use, enter your custom styles, then click "Update Custom Styles". It\'s that simple!', 'mcstyles' ) ?>
 				</p>
 				<?php submit_button( __( 'Update Custom Styles', 'mcstyles' ), 'primary', 'submit', true ); ?>
-                <p class="donate">If you find it useful, consider making a donation:
-                    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQYRXGUG5RNUA" target="_blank" rel="nofollow">
+                <p class="donate"><?php _e( 'If you find it useful, consider making a donation:', 'mcstyles' ); ?>
+                    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" rel="nofollow">
                         <img src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" alt="Make a donation">
                     </a>
                 </p>

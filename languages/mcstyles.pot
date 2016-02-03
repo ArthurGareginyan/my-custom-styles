@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: My Custom Styles\n"
-"POT-Creation-Date: 2015-09-09 17:37+0300\n"
+"POT-Creation-Date: 2016-02-03 23:37+0300\n"
 "PO-Revision-Date: 2015-09-09 17:37+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -31,8 +31,8 @@ msgstr ""
 
 #: inc/settings_page.php:37
 msgid ""
-"by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\" "
-"style=\"display:inline; padding:0;\">Arthur \"Berserkr\" Gareginyan</a>"
+"by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
+"\"Berserkr\" Gareginyan</a>"
 msgstr ""
 
 #: inc/settings_page.php:46
@@ -49,6 +49,10 @@ msgstr ""
 msgid "Update Custom Styles"
 msgstr ""
 
+#: inc/settings_page.php:52
+msgid "If you find it useful, consider making a donation:"
+msgstr ""
+
 #: my-custom-styles.php:58
 msgid "Settings"
 msgstr ""
@@ -58,7 +62,7 @@ msgid "Custom Styles"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
-msgid "http://mycyberuniverse.com/my_programs/wp-plugin-my-custom-styles.html ‎"
+msgid "http://mycyberuniverse.com/my_programs/wp-plugin-my-custom-styles.html"
 msgstr ""
 
 #. Description of the plugin/theme
