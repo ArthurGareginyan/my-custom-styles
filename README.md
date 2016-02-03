@@ -1,4 +1,6 @@
-# WP Plugin "My Custom Styles"
+# My Custom Styles
+
+**Free Premium WorPress Plugin**
 
 ![screenshot](https://github.com/ArthurGareginyan/my-custom-styles/blob/master/assets/banner-772x250.png)
 
