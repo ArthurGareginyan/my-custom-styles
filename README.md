@@ -17,17 +17,19 @@ Your custom styles will keep on working, no matter how many times you upgrade or
 
 **Current features:**
 
-* Syntax highlighting (by CodeMirror).
-* Line numbering (by CodeMirror).
-* Ready for translation (.pot file included).
-* CodeMirror scripts are combined and minified.
+* Syntax highlighting (by CodeMirror)
+* Line numbering (by CodeMirror)
+* Ready for translation (.pot file included)
+* Russian translation
+* CodeMirror scripts are combined and minified
 
 **Coming soon:**
 
 * CSS minifier.
-* Trigger to temporary disable the custom CSS code.
-* Backuping the custom CSS code to a file.
-* (Got more ideas? Tell me!)
+* Trigger to temporary disable the custom CSS code
+* Backuping the custom CSS code to a file
+
+**Got more ideas? Tell me!**
 
 
 ## Contributing
@@ -59,8 +61,6 @@ Arthur Garegnyan aka Berserkr
 
 
 ## Links
-
-* [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-my-custom-styles.html)
 
 * [Dedicated Plugin Page on WordPress.org](https://wordpress.org/plugins/my-custom-styles/)
 

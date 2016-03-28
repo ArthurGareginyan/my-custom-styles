@@ -36,8 +36,6 @@ Your custom styles will keep on working, no matter how many times you upgrade or
 * Backuping the custom CSS code to a file.
 * (Got more ideas? Tell me!)
 
-For more details please visit - [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-my-custom-styles.html)
-
 **Please Vote and Enjoy**
 
 * Your votes really make a difference! Thanks.
@@ -66,11 +64,17 @@ After installation, a "`Custom Styles`"  menu item will appear in the "`Appeara
 
 
 == Frequently Asked Questions ==
-= Q. Will this Plugin work on my WordPress.com website? =
+= Q. Will this Plugin work on my WordPress.COM website? =
 A. Sorry, this plugin is available for use only on self-hosted (WordPress.org) websites.
 
 = Q. Can I use this plugin on my language? =
 A. Yes. But If your language is not available then you can make one. This plugin is ready for translation. The `.pot` file is included and placed in "`languages`" folder. Many of plugin users would be delighted if you shared your translation with the community. Just send the translation files (`*.po, *.mo`) to me at the arthurgareginyan@gmail.com and I will include the translation within the next plugin update.
+
+= Q. Does this plugin require modification to the theme? =
+A. Absolutely not. This plugin is added/configured entirely from the website's Admin section.
+
+= Q. It's not working. What could be wrong? =
+A. As with every plugin, it's possible that things don't work. The most common reason for this is that the plugin has a conflict with another plugin you're using. It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's support forum on WordPress.org, I'd be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen.
 
 = Q. How does it work? =
 A. If you want to change the layout of your theme or plugin you should look for the element that you want to change. So first you should inspect your theme or plugin.
@@ -92,7 +96,7 @@ A. I don't limit the number of characters.
 A. Please visit [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/my-custom-styles) and report.
 
 = Q. Where to share any ideas or suggestions to make the plugin better? =
-A. Please visit [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-my-custom-styles.html) and share.
+A. Please send me email [arthurgareginyan@gmail.com](mailto:arthurgareginyan@gmail.com).
 
 
 == Screenshots ==
@@ -114,7 +118,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 **Support**
 
 * Did you enjoy this plugin? Please [donate to support ongoing development](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS). Your contribution would be greatly appreciated.
-* Do you have any ideas or suggestions to make the plugin better? I can’t wait to hear them! Please share! [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-my-custom-styles.html)
+* Do you have any ideas or suggestions to make the plugin better? I can’t wait to hear them! Please share! [arthurgareginyan@gmail.com](mailto:arthurgareginyan@gmail.com)
 
 **Please Vote and Enjoy**
 
@@ -123,7 +127,6 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 **Links**
 
 * [Developer Website](http://www.arthurgareginyan.com)
-* [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-my-custom-styles.html)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/my-custom-styles)
 
 
