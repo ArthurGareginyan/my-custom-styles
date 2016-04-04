@@ -8,10 +8,10 @@ Stable tag: 1.7
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-EASILY and SAFELY add your custom styles (CSS) to WordPress website's header.
+Easily and safely add your custom styles (CSS) to WordPress website's header.
 
 == Description ==
-An easy to use WordPress plugin that gives you the ability to EASILY and SAFELY add your custom styles (CSS) to WordPress website's header. 
+An easy to use WordPress plugin that gives you the ability to easily and safely add your custom styles (CSS) to WordPress website's header. 
 
 No need anymore to editing a files of your theme and/or plugins for to add custom styles (CSS). Just add your CSS code in the field on the plugin page and this plugin will do the rest for you. It's really useful in case of any theme/plugin update, because your custom styles (CSS) would never be overwritten!
 
@@ -19,26 +19,30 @@ On the plugin page you find the CSS editor powered by CodeMirror. It have syntax
 
 Your custom styles will keep on working, no matter how many times you upgrade or switch your theme and plugins.
 
-
 = Features =
 
 **Current features:**
 
-* Syntax highlighting (by CodeMirror).
-* Line numbering (by CodeMirror).
-* Ready for translation (.pot file included).
-* CodeMirror scripts are combined and minified.
+* Syntax highlighting (by CodeMirror)
+* Line numbering (by CodeMirror)
+* Ready for translation (.pot file included)
+* Russian translation
+* CodeMirror scripts are combined and minified
 
 **Coming soon:**
 
-* CSS minifier.
-* Trigger to temporary disable the custom CSS code.
-* Backuping the custom CSS code to a file.
-* (Got more ideas? Tell me!)
+* CSS minifier
+* Trigger to temporary disable the custom CSS code
+* Backuping the custom CSS code to a file
+
+**Got more ideas? Tell me!**
+
+If you have any suggestions to make this plugin better, don't hesitate to contact me.
 
 **Please Vote and Enjoy**
 
-* Your votes really make a difference! Thanks.
+Your votes really make a difference! Thanks.
+
 
 == Installation ==
 Install "My Custom Styles" just as you would any other WordPress Plugin.
@@ -98,11 +102,13 @@ A. Please visit [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareg
 = Q. Where to share any ideas or suggestions to make the plugin better? =
 A. Please send me email [arthurgareginyan@gmail.com](mailto:arthurgareginyan@gmail.com).
 
+= Q. I love this plugin! Can I help somehow? =
+A. Yes, any financial contributions are welcome! Just visit my website and click on the donate link, and thank you! [My website](http://www.arthurgareginyan.com/donate.html)
+
 
 == Screenshots ==
 1. Plugin’s page.
 2. Plugin’s page with custom CSS code added.
-3. Plugin’s page with success message.
 
 
 == Other Notes ==
@@ -114,6 +120,10 @@ A. Please send me email [arthurgareginyan@gmail.com](mailto:arthurgareginyan@gma
 This plugin is licensed under the [GNU General Public License, version 3 (GPLv3)](http://www.gnu.org/licenses/gpl-3.0.html)
 and is distributed free of charge.
 Commercial licensing (e.g. for projects that can’t use an open-source license) is available upon request.
+
+**Credits**
+
+[CodeMirror](https://codemirror.net/) is an open-source project shared under an [MIT license](https://codemirror.net/LICENSE).
 
 **Support**
 
@@ -131,6 +141,15 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+= 2.0 =
+* New design of settings page (new layout).
+* Constants variables added.
+* editor.js deleted.
+* js-functions.js (file with all js functions) created.
+* Plugin URI changed to GitHub repository.
+* Added my personal ad about freelance.
+* .pot file updated.
+* Russian translation updated.
 = 1.7 =
 * Donate link changed.
 * Localization improved.
@@ -164,28 +183,8 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Upgrade Notice ==
-= 1.7 =
-* Donate link changed.
-* Localization improved.
-* .pot file updated.
-= 1.6 =
-* Authors URI changed.
-= 1.5 =
-* Removed more unused do_action() from settings_page.php file.
-= 1.4 =
-* The stylesheet of plugin's page moved to separate file.
-* The javascript from settings_page.php moved to separate file.
-* Changed the style of title in plugin's page.
-* The LICENSE file renamed to LICENSE.txt.
-* Fixed the prefix in name of function "mcstyles_add_styling".
-= 1.3 =
-* Fixed the issue due to which nothing appears below line 26 until you click below that line.
-= 1.2 =
-* Combined and minified the CodeMirror scripts.
-* Deleted "delete_option( 'mcstyles_error' )".
-= 1.1 =
-* Added ready for translation (.pot file included).
-* Added russian translation.
+= 2.0 =
+Please update to new release!
 = 1.0 =
 Please update to first stable release!
 = 0.2 =

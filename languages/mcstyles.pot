@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: My Custom Styles\n"
-"POT-Creation-Date: 2016-02-03 23:37+0300\n"
+"POT-Creation-Date: 2016-04-04 08:03+0300\n"
 "PO-Revision-Date: 2015-09-09 17:37+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -20,54 +20,99 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: inc/settings_page.php:24
-msgid "Your Custom Styles was sucessfully updated."
+#: inc/settings_page.php:21
+msgid "Custom styles updated successfully."
 msgstr ""
 
 #. Plugin Name of the plugin/theme
-#: inc/settings_page.php:34 my-custom-styles.php:71
+#: inc/settings_page.php:30 my-custom-styles.php:82
 msgid "My Custom Styles"
 msgstr ""
 
-#: inc/settings_page.php:37
+#: inc/settings_page.php:33
 msgid ""
 "by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
 "\"Berserkr\" Gareginyan</a>"
+msgstr ""
+
+#: inc/settings_page.php:44
+msgid "About"
 msgstr ""
 
 #: inc/settings_page.php:46
 msgid "This plugin allows you to easily add custom styles to your website."
 msgstr ""
 
-#: inc/settings_page.php:49
-msgid ""
-"To use, enter your custom styles, then click \"Update Custom Styles\". It's "
-"that simple!"
-msgstr ""
-
 #: inc/settings_page.php:51
-msgid "Update Custom Styles"
+msgid "Using"
 msgstr ""
 
-#: inc/settings_page.php:52
-msgid "If you find it useful, consider making a donation:"
+#: inc/settings_page.php:53
+msgid ""
+"To use, enter your custom styles, then click \"Save Changes\". It's that "
+"simple!"
 msgstr ""
 
-#: my-custom-styles.php:58
+#: inc/settings_page.php:58
+msgid "Help"
+msgstr ""
+
+#: inc/settings_page.php:60
+msgid "If you want more options then tell me and I will be happy to add it."
+msgstr ""
+
+#: inc/settings_page.php:66
+msgid "Donate"
+msgstr ""
+
+#: inc/settings_page.php:69
+msgid ""
+"If you like this plugin and find it useful, help me to make this plugin even "
+"better and keep it up-to-date."
+msgstr ""
+
+#: inc/settings_page.php:73
+msgid "Thanks for your support!"
+msgstr ""
+
+#: inc/settings_page.php:78
+msgid "Freelance"
+msgstr ""
+
+#: inc/settings_page.php:81
+msgid ""
+"Hello, my name is Arthur and I'm a freelance web designer and developer."
+msgstr ""
+
+#: inc/settings_page.php:82
+msgid ""
+"Share your thoughts with me. You may have a brilliant idea in your mind and "
+"I can make it happen, so let’s get started!"
+msgstr ""
+
+#: inc/settings_page.php:106
+msgid "Styles"
+msgstr ""
+
+#: inc/settings_page.php:113
+msgid "Save Changes"
+msgstr ""
+
+#: my-custom-styles.php:70
 msgid "Settings"
 msgstr ""
 
-#: my-custom-styles.php:71
+#: my-custom-styles.php:82
 msgid "Custom Styles"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
-msgid "http://mycyberuniverse.com/my_programs/wp-plugin-my-custom-styles.html"
+msgid "https://github.com/ArthurGareginyan/my-custom-styles"
 msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"EASILY and SAFELY add your custom styles (CSS) to WordPress website's header."
+"Easily and safely add your custom styles (CSS) to WordPress website's header."
 msgstr ""
 
 #. Author of the plugin/theme
