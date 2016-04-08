@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Styles\n"
-"POT-Creation-Date: 2016-04-04 08:03+0300\n"
-"PO-Revision-Date: 2016-04-04 08:07+0300\n"
+"POT-Creation-Date: 2016-04-08 17:11+0300\n"
+"PO-Revision-Date: 2016-04-08 17:11+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -130,12 +130,15 @@ msgstr ""
 "WordPress вебсайта."
 
 #. Author of the plugin/theme
-msgid "Arthur \"Berserkr\" Gareginyan"
-msgstr "Артур “Берсерк” Гарегинян"
+msgid "Arthur Gareginyan"
+msgstr "Артур Гарегинян"
 
 #. Author URI of the plugin/theme
 msgid "http://www.arthurgareginyan.com"
 msgstr ""
+
+#~ msgid "Arthur \"Berserkr\" Gareginyan"
+#~ msgstr "Артур “Берсерк” Гарегинян"
 
 #~ msgid ""
 #~ "To use, enter your custom styles, then click \"Update Custom Styles\". "

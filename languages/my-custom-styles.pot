@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: My Custom Styles\n"
-"POT-Creation-Date: 2016-04-04 08:03+0300\n"
+"POT-Creation-Date: 2016-04-08 17:11+0300\n"
 "PO-Revision-Date: 2015-09-09 17:37+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -116,7 +116,7 @@ msgid ""
 msgstr ""
 
 #. Author of the plugin/theme
-msgid "Arthur \"Berserkr\" Gareginyan"
+msgid "Arthur Gareginyan"
 msgstr ""
 
 #. Author URI of the plugin/theme

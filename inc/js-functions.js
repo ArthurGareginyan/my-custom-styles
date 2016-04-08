@@ -1,12 +1,14 @@
 /*
  * My Custom Styles
  * JS functions
- * @since 2.0
+ * @since 2.1
  * @agareginyan
  */
 
 
 (function(){
+    "use strict";
+
     jQuery(document).ready(function($) {
 
         // Find all textareas on page
