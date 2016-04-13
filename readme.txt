@@ -3,7 +3,7 @@ Contributors: Arthur Gareginyan
 Tags: custom, CSS, CSS2, CSS3, editor, simple, style, styles, styling, stylesheet, style sheet, plugin,
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
-Tested up to: 4.4
+Tested up to: 4.5
 Stable tag: 2.0
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
