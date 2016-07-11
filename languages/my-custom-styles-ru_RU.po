@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Styles\n"
-"POT-Creation-Date: 2016-04-08 17:11+0300\n"
-"PO-Revision-Date: 2016-04-08 17:11+0300\n"
+"POT-Creation-Date: 2016-07-11 20:18+0300\n"
+"PO-Revision-Date: 2016-07-11 20:22+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -33,10 +33,10 @@ msgstr ""
 #: inc/settings_page.php:33
 msgid ""
 "by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
-"\"Berserkr\" Gareginyan</a>"
+"Gareginyan</a>"
 msgstr ""
-"от <a href=“http://www.arthurgareginyan.com” target=“_blank”>Артур "
-"“Berserkr” Гарегинян</a>"
+"от <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Артур "
+"Гарегинян</a>"
 
 #: inc/settings_page.php:44
 msgid "About"
@@ -64,49 +64,33 @@ msgid "Help"
 msgstr "Помощь"
 
 #: inc/settings_page.php:60
-msgid "If you want more options then tell me and I will be happy to add it."
-msgstr ""
-"Если вы хотите больше опций, то скажите мне об этом и я буду счастлив "
-"добавить их."
+msgid "Got something to say? Need help?"
+msgstr "Есть что сказать? Нужна помощь?"
 
 #: inc/settings_page.php:66
-msgid "Donate"
-msgstr "Пожертвование"
+msgid "Upgrade"
+msgstr ""
 
 #: inc/settings_page.php:69
 msgid ""
-"If you like this plugin and find it useful, help me to make this plugin even "
-"better and keep it up-to-date."
+"Want more? Then try the PRO version. More features, more power. For only $29."
 msgstr ""
-"Если вам нравится этот плагин и вы находите его полезным, то помогите мне "
-"сделать его ещё лучше."
+"Хотите больше? Тогда попробуйте PRO версию. Больше возможностей, больше "
+"мощи. Всего за $29."
 
-#: inc/settings_page.php:73
+#: inc/settings_page.php:77
+msgid "Donate"
+msgstr "Пожертвование"
+
+#: inc/settings_page.php:82
 msgid "Thanks for your support!"
 msgstr "Спасибо за вашу поддержку!"
 
-#: inc/settings_page.php:78
-msgid "Freelance"
-msgstr "Фриланс"
-
-#: inc/settings_page.php:81
-msgid ""
-"Hello, my name is Arthur and I'm a freelance web designer and developer."
-msgstr "Привет, меня зовут Артур и Я внештатный веб-дизайнер и разработчик."
-
-#: inc/settings_page.php:82
-msgid ""
-"Share your thoughts with me. You may have a brilliant idea in your mind and "
-"I can make it happen, so let’s get started!"
-msgstr ""
-"Поделитесь со мной своими мыслями. У вас может быть блестящая идея в уме, а "
-"я могу сделать её явью, так что давайте начнём!"
-
-#: inc/settings_page.php:106
+#: inc/settings_page.php:105
 msgid "Styles"
 msgstr "Стили"
 
-#: inc/settings_page.php:113
+#: inc/settings_page.php:112
 msgid "Save Changes"
 msgstr "Сохранить Изменения"
 
@@ -124,10 +108,12 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Easily and safely add your custom styles (CSS) to WordPress website's header."
+"Easily and safely add your custom styles (CSS) to WordPress website's header "
+"directly out of your WordPress Dashboard without need of an external editor."
 msgstr ""
-"Легко и надёжно добавляйте ваши пользовательские стили (CSS) в шапку "
-"WordPress вебсайта."
+"Просто и безопасно добавляйте ваши пользовательские стили (CSS) в header "
+"вашего WordPress вебсайта непосредственно из админ панели, без необходимости "
+"во внешнем редакторе."
 
 #. Author of the plugin/theme
 msgid "Arthur Gareginyan"
@@ -136,6 +122,46 @@ msgstr "Артур Гарегинян"
 #. Author URI of the plugin/theme
 msgid "http://www.arthurgareginyan.com"
 msgstr ""
+
+#~ msgid ""
+#~ "by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
+#~ "\"Berserkr\" Gareginyan</a>"
+#~ msgstr ""
+#~ "от <a href=“http://www.arthurgareginyan.com” target=“_blank”>Артур "
+#~ "“Berserkr” Гарегинян</a>"
+
+#~ msgid "If you want more options then tell me and I will be happy to add it."
+#~ msgstr ""
+#~ "Если вы хотите больше опций, то скажите мне об этом и я буду счастлив "
+#~ "добавить их."
+
+#~ msgid ""
+#~ "If you like this plugin and find it useful, help me to make this plugin "
+#~ "even better and keep it up-to-date."
+#~ msgstr ""
+#~ "Если вам нравится этот плагин и вы находите его полезным, то помогите мне "
+#~ "сделать его ещё лучше."
+
+#~ msgid "Freelance"
+#~ msgstr "Фриланс"
+
+#~ msgid ""
+#~ "Hello, my name is Arthur and I'm a freelance web designer and developer."
+#~ msgstr "Привет, меня зовут Артур и Я внештатный веб-дизайнер и разработчик."
+
+#~ msgid ""
+#~ "Share your thoughts with me. You may have a brilliant idea in your mind "
+#~ "and I can make it happen, so let’s get started!"
+#~ msgstr ""
+#~ "Поделитесь со мной своими мыслями. У вас может быть блестящая идея в уме, "
+#~ "а я могу сделать её явью, так что давайте начнём!"
+
+#~ msgid ""
+#~ "Easily and safely add your custom styles (CSS) to WordPress website's "
+#~ "header."
+#~ msgstr ""
+#~ "Легко и надёжно добавляйте ваши пользовательские стили (CSS) в шапку "
+#~ "WordPress вебсайта."
 
 #~ msgid "Arthur \"Berserkr\" Gareginyan"
 #~ msgstr "Артур “Берсерк” Гарегинян"

@@ -4,24 +4,23 @@ Tags: custom, CSS, CSS2, CSS3, editor, simple, style, styles, styling, styleshee
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.5
-Stable tag: 2.0
+Stable tag: 2.1
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Easily and safely add your custom styles (CSS) to WordPress website's header.
+Easily and safely add your custom styles (CSS) to WordPress website's header directly out of your WordPress Dashboard without need of an external editor.
+
 
 == Description ==
-An easy to use WordPress plugin that gives you the ability to easily and safely add your custom styles (CSS) to WordPress website's header. 
+An easy to use WordPress plugin that gives you the ability to easily and safely add your custom styles (CSS) to WordPress website's header directly out of your WordPress Dashboard without any need of an external editor.
 
-No need anymore to editing a files of your theme and/or plugins for to add custom styles (CSS). Just add your CSS code in the field on the plugin page and this plugin will do the rest for you. It's really useful in case of any theme/plugin update, because your custom styles (CSS) would never be overwritten!
+It’s purpose is to provide a familiar experience to WordPress users. No need anymore to editing a files of your theme and/or plugins for to add custom styles (CSS). Just add your CSS code in the field on the plugin page and this plugin will do the rest for you.
+
+It's really useful in case of any theme/plugin update, because your custom styles (CSS) would never be overwritten. Your custom styles will keep on working, no matter how many times you upgrade or switch your theme and plugins.
 
 On the plugin page you find the CSS editor powered by CodeMirror. It have syntax highlighting and line numbering options. Also this editor support a tab indentation.
 
-Your custom styles will keep on working, no matter how many times you upgrade or switch your theme and plugins.
-
 = Features =
-
-**Current features:**
 
 * Syntax highlighting (by CodeMirror)
 * Line numbering (by CodeMirror)
@@ -29,11 +28,6 @@ Your custom styles will keep on working, no matter how many times you upgrade or
 * Russian translation
 * CodeMirror scripts are combined and minified
 
-**Coming soon:**
-
-* CSS minifier
-* Trigger to temporary disable the custom CSS code
-* Backuping the custom CSS code to a file
 
 >**Contribution**
 >
@@ -123,7 +117,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 **Credits**
 
-[CodeMirror](https://codemirror.net/) is an open-source project shared under an [MIT license](https://codemirror.net/LICENSE).
+[CodeMirror](https://codemirror.net/) is an open-source project shared under a [MIT license](https://codemirror.net/LICENSE).
 
 **Links**
 
@@ -132,6 +126,11 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+= 2.2 =
+* CodeMirror library updated to version 5.16.0.
+* File js-functions.js renamed to functions.js.
+* Added the ad about PRO version of this plugin.
+* Removed my personal ad about freelance.
 = 2.1 =
 * Text domain changed to "my-custom-styles".
 * Added compatibility with the translate.wordpress.org.

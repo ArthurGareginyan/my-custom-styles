@@ -2,15 +2,15 @@
 /**
  * Plugin Name: My Custom Styles
  * Plugin URI: https://github.com/ArthurGareginyan/my-custom-styles
- * Description: Easily and safely add your custom styles (CSS) to WordPress website's header.
+ * Description: Easily and safely add your custom styles (CSS) to WordPress website's header directly out of your WordPress Dashboard without need of an external editor.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 2.1
+ * Version: 2.2
  * License: GPL3
  * Text Domain: my-custom-styles
  * Domain Path: /languages/
  *
- * Copyright 2015-2016  Arthur Gareginyan  (email : arthurgareginyan@gmail.com)
+ * Copyright 2015-2016 Arthur Gareginyan (email : arthurgareginyan@gmail.com)
  *
  * This file is part of "My Custom Styles".
  *
@@ -37,7 +37,7 @@
 defined('ABSPATH') or die("Restricted access!");
 
 /**
- * Plugin constants
+ * Define constants
  *
  * @since 2.0
  */
@@ -103,7 +103,7 @@ add_action( 'admin_init', 'mcstyles_register_settings' );
 /**
  * Enqueue the CodeMirror scripts and styles
  *
- * @since 2.0
+ * @since 2.2
  */
 function mcstyles_enqueue_codemirror_scripts($hook) {
 
@@ -117,7 +117,7 @@ function mcstyles_enqueue_codemirror_scripts($hook) {
     wp_enqueue_style('codemirror_style', MCSTYLES_URL . 'inc/codemirror/codemirror.css');
 
     // JS functions
-    wp_enqueue_script('js-functions', MCSTYLES_URL . 'inc/js-functions.js', array(), false, true);
+    wp_enqueue_script('js-functions', MCSTYLES_URL . 'inc/functions.js', array(), false, true);
 
     // Style sheet
     wp_enqueue_style('styles', MCSTYLES_URL . 'inc/style.css');
@@ -130,6 +130,7 @@ add_action( 'admin_enqueue_scripts', 'mcstyles_enqueue_codemirror_scripts' );
  * @since 1.0
  */
 function mcstyles_add_styling() {
+
     // Read variables from BD
     $options = get_option( 'mcstyles_settings' );
     $content = esc_textarea( $options['mcstyles-content'] );
@@ -137,7 +138,7 @@ function mcstyles_add_styling() {
     // Cleaning
     $content = trim( $content );
     
-    // Styling
+    // Include
     if (!empty($content)) {
         echo '<style type="text/css">' . "\n";
         echo $content . "\n";
