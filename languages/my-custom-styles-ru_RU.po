@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Styles\n"
-"POT-Creation-Date: 2016-07-11 20:18+0300\n"
-"PO-Revision-Date: 2016-07-11 20:22+0300\n"
+"POT-Creation-Date: 2016-07-26 19:53+0300\n"
+"PO-Revision-Date: 2016-07-26 19:53+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -21,16 +21,16 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: inc/settings_page.php:21
+#: inc/settings_page.php:23
 msgid "Custom styles updated successfully."
 msgstr "Пользовательские стили, успешно обновлены."
 
 #. Plugin Name of the plugin/theme
-#: inc/settings_page.php:30 my-custom-styles.php:82
+#: inc/settings_page.php:32 my-custom-styles.php:82
 msgid "My Custom Styles"
 msgstr ""
 
-#: inc/settings_page.php:33
+#: inc/settings_page.php:35
 msgid ""
 "by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
 "Gareginyan</a>"
@@ -38,20 +38,23 @@ msgstr ""
 "от <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Артур "
 "Гарегинян</a>"
 
-#: inc/settings_page.php:44
+#: inc/settings_page.php:46
 msgid "About"
 msgstr "О плагине"
 
-#: inc/settings_page.php:46
-msgid "This plugin allows you to easily add custom styles to your website."
+#: inc/settings_page.php:48
+msgid ""
+"This plugin allows you to easily add your custom styles (CSS code) to your "
+"website."
 msgstr ""
-"Этот плагин позволяет легко добавлять пользовательские стили на ваш веб-сайт."
+"Этот плагин даёт вам возможность легко добавлять ваши пользовательские стили "
+"(CSS код) на ваш веб-сайт."
 
-#: inc/settings_page.php:51
+#: inc/settings_page.php:53
 msgid "Using"
 msgstr "Использование:"
 
-#: inc/settings_page.php:53
+#: inc/settings_page.php:55
 msgid ""
 "To use, enter your custom styles, then click \"Save Changes\". It's that "
 "simple!"
@@ -59,38 +62,38 @@ msgstr ""
 "Для использования, введите ваши пользовательские стили, затем нажмите кнопку "
 "“Сохранить Изменения”. Это так просто!"
 
-#: inc/settings_page.php:58
+#: inc/settings_page.php:60
 msgid "Help"
 msgstr "Помощь"
 
-#: inc/settings_page.php:60
+#: inc/settings_page.php:62
 msgid "Got something to say? Need help?"
 msgstr "Есть что сказать? Нужна помощь?"
 
-#: inc/settings_page.php:66
+#: inc/settings_page.php:68
 msgid "Upgrade"
 msgstr ""
 
-#: inc/settings_page.php:69
+#: inc/settings_page.php:71
 msgid ""
 "Want more? Then try the PRO version. More features, more power. For only $29."
 msgstr ""
 "Хотите больше? Тогда попробуйте PRO версию. Больше возможностей, больше "
 "мощи. Всего за $29."
 
-#: inc/settings_page.php:77
+#: inc/settings_page.php:79
 msgid "Donate"
 msgstr "Пожертвование"
 
-#: inc/settings_page.php:82
+#: inc/settings_page.php:84
 msgid "Thanks for your support!"
 msgstr "Спасибо за вашу поддержку!"
 
-#: inc/settings_page.php:105
-msgid "Styles"
-msgstr "Стили"
+#: inc/settings_page.php:108
+msgid "Styles (CSS code)"
+msgstr "Стили (CSS код)"
 
-#: inc/settings_page.php:112
+#: inc/settings_page.php:119
 msgid "Save Changes"
 msgstr "Сохранить Изменения"
 
@@ -108,12 +111,13 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Easily and safely add your custom styles (CSS) to WordPress website's header "
-"directly out of your WordPress Dashboard without need of an external editor."
+"Easily and safely add your custom styles (CSS) to WordPress website's HEAD "
+"section directly out of your WordPress Dashboard without need of an external "
+"editor."
 msgstr ""
-"Просто и безопасно добавляйте ваши пользовательские стили (CSS) в header "
-"вашего WordPress вебсайта непосредственно из админ панели, без необходимости "
-"во внешнем редакторе."
+"Просто и безопасно добавляйте ваши пользовательские стили (CSS) в HEAD "
+"секцию вашего WordPress вебсайта непосредственно из админ панели, без "
+"необходимости во внешнем редакторе."
 
 #. Author of the plugin/theme
 msgid "Arthur Gareginyan"
@@ -122,6 +126,23 @@ msgstr "Артур Гарегинян"
 #. Author URI of the plugin/theme
 msgid "http://www.arthurgareginyan.com"
 msgstr ""
+
+#~ msgid "Styles"
+#~ msgstr "Стили"
+
+#~ msgid "This plugin allows you to easily add custom styles to your website."
+#~ msgstr ""
+#~ "Этот плагин позволяет легко добавлять пользовательские стили на ваш веб-"
+#~ "сайт."
+
+#~ msgid ""
+#~ "Easily and safely add your custom styles (CSS) to WordPress website's "
+#~ "header directly out of your WordPress Dashboard without need of an "
+#~ "external editor."
+#~ msgstr ""
+#~ "Просто и безопасно добавляйте ваши пользовательские стили (CSS) в header "
+#~ "вашего WordPress вебсайта непосредственно из админ панели, без "
+#~ "необходимости во внешнем редакторе."
 
 #~ msgid ""
 #~ "by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "

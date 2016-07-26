@@ -1,7 +1,7 @@
 /*
  * My Custom Styles
  * JS functions
- * @since 2.1
+ * @since 2.3
  * @agareginyan
  */
 
@@ -20,7 +20,8 @@
                                     firstLineNumber: 1,
                                     matchBrackets: true,
                                     indentUnit: 4,
-                                    mode: 'text/css'
+                                    mode: 'text/css',
+                                    styleActiveLine: true
             });
 
             // Refresh CodeMirror editor after 1 second
@@ -28,5 +29,13 @@
                     editor.refresh();
             },1);
         });
+
+        // Remove the "successful" message after 3 seconds
+        if (".updated") {
+            setTimeout(function() {
+                   $(".updated").fadeOut();
+            }, 3000);
+        }
     });
+
 }());

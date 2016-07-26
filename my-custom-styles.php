@@ -2,10 +2,10 @@
 /**
  * Plugin Name: My Custom Styles
  * Plugin URI: https://github.com/ArthurGareginyan/my-custom-styles
- * Description: Easily and safely add your custom styles (CSS) to WordPress website's header directly out of your WordPress Dashboard without need of an external editor.
+ * Description: Easily and safely add your custom styles (CSS) to WordPress website's HEAD section directly out of your WordPress Dashboard without need of an external editor.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 2.2
+ * Version: 2.3
  * License: GPL3
  * Text Domain: my-custom-styles
  * Domain Path: /languages/
@@ -101,11 +101,11 @@ function mcstyles_register_settings() {
 add_action( 'admin_init', 'mcstyles_register_settings' );
 
 /**
- * Enqueue the CodeMirror scripts and styles
+ * Load scripts and style sheet for settings page
  *
  * @since 2.2
  */
-function mcstyles_enqueue_codemirror_scripts($hook) {
+function mcstyles_load_scripts($hook) {
 
     // Return if the page is not a settings page of this plugin
     if ( 'appearance_page_my-custom-styles' != $hook ) {
@@ -113,37 +113,50 @@ function mcstyles_enqueue_codemirror_scripts($hook) {
     }
 
     // CodeMirror
-    wp_enqueue_script('codemirror', MCSTYLES_URL . 'inc/codemirror/codemirror-compressed.js');
-    wp_enqueue_style('codemirror_style', MCSTYLES_URL . 'inc/codemirror/codemirror.css');
+    wp_enqueue_script( 'codemirror', MCSTYLES_URL . 'inc/codemirror/codemirror-compressed.js' );
+    wp_enqueue_style( 'codemirror_style', MCSTYLES_URL . 'inc/codemirror/codemirror.css' );
+    wp_enqueue_script( 'codemirror-active-line', MCSTYLES_URL . 'inc/codemirror/addons/active-line.js' );
 
     // JS functions
-    wp_enqueue_script('js-functions', MCSTYLES_URL . 'inc/functions.js', array(), false, true);
+    wp_enqueue_script( 'js-functions', MCSTYLES_URL . 'inc/functions.js' );
 
     // Style sheet
-    wp_enqueue_style('styles', MCSTYLES_URL . 'inc/style.css');
+    wp_enqueue_style( 'styles', MCSTYLES_URL . 'inc/style.css' );
 }
-add_action( 'admin_enqueue_scripts', 'mcstyles_enqueue_codemirror_scripts' );
+add_action( 'admin_enqueue_scripts', 'mcstyles_load_scripts' );
 
 /**
- * Include custom CSS in header
+ * Include custom CSS in HEAD section
  *
- * @since 1.0
+ * @since 2.3
  */
 function mcstyles_add_styling() {
 
-    // Read variables from BD
+    // Read variables from DB
     $options = get_option( 'mcstyles_settings' );
-    $content = esc_textarea( $options['mcstyles-content'] );
-    
+    $content = isset( $options['mcstyles-content'] ) && !empty( $options['mcstyles-content'] ) ? $options['mcstyles-content'] : ' ';
+    $enable = isset( $options['enable'] ) && !empty( $options['enable'] ) ? $options['enable'] : ' ';
+
+    // If the user entered code is disabled...
+    if ( $enable == 'on') {
+        return;   // EXIT
+    }
+
+    // If content is empty...
+    if ( empty($content) OR $content == ' ' ) {
+        return;   // EXIT
+    }
+
     // Cleaning
     $content = trim( $content );
-    
-    // Include
-    if (!empty($content)) {
-        echo '<style type="text/css">' . "\n";
-        echo $content . "\n";
-        echo '</style>' . "\n";
-    }
+
+    // Prepare the user entered code for execution
+    $contents_out = '<style type="text/css">' . "\n";
+    $contents_out .= $content . "\n";
+    $contents_out .= '</style>' . "\n";
+
+    // Return prepared code
+    echo $contents_out;
 }
 add_action( 'wp_head', 'mcstyles_add_styling' );
 

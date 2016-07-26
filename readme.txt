@@ -4,30 +4,55 @@ Tags: custom, CSS, CSS2, CSS3, editor, simple, style, styles, styling, styleshee
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.5
-Stable tag: 2.1
+Stable tag: 2.2
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Easily and safely add your custom styles (CSS) to WordPress website's header directly out of your WordPress Dashboard without need of an external editor.
+Easily and safely add your custom styles (CSS code) to WordPress website's <head> section directly out of your WordPress Dashboard, without need of an external editor.
 
 
 == Description ==
-An easy to use WordPress plugin that gives you the ability to easily and safely add your custom styles (CSS) to WordPress website's header directly out of your WordPress Dashboard without any need of an external editor.
+An easy to use WordPress plugin that gives you the ability to easily and safely add your custom styles (CSS code) to WordPress website's <head> section, directly out of your WordPress Dashboard, without any need of an external editor. This is a "PRO" version of the plugin "My Custom Styles". More features, more power. Unlimited number of snippets, Trigger for temporary disable the snippet, Automatic backup of all snippets to a file, and CSS minifier.
 
-It’s purpose is to provide a familiar experience to WordPress users. No need anymore to editing a files of your theme and/or plugins for to add custom styles (CSS). Just add your CSS code in the field on the plugin page and this plugin will do the rest for you.
+It’s purpose is to provide a familiar experience to WordPress users. No need anymore to editing a files of your theme and/or plugins for to add custom CSS code. Just add your CSS code in the field on the plugin page and this plugin will do the rest for you.
 
-It's really useful in case of any theme/plugin update, because your custom styles (CSS) would never be overwritten. Your custom styles will keep on working, no matter how many times you upgrade or switch your theme and plugins.
+It's really useful in case of any theme/plugin update, because your custom CSS code would never be overwritten. Your custom CSS code will keep on working, no matter how many times you upgrade or switch your theme.
 
 On the plugin page you find the CSS editor powered by CodeMirror. It have syntax highlighting and line numbering options. Also this editor support a tab indentation.
 
 = Features =
 
+* Responsive & Mobile optimized settings page
 * Syntax highlighting (by CodeMirror)
-* Line numbering (by CodeMirror)
+* Line numbering
+* Active line highlighting
+* Editor allow for tab indentation
+* Trigger for temporary disable the custom CSS code
 * Ready for translation (.pot file included)
-* Russian translation
-* CodeMirror scripts are combined and minified
 
+**Coming soon:**
+
+* Reload the settings page at same position after pushing the save button
+* Multisite network support
+
+= Translation =
+
+* English
+* Russian
+
+**Consider Going Pro For Additional Features!**
+
+>**Pro Features**
+>
+>* Unlimited number of snippets
+>* CSS minifier
+>* Automatic backup of all snippets to a file
+>* Trigger for temporary disable the certain snippets
+>* Each field with CSS code can be collapsed or expanded
+>* Sidebar items can be collapsed or expanded
+>* Well documented
+>
+>[Get the premium version now!](https://gum.co/xLby)
 
 >**Contribution**
 >
@@ -126,6 +151,17 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+= 2.3 =
+* Added trigger for temporary disable the custom CSS code.
+* Added active-line.js addon to CodeMirror editor.
+* Added function for stoping execution of user entered code if it empty.
+* Added function for automatic remove the "successful" message after 3 seconds.
+* Removed the default message about successful saving.
+* Color of editors border changed to #ddd.
+* Styles of settings page optimized for mobile devices.
+* The styles.css file better commented.
+* The _enqueue_codemirror_scripts function renamed to mcstyles_load_scripts.
+* The esc_textarea() removed from the preparing function of user entered code.
 = 2.2 =
 * CodeMirror library updated to version 5.16.0.
 * File js-functions.js renamed to functions.js.

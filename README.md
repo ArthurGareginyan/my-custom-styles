@@ -4,32 +4,49 @@
 
 ![screenshot](https://github.com/ArthurGareginyan/my-custom-styles/blob/master/assets/banner-772x250.png)
 
-An easy to use WordPress plugin that gives you the ability to EASILY and SAFELY add your custom styles (CSS) to WordPress website's header. 
+An easy to use WordPress plugin that gives you the ability to easily and safely add your custom styles (CSS code) to WordPress website's <head> section, directly out of your WordPress Dashboard, without any need of an external editor. This is a "PRO" version of the plugin "My Custom Styles". More features, more power. Unlimited number of snippets, Trigger for temporary disable the snippet, Automatic backup of all snippets to a file, and CSS minifier.
 
-No need anymore to editing a files of your theme and/or plugins for to add custom styles (CSS). Just add your CSS code in the field on the plugin page and this plugin will do the rest for you. It's really useful in case of any theme/plugin update, because your custom styles (CSS) would never be overwritten!
+It’s purpose is to provide a familiar experience to WordPress users. No need anymore to editing a files of your theme and/or plugins for to add custom CSS code. Just add your CSS code in the field on the plugin page and this plugin will do the rest for you.
+
+It's really useful in case of any theme/plugin update, because your custom CSS code would never be overwritten. Your custom CSS code will keep on working, no matter how many times you upgrade or switch your theme.
 
 On the plugin page you find the CSS editor powered by CodeMirror. It have syntax highlighting and line numbering options. Also this editor support a tab indentation.
-
-Your custom styles will keep on working, no matter how many times you upgrade or switch your theme and plugins.
 
 
 ## Features
 
-**Current features:**
-
+* Responsive & Mobile optimized settings page
 * Syntax highlighting (by CodeMirror)
-* Line numbering (by CodeMirror)
+* Line numbering
+* Active line highlighting
+* Editor allow for tab indentation
+* Trigger for temporary disable the custom CSS code
 * Ready for translation (.pot file included)
-* Russian translation
-* CodeMirror scripts are combined and minified
 
 **Coming soon:**
 
-* CSS minifier.
-* Trigger to temporary disable the custom CSS code
-* Backuping the custom CSS code to a file
+* Reload the settings page at same position after pushing the save button
+* Multisite network support
 
-**Got more ideas? Tell me!**
+**Translation:**
+
+* English
+* Russian
+
+**Consider Going Pro For Additional Features!**
+
+>**Pro Features**
+>
+>* Unlimited number of snippets
+>* CSS minifier
+>* Automatic backup of all snippets to a file
+>* Trigger for temporary disable the certain snippets
+>* Each field with CSS code can be collapsed or expanded
+>* Sidebar items can be collapsed or expanded
+>* Well documented
+>
+>[Get the premium version now!](https://gum.co/xLby)
+
 
 
 ## Contributing

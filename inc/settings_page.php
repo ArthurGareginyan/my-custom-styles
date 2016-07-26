@@ -10,18 +10,20 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 2.2
+ * @since 2.3
  */
 function mcstyles_render_submenu_page() {
 
-    // Settings update message
-    if ( isset( $_GET['settings-updated'] ) ) :
+    // After settings updated
+    if ( isset( $_GET['settings-updated'] ) ) {
+
+        // Successful message
         ?>
             <div id="message" class="updated">
                 <p><?php _e( 'Custom styles updated successfully.', 'my-custom-styles' ); ?></p>
             </div>
         <?php
-    endif;
+    }
 
 	// Page
 	?>
@@ -43,7 +45,7 @@ function mcstyles_render_submenu_page() {
                     <div id="about" class="postbox">
                         <h3 class="title"><?php _e( 'About', 'my-custom-styles' ) ?></a></h3>
                         <div class="inside">
-                            <p><?php _e( 'This plugin allows you to easily add custom styles to your website.', 'my-custom-styles' ) ?></p>
+                            <p><?php _e( 'This plugin allows you to easily add your custom styles (CSS code) to your website.', 'my-custom-styles' ) ?></p>
                         </div>
                     </div>
 
@@ -79,7 +81,7 @@ function mcstyles_render_submenu_page() {
                             <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" rel="nofollow">
                                 <img src="<?php echo plugins_url('images/btn_donateCC_LG.gif', __FILE__); ?>" alt="Make a donation">
                             </a>
-                            <p><?php _e( 'Thanks for your support!', 'my-custom-styles-pro' ); ?></p>
+                            <p><?php _e( 'Thanks for your support!', 'my-custom-styles' ); ?></p>
                         </div>
                     </div>
 
@@ -98,11 +100,16 @@ function mcstyles_render_submenu_page() {
                             <?php
                                 // Declare variables
                                 $options = get_option( 'mcstyles_settings' );
-                                $content = isset( $options['mcstyles-content'] ) && ! empty( $options['mcstyles-content'] ) ? $options['mcstyles-content'] : '/* Enter Your Custom Styles Here */';
+                                $content = isset( $options['mcstyles-content'] ) && !empty( $options['mcstyles-content'] ) ? $options['mcstyles-content'] : '/* Enter Your Custom Styles Here */';
+                                $enable = isset( $options['enable'] ) && !empty( $options['enable'] ) && $options['enable'] == 'on' ? 'checked' : ' ';
                             ?>
                             <div class="postbox">
                                 <h3 class="title">
-                                    <label for="mcstyles_settings[mcstyles-content]" ><?php _e( 'Styles', 'my-custom-styles' ) ?></label>
+                                    <label for="mcstyles_settings[mcstyles-content]" ><?php _e( 'Styles (CSS code)', 'my-custom-styles' ) ?></label>
+                                    <div class="trigger">
+                                        <input type="checkbox" name="mcstyles_settings[enable]" id="mcstyles_settings[enable]" <?php echo $enable; ?> >
+                                        <label for="mcstyles_settings[enable]"></label>
+                                    </div>
                                 </h3>
                                 <div class="inside">
                                     <textarea name="mcstyles_settings[mcstyles-content]" id="mcstyles_settings[mcstyles-content]" ><?php echo esc_attr( $content ); ?></textarea>

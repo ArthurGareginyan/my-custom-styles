@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: My Custom Styles\n"
-"POT-Creation-Date: 2016-07-11 20:17+0300\n"
+"POT-Creation-Date: 2016-07-26 19:53+0300\n"
 "PO-Revision-Date: 2015-09-09 17:37+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -20,69 +20,71 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: inc/settings_page.php:21
+#: inc/settings_page.php:23
 msgid "Custom styles updated successfully."
 msgstr ""
 
 #. Plugin Name of the plugin/theme
-#: inc/settings_page.php:30 my-custom-styles.php:82
+#: inc/settings_page.php:32 my-custom-styles.php:82
 msgid "My Custom Styles"
 msgstr ""
 
-#: inc/settings_page.php:33
+#: inc/settings_page.php:35
 msgid ""
 "by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
 "Gareginyan</a>"
 msgstr ""
 
-#: inc/settings_page.php:44
+#: inc/settings_page.php:46
 msgid "About"
 msgstr ""
 
-#: inc/settings_page.php:46
-msgid "This plugin allows you to easily add custom styles to your website."
-msgstr ""
-
-#: inc/settings_page.php:51
-msgid "Using"
+#: inc/settings_page.php:48
+msgid ""
+"This plugin allows you to easily add your custom styles (CSS code) to your "
+"website."
 msgstr ""
 
 #: inc/settings_page.php:53
+msgid "Using"
+msgstr ""
+
+#: inc/settings_page.php:55
 msgid ""
 "To use, enter your custom styles, then click \"Save Changes\". It's that "
 "simple!"
 msgstr ""
 
-#: inc/settings_page.php:58
+#: inc/settings_page.php:60
 msgid "Help"
 msgstr ""
 
-#: inc/settings_page.php:60
+#: inc/settings_page.php:62
 msgid "Got something to say? Need help?"
 msgstr ""
 
-#: inc/settings_page.php:66
+#: inc/settings_page.php:68
 msgid "Upgrade"
 msgstr ""
 
-#: inc/settings_page.php:69
+#: inc/settings_page.php:71
 msgid ""
 "Want more? Then try the PRO version. More features, more power. For only $29."
 msgstr ""
 
-#: inc/settings_page.php:77
+#: inc/settings_page.php:79
 msgid "Donate"
 msgstr ""
 
-#: inc/settings_page.php:82
+#: inc/settings_page.php:84
 msgid "Thanks for your support!"
 msgstr ""
 
-#: inc/settings_page.php:105
-msgid "Styles"
+#: inc/settings_page.php:108
+msgid "Styles (CSS code)"
 msgstr ""
 
-#: inc/settings_page.php:112
+#: inc/settings_page.php:119
 msgid "Save Changes"
 msgstr ""
 
@@ -100,8 +102,9 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Easily and safely add your custom styles (CSS) to WordPress website's header "
-"directly out of your WordPress Dashboard without need of an external editor."
+"Easily and safely add your custom styles (CSS) to WordPress website's HEAD "
+"section directly out of your WordPress Dashboard without need of an external "
+"editor."
 msgstr ""
 
 #. Author of the plugin/theme
