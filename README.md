@@ -22,6 +22,7 @@ On the plugin page you find the CSS editor powered by CodeMirror. It have syntax
 * Editor allow for tab indentation
 * Trigger for temporary disable the custom CSS code
 * Ready for translation (.pot file included)
+* Published on [WordPess.org](http://wordpess.org/)
 
 **Coming soon:**
 

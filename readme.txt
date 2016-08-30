@@ -3,7 +3,7 @@ Contributors: Arthur Gareginyan
 Tags: custom, CSS, CSS2, CSS3, editor, simple, style, styles, styling, stylesheet, style sheet, plugin,
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
-Tested up to: 4.5
+Tested up to: 4.6
 Stable tag: 2.2
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -28,7 +28,7 @@ On the plugin page you find the CSS editor powered by CodeMirror. It have syntax
 * Active line highlighting
 * Editor allow for tab indentation
 * Trigger for temporary disable the custom CSS code
-* Ready for translation (.pot file included)
+* Ready for translation (POT file included)
 
 **Coming soon:**
 
@@ -37,7 +37,9 @@ On the plugin page you find the CSS editor powered by CodeMirror. It have syntax
 
 = Translation =
 
-* English
+Please keep in mind that not all translations are up to date. You are welcome to contribute!
+
+* English (default)
 * Russian
 
 **Consider Going Pro For Additional Features!**
@@ -53,14 +55,6 @@ On the plugin page you find the CSS editor powered by CodeMirror. It have syntax
 >* Well documented
 >
 >[Get the premium version now!](https://gum.co/xLby)
-
->**Contribution**
->
->Developing plugins is long and tedious work. If you benefit or enjoy this plugin please take the time to:
->
->* Please [donate](http://www.arthurgareginyan.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
->* Please take the time to [rate and review](https://wordpress.org/support/view/plugin-reviews/my-custom-styles?rate=5#postform) this plugin.
->* Please [share with me](mailto:arthurgareginyan@gmail.com) if you have any ideas or suggestions to make this plugin better.
 
 
 == Installation ==
@@ -126,8 +120,8 @@ A. Yes, any financial contributions are welcome! Just visit my website and click
 
 
 == Screenshots ==
-1. Plugin’s page.
-2. Plugin’s page with custom CSS code added.
+1. Plugin page.
+2. Plugin page with custom CSS code added.
 
 
 == Other Notes ==
@@ -142,7 +136,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 **Credits**
 
-[CodeMirror](https://codemirror.net/) is an open-source project shared under a [MIT license](https://codemirror.net/LICENSE).
+[CodeMirror](https://codemirror.net/) is an open-source project shared under the [MIT license](https://codemirror.net/LICENSE).
 
 **Links**
 
@@ -151,11 +145,16 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+= 3.0 =
+* The structure of files changed.
+* Style sheet of settings page improved and better commented.
+* JS code improved.
+* Donate text added.
 = 2.3 =
 * Added trigger for temporary disable the custom CSS code.
-* Added active-line.js addon to CodeMirror editor.
+* Added active-line.js add-on to CodeMirror editor.
 * Added function for stoping execution of user entered code if it empty.
-* Added function for automatic remove the "successful" message after 3 seconds.
+* Added function of automatic remove the "successful" message after 3 seconds.
 * Removed the default message about successful saving.
 * Color of editors border changed to #ddd.
 * Styles of settings page optimized for mobile devices.

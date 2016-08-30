@@ -5,7 +5,7 @@
  * Description: Easily and safely add your custom styles (CSS) to WordPress website's HEAD section directly out of your WordPress Dashboard without need of an external editor.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 2.3
+ * Version: 3.0
  * License: GPL3
  * Text Domain: my-custom-styles
  * Domain Path: /languages/
@@ -86,9 +86,9 @@ add_action( 'admin_menu', 'mcstyles_register_submenu_page' );
 /**
  * Attach Settings Page
  *
- * @since 2.0
+ * @since 3.0
  */
-require_once( MCSTYLES_PATH . 'inc/settings_page.php' );
+require_once( MCSTYLES_PATH . 'inc/php/settings_page.php' );
 
 /**
  * Register settings
@@ -103,7 +103,7 @@ add_action( 'admin_init', 'mcstyles_register_settings' );
 /**
  * Load scripts and style sheet for settings page
  *
- * @since 2.2
+ * @since 3.0
  */
 function mcstyles_load_scripts($hook) {
 
@@ -112,16 +112,17 @@ function mcstyles_load_scripts($hook) {
         return;
     }
 
-    // CodeMirror
-    wp_enqueue_script( 'codemirror', MCSTYLES_URL . 'inc/codemirror/codemirror-compressed.js' );
-    wp_enqueue_style( 'codemirror_style', MCSTYLES_URL . 'inc/codemirror/codemirror.css' );
-    wp_enqueue_script( 'codemirror-active-line', MCSTYLES_URL . 'inc/codemirror/addons/active-line.js' );
-
-    // JS functions
-    wp_enqueue_script( 'js-functions', MCSTYLES_URL . 'inc/functions.js' );
-
     // Style sheet
-    wp_enqueue_style( 'styles', MCSTYLES_URL . 'inc/style.css' );
+    wp_enqueue_style( 'admin-css', MCSTYLES_URL . 'inc/css/admin.css' );
+
+    // JavaScript
+    wp_enqueue_script( 'admin-js', MCSTYLES_URL . 'inc/js/admin.js' );
+
+    // CodeMirror
+    wp_enqueue_style( 'codemirror-css', MCSTYLES_URL . 'inc/lib/codemirror/codemirror.css' );
+    wp_enqueue_script( 'codemirror-js', MCSTYLES_URL . 'inc/lib/codemirror/codemirror-compressed.js' );
+    wp_enqueue_script( 'codemirror-active-line', MCSTYLES_URL . 'inc/lib/codemirror/addons/active-line.js' );
+
 }
 add_action( 'admin_enqueue_scripts', 'mcstyles_load_scripts' );
 
