@@ -5,7 +5,7 @@
  * Description: Easily and safely add your custom styles (CSS) to WordPress website's HEAD section directly out of your WordPress Dashboard without need of an external editor.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 3.0
+ * Version: 3.1
  * License: GPL3
  * Text Domain: my-custom-styles
  * Domain Path: /languages/
@@ -29,6 +29,7 @@
  *
  */
 
+
 /**
  * Prevent Direct Access
  *
@@ -37,14 +38,15 @@
 defined('ABSPATH') or die("Restricted access!");
 
 /**
- * Define constants
+ * Define global constants
  *
- * @since 2.0
+ * @since 3.1
  */
 defined('MCSTYLES_DIR') or define('MCSTYLES_DIR', dirname(plugin_basename(__FILE__)));
 defined('MCSTYLES_BASE') or define('MCSTYLES_BASE', plugin_basename(__FILE__));
 defined('MCSTYLES_URL') or define('MCSTYLES_URL', plugin_dir_url(__FILE__));
 defined('MCSTYLES_PATH') or define('MCSTYLES_PATH', plugin_dir_path(__FILE__));
+defined('MCSTYLES_VERSION') or define('MCSTYLES_VERSION', '3.1');
 
 /**
  * Register text domain
@@ -103,7 +105,7 @@ add_action( 'admin_init', 'mcstyles_register_settings' );
 /**
  * Load scripts and style sheet for settings page
  *
- * @since 3.0
+ * @since 3.1
  */
 function mcstyles_load_scripts($hook) {
 
@@ -113,15 +115,15 @@ function mcstyles_load_scripts($hook) {
     }
 
     // Style sheet
-    wp_enqueue_style( 'admin-css', MCSTYLES_URL . 'inc/css/admin.css' );
+    wp_enqueue_style( 'mcstyles-admin-css', MCSTYLES_URL . 'inc/css/admin.css' );
 
     // JavaScript
-    wp_enqueue_script( 'admin-js', MCSTYLES_URL . 'inc/js/admin.js' );
+    wp_enqueue_script( 'mcstyles-admin-js', MCSTYLES_URL . 'inc/js/admin.js' );
 
     // CodeMirror
-    wp_enqueue_style( 'codemirror-css', MCSTYLES_URL . 'inc/lib/codemirror/codemirror.css' );
-    wp_enqueue_script( 'codemirror-js', MCSTYLES_URL . 'inc/lib/codemirror/codemirror-compressed.js' );
-    wp_enqueue_script( 'codemirror-active-line', MCSTYLES_URL . 'inc/lib/codemirror/addons/active-line.js' );
+    wp_enqueue_style( 'mcstyles-codemirror-css', MCSTYLES_URL . 'inc/lib/codemirror/codemirror.css' );
+    wp_enqueue_script( 'mcstyles-codemirror-js', MCSTYLES_URL . 'inc/lib/codemirror/codemirror-compressed.js' );
+    wp_enqueue_script( 'mcstyles-codemirror-active-line', MCSTYLES_URL . 'inc/lib/codemirror/addons/active-line.js' );
 
 }
 add_action( 'admin_enqueue_scripts', 'mcstyles_load_scripts' );
