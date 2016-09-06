@@ -10,7 +10,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 3.0
+ * @since 3.1.1
  */
 function mcstyles_render_submenu_page() {
 
@@ -69,7 +69,7 @@ function mcstyles_render_submenu_page() {
                         <div class="inside">
                             <img src="<?php echo plugins_url('../img/my-custom-styles-pro.png', __FILE__); ?>">
                             <p><?php _e( 'Want more? Then try the PRO version. More features, more power. For only $29.', 'my-custom-styles' ); ?></p>
-                            <a href="https://gum.co/xLby" target="_blank" rel="nofollow">
+                            <a href="https://www.arthurgareginyan.com/plugin-my-custom-styles-pro.html" target="_blank" rel="nofollow">
                                 <img src="<?php echo plugins_url('../img/buy-now-flashing.gif', __FILE__); ?>" alt="Buy" rel="nofollow">
                             </a>
                         </div>

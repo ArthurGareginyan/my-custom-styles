@@ -1,10 +1,10 @@
 === My Custom Styles ===
 Contributors: Arthur Gareginyan
-Tags: custom, CSS, CSS2, CSS3, editor, simple, style, styles, styling, stylesheet, style sheet, plugin,
+Tags: code, snippet, custom, css, css2, css3, edit, editing, editor, simple, style, styles, styling, stylesheet, style sheet, plugin, codemirror, syntax highlighting, syntaxhighlighting, syntax highlighter, syntaxhighlighter, syntax,
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.6
-Stable tag: 3.1
+Stable tag: 3.1.1
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -12,9 +12,9 @@ Easily and safely add your custom styles (CSS code) to WordPress website's <head
 
 
 == Description ==
-An easy to use WordPress plugin that gives you the ability to easily and safely add your custom styles (CSS code) to WordPress website's <head> section, directly out of your WordPress Dashboard, without any need of an external editor. This is a "PRO" version of the plugin "My Custom Styles". More features, more power. Unlimited number of snippets, Trigger for temporary disable the snippet, Automatic backup of all snippets to a file, and CSS minifier.
+An easy to use WordPress plugin that gives you the ability to easily and safely add your custom styles (CSS code) to WordPress website's <head> section, directly out of your WordPress Dashboard, without any need of an external editor.
 
-It’s purpose is to provide a familiar experience to WordPress users. No need anymore to editing a files of your theme and/or plugins for to add custom CSS code. Just add your CSS code in the field on the plugin page and this plugin will do the rest for you.
+It's purpose is to provide a familiar experience to WordPress users. No need anymore to editing a files of your theme and/or plugins for to add custom CSS code. Just add your CSS code in the field on the plugin page and this plugin will do the rest for you.
 
 It's really useful in case of any theme/plugin update, because your custom CSS code would never be overwritten. Your custom CSS code will keep on working, no matter how many times you upgrade or switch your theme.
 
@@ -50,11 +50,11 @@ Please keep in mind that not all translations are up to date. You are welcome to
 >* CSS minifier
 >* Automatic backup of all snippets to a file
 >* Trigger for temporary disable the certain snippets
->* Each field with CSS code can be collapsed or expanded
+>* Button for collapse/expand the field with code
 >* Sidebar items can be collapsed or expanded
 >* Well documented
 >
->[Get the premium version now!](https://gum.co/xLby)
+>[Get the premium version now!](https://www.arthurgareginyan.com/plugin-my-custom-styles-pro.html)
 
 
 == Installation ==
@@ -75,7 +75,7 @@ Manual via FTP:
 4. Log into WordPress Dashboard of your website.
 5. Activate this plugin through the "`Plugins`" tab.
 
-After installation, a "`Custom Styles`"  menu item will appear in the "`Appearance`" section. Click on this in order to view plugin's administration page.
+After installation, a "`Custom Styles`" menu item will appear in the "`Appearance`" section. Click on this in order to view plugin's administration page.
 
 [More help installing Plugins](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins "WordPress Codex: Installing Plugins")
 
@@ -145,6 +145,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+= 3.1.1 =
+* Link to the premium version of plugin changed.
+* The Readme.txt file improved.
 = 3.1 =
 * Added prefixes to the stylesheet and script names when using wp_enqueue_style() and wp_enqueue_script().
 * Added constant for storing the plugin version number.
