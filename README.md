@@ -16,12 +16,12 @@ On the plugin page you find the CSS editor powered by CodeMirror. It have syntax
 ## Features
 
 * Responsive & Mobile optimized settings page
+* Trigger for temporary disable the custom CSS code
 * Syntax highlighting (by CodeMirror)
 * Line numbering
 * Active line highlighting
 * Editor allow for tab indentation
-* Trigger for temporary disable the custom CSS code
-* Ready for translation (.pot file included)
+* Ready for translation (POT file included)
 * Published on [WordPess.org](http://wordpess.org/)
 
 **Coming soon:**
@@ -42,11 +42,11 @@ On the plugin page you find the CSS editor powered by CodeMirror. It have syntax
 >* CSS minifier
 >* Automatic backup of all snippets to a file
 >* Trigger for temporary disable the certain snippets
->* Each field with CSS code can be collapsed or expanded
+>* Button for collapse/expand the field with code
 >* Sidebar items can be collapsed or expanded
 >* Well documented
 >
->[Get the premium version now!](https://gum.co/xLby)
+>[Get the premium version now!](https://www.arthurgareginyan.com/plugin-my-custom-styles-pro.html)
 
 
 
