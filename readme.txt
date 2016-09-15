@@ -4,7 +4,7 @@ Tags: code, snippet, custom, css, css2, css3, edit, editing, editor, simple, sty
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.6
-Stable tag: 3.1.1
+Stable tag: 3.2
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -23,11 +23,11 @@ On the plugin page you find the CSS editor powered by CodeMirror. It have syntax
 = Features =
 
 * Responsive & Mobile optimized settings page
+* Trigger for temporary disable the custom CSS code
 * Syntax highlighting (by CodeMirror)
 * Line numbering
 * Active line highlighting
 * Editor allow for tab indentation
-* Trigger for temporary disable the custom CSS code
 * Ready for translation (POT file included)
 
 **Coming soon:**
@@ -62,17 +62,17 @@ Install "My Custom Styles" just as you would any other WordPress Plugin.
 
 Automatically via WordPress:
 
-1. Log into WordPress Dashboard of your website.
-2. Go to "`Plugins`" —> "`add new plugins`".
+1. Log into Dashboard of your WordPress website.
+2. Go to "`Plugins`" —> "`Add New`".
 3. Find this plugin and click install.
 4. Activate this plugin through the "`Plugins`" tab.
 
 Manual via FTP:
 
-1. Download a copy (zip file) of this plugin from WordPress.org.
-2. Unzip the zip file.
-3. Upload the unzipped directory to your website's plugin directory (`/wp-content/plugins/`).
-4. Log into WordPress Dashboard of your website.
+1. Download a copy (ZIP file) of this plugin from WordPress.org.
+2. Unzip the ZIP file.
+3. Upload the unzipped catalog to your website's plugin directory (`/wp-content/plugins/`).
+4. Log into Dashboard of your WordPress website.
 5. Activate this plugin through the "`Plugins`" tab.
 
 After installation, a "`Custom Styles`" menu item will appear in the "`Appearance`" section. Click on this in order to view plugin's administration page.
@@ -81,7 +81,7 @@ After installation, a "`Custom Styles`" menu item will appear in the "`Appearanc
 
 
 == Frequently Asked Questions ==
-= Q. Will this Plugin work on my WordPress.COM website? =
+= Q. Will this plugin work on my WordPress.COM website? =
 A. Sorry, this plugin is available for use only on self-hosted (WordPress.org) websites.
 
 = Q. Can I use this plugin on my language? =
@@ -89,9 +89,6 @@ A. Yes. But If your language is not available then you can make one. This plugin
 
 = Q. Does this plugin require modification to the theme? =
 A. Absolutely not. This plugin is added/configured entirely from the website's Admin section.
-
-= Q. It's not working. What could be wrong? =
-A. As with every plugin, it's possible that things don't work. The most common reason for this is that the plugin has a conflict with another plugin you're using. It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's support forum on WordPress.org, I'd be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen.
 
 = Q. How does it work? =
 A. If you want to change the layout of your theme or plugin you should look for the element that you want to change. So first you should inspect your theme or plugin.
@@ -108,6 +105,9 @@ body {
 
 = Q. How much of CSS code (characters) I can enter in the text field? =
 A. I don't limit the number of characters.
+
+= Q. It's not working. What could be wrong? =
+A. As with every plugin, it's possible that things don't work. The most common reason for this is that the plugin has a conflict with another plugin you're using. It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's support forum on WordPress.org, I'd be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen.
 
 = Q. Where to report bug if found? =
 A. Please visit [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/my-custom-styles) and report.
@@ -142,9 +142,14 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 * [Developer Website](http://www.arthurgareginyan.com)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/my-custom-styles)
+* [Premium Version](https://www.arthurgareginyan.com/plugin-my-custom-styles-pro.html)
 
 
 == Changelog ==
+= 3.2 =
+* On the settings page changed an advertisement about the PRO version of this plugin.
+* The Readme.txt file improved.
+* Added the Readme.txt file for translation contribution.
 = 3.1.1 =
 * Link to the premium version of plugin changed.
 * The Readme.txt file improved.

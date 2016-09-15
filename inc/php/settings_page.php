@@ -10,7 +10,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 3.1.1
+ * @since 3.2
  */
 function mcstyles_render_submenu_page() {
 
@@ -67,10 +67,8 @@ function mcstyles_render_submenu_page() {
                     <div id="upgrade" class="postbox">
                         <h3 class="title"><?php _e( 'Upgrade', 'my-custom-styles' ); ?></h3>
                         <div class="inside">
-                            <img src="<?php echo plugins_url('../img/my-custom-styles-pro.png', __FILE__); ?>">
-                            <p><?php _e( 'Want more? Then try the PRO version. More features, more power. For only $29.', 'my-custom-styles' ); ?></p>
-                            <a href="https://www.arthurgareginyan.com/plugin-my-custom-styles-pro.html" target="_blank" rel="nofollow">
-                                <img src="<?php echo plugins_url('../img/buy-now-flashing.gif', __FILE__); ?>" alt="Buy" rel="nofollow">
+                            <a href="https://www.arthurgareginyan.com/plugin-my-custom-styles-pro.html" target="_blank">
+                                <img src="<?php echo plugins_url('../img/pro-version.png', __FILE__); ?>" alt="PRO">
                             </a>
                         </div>
                     </div>
@@ -78,7 +76,7 @@ function mcstyles_render_submenu_page() {
                     <div id="donate" class="postbox">
                         <h3 class="title"><?php _e( 'Donate', 'my-custom-styles' ); ?></h3>
                         <div class="inside">
-                            <p><?php _e( 'If you like this plugin and find it useful, please help me to make this plugin even better and keep it up-to-date.', 'my-custom-styles' ); ?></p>
+                            <p><?php _e( 'I\'m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy.', 'my-custom-styles' ); ?></p>
                             <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" rel="nofollow">
                                 <img src="<?php echo plugins_url('../img/btn_donateCC_LG.gif', __FILE__); ?>" alt="Make a donation">
                             </a>

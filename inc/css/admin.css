@@ -51,13 +51,6 @@ h3.title {
     margin: 0;
 }
 
-#upgrade img {
-    width: 100%;
-}
-#upgrade a img {
-    width: 70%
-}
-
 /* Responsive page
  -------------------------------------------------------------- */
 @media (max-width: 860px) {
