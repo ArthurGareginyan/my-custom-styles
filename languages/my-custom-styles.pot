@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: My Custom Styles\n"
-"POT-Creation-Date: 2016-07-26 19:53+0300\n"
+"POT-Creation-Date: 2016-11-08 04:32+0300\n"
 "PO-Revision-Date: 2015-09-09 17:37+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -20,79 +20,81 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: inc/settings_page.php:23
+#: inc/php/settings_page.php:23
 msgid "Custom styles updated successfully."
 msgstr ""
 
 #. Plugin Name of the plugin/theme
-#: inc/settings_page.php:32 my-custom-styles.php:82
+#: inc/php/settings_page.php:32 my-custom-styles.php:85
 msgid "My Custom Styles"
 msgstr ""
 
-#: inc/settings_page.php:35
+#: inc/php/settings_page.php:35
 msgid ""
 "by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
 "Gareginyan</a>"
 msgstr ""
 
-#: inc/settings_page.php:46
+#: inc/php/settings_page.php:46
 msgid "About"
 msgstr ""
 
-#: inc/settings_page.php:48
+#: inc/php/settings_page.php:48
 msgid ""
 "This plugin allows you to easily add your custom styles (CSS code) to your "
 "website."
 msgstr ""
 
-#: inc/settings_page.php:53
+#: inc/php/settings_page.php:53
 msgid "Using"
 msgstr ""
 
-#: inc/settings_page.php:55
+#: inc/php/settings_page.php:55
 msgid ""
 "To use, enter your custom styles, then click \"Save Changes\". It's that "
 "simple!"
 msgstr ""
 
-#: inc/settings_page.php:60
+#: inc/php/settings_page.php:60
 msgid "Help"
 msgstr ""
 
-#: inc/settings_page.php:62
+#: inc/php/settings_page.php:62
 msgid "Got something to say? Need help?"
 msgstr ""
 
-#: inc/settings_page.php:68
+#: inc/php/settings_page.php:68
 msgid "Upgrade"
 msgstr ""
 
-#: inc/settings_page.php:71
-msgid ""
-"Want more? Then try the PRO version. More features, more power. For only $29."
-msgstr ""
-
-#: inc/settings_page.php:79
+#: inc/php/settings_page.php:77
 msgid "Donate"
 msgstr ""
 
-#: inc/settings_page.php:84
+#: inc/php/settings_page.php:79
+msgid ""
+"I'm an independent developer, without a regular income, so every little "
+"contribution helps cover my costs and lets me spend more time building "
+"things for people like you to enjoy."
+msgstr ""
+
+#: inc/php/settings_page.php:83
 msgid "Thanks for your support!"
 msgstr ""
 
-#: inc/settings_page.php:108
+#: inc/php/settings_page.php:107
 msgid "Styles (CSS code)"
 msgstr ""
 
-#: inc/settings_page.php:119
+#: inc/php/settings_page.php:118
 msgid "Save Changes"
 msgstr ""
 
-#: my-custom-styles.php:70
+#: my-custom-styles.php:73
 msgid "Settings"
 msgstr ""
 
-#: my-custom-styles.php:82
+#: my-custom-styles.php:85
 msgid "Custom Styles"
 msgstr ""
 

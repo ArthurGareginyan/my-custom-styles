@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Styles\n"
-"POT-Creation-Date: 2016-07-26 19:53+0300\n"
-"PO-Revision-Date: 2016-07-26 19:53+0300\n"
+"POT-Creation-Date: 2016-11-08 04:32+0300\n"
+"PO-Revision-Date: 2016-11-08 04:32+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -21,16 +21,16 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: inc/settings_page.php:23
+#: inc/php/settings_page.php:23
 msgid "Custom styles updated successfully."
 msgstr "Пользовательские стили, успешно обновлены."
 
 #. Plugin Name of the plugin/theme
-#: inc/settings_page.php:32 my-custom-styles.php:82
+#: inc/php/settings_page.php:32 my-custom-styles.php:85
 msgid "My Custom Styles"
 msgstr ""
 
-#: inc/settings_page.php:35
+#: inc/php/settings_page.php:35
 msgid ""
 "by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
 "Gareginyan</a>"
@@ -38,11 +38,11 @@ msgstr ""
 "от <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Артур "
 "Гарегинян</a>"
 
-#: inc/settings_page.php:46
+#: inc/php/settings_page.php:46
 msgid "About"
 msgstr "О плагине"
 
-#: inc/settings_page.php:48
+#: inc/php/settings_page.php:48
 msgid ""
 "This plugin allows you to easily add your custom styles (CSS code) to your "
 "website."
@@ -50,58 +50,61 @@ msgstr ""
 "Этот плагин даёт вам возможность легко добавлять ваши пользовательские стили "
 "(CSS код) на ваш веб-сайт."
 
-#: inc/settings_page.php:53
+#: inc/php/settings_page.php:53
 msgid "Using"
-msgstr "Использование:"
+msgstr "Как пользоваться"
 
-#: inc/settings_page.php:55
+#: inc/php/settings_page.php:55
 msgid ""
 "To use, enter your custom styles, then click \"Save Changes\". It's that "
 "simple!"
 msgstr ""
 "Для использования, введите ваши пользовательские стили, затем нажмите кнопку "
-"“Сохранить Изменения”. Это так просто!"
+"“Сохранить изменения”. Это так просто!"
 
-#: inc/settings_page.php:60
+#: inc/php/settings_page.php:60
 msgid "Help"
 msgstr "Помощь"
 
-#: inc/settings_page.php:62
+#: inc/php/settings_page.php:62
 msgid "Got something to say? Need help?"
 msgstr "Есть что сказать? Нужна помощь?"
 
-#: inc/settings_page.php:68
+#: inc/php/settings_page.php:68
 msgid "Upgrade"
 msgstr ""
 
-#: inc/settings_page.php:71
-msgid ""
-"Want more? Then try the PRO version. More features, more power. For only $29."
-msgstr ""
-"Хотите больше? Тогда попробуйте PRO версию. Больше возможностей, больше "
-"мощи. Всего за $29."
-
-#: inc/settings_page.php:79
+#: inc/php/settings_page.php:77
 msgid "Donate"
-msgstr "Пожертвование"
+msgstr "Поддержать разработку"
 
-#: inc/settings_page.php:84
+#: inc/php/settings_page.php:79
+msgid ""
+"I'm an independent developer, without a regular income, so every little "
+"contribution helps cover my costs and lets me spend more time building "
+"things for people like you to enjoy."
+msgstr ""
+"Я независимый разработчик, без регулярного дохода, так что каждый маленький "
+"вклад помогает мне покрыть затраты и позволяет тратить больше времени на "
+"создание программ для людей как вы."
+
+#: inc/php/settings_page.php:83
 msgid "Thanks for your support!"
 msgstr "Спасибо за вашу поддержку!"
 
-#: inc/settings_page.php:108
+#: inc/php/settings_page.php:107
 msgid "Styles (CSS code)"
 msgstr "Стили (CSS код)"
 
-#: inc/settings_page.php:119
+#: inc/php/settings_page.php:118
 msgid "Save Changes"
-msgstr "Сохранить Изменения"
+msgstr "Сохранить изменения"
 
-#: my-custom-styles.php:70
+#: my-custom-styles.php:73
 msgid "Settings"
 msgstr "Настройки"
 
-#: my-custom-styles.php:82
+#: my-custom-styles.php:85
 msgid "Custom Styles"
 msgstr "Пользовательские Стили"
 
@@ -126,6 +129,13 @@ msgstr "Артур Гарегинян"
 #. Author URI of the plugin/theme
 msgid "http://www.arthurgareginyan.com"
 msgstr ""
+
+#~ msgid ""
+#~ "Want more? Then try the PRO version. More features, more power. For only "
+#~ "$29."
+#~ msgstr ""
+#~ "Хотите больше? Тогда попробуйте PRO версию. Больше возможностей, больше "
+#~ "мощи. Всего за $29."
 
 #~ msgid "Styles"
 #~ msgstr "Стили"

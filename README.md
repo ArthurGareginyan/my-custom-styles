@@ -87,6 +87,7 @@ Arthur Garegnyan
 ## Links
 
 * [Dedicated Plugin Page on WordPress.org](https://wordpress.org/plugins/my-custom-styles/)
+* [My Custom Styles PRO](https://www.arthurgareginyan.com/plugin-my-custom-styles-pro.html)
 
 
 ---
