@@ -5,12 +5,12 @@
  *
  * @since 0.1
  */
-defined('ABSPATH') or die("Restricted access!");
+defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Render Settings Tab
  *
- * @since 3.3
+ * @since 4.1
  */
 ?>
     <!-- SIDEBAR -->
@@ -46,7 +46,7 @@ defined('ABSPATH') or die("Restricted access!");
                 <h3 class="title"><?php _e( 'Help', MCSTYLES_TEXT ); ?></h3>
                 <div class="inside">
                     <p><?php _e( 'Got something to say? Need help?', MCSTYLES_TEXT ); ?></p>
-                    <p><a href="mailto:arthurgareginyan@gmail.com?subject=My Custom Styles">arthurgareginyan@gmail.com</a></p>
+                    <p><a href="mailto:arthurgareginyan@gmail.com?subject=<?php echo MCSTYLES_NAME; ?>">arthurgareginyan@gmail.com</a></p>
                 </div>
             </div>
 
@@ -59,14 +59,14 @@ defined('ABSPATH') or die("Restricted access!");
         <div id="post-body-content" class="has-sidebar-content">
             <div class="meta-box-sortabless">
 
-                <form name="mcstyles-form" action="options.php" method="post" enctype="multipart/form-data">
-                    <?php settings_fields( 'mcstyles_settings_group' ); ?>
+                <form action="options.php" method="post" enctype="multipart/form-data">
+                    <?php settings_fields( MCSTYLES_SETTINGS . '_settings_group' ); ?>
 
                     <?php
                         // Get options from the BD
-                        $options = get_option( 'mcstyles_settings' );
+                        $options = get_option( MCSTYLES_SETTINGS . '_settings' );
 
-                        // Declare variables
+                        // Set default value if the option is empty
                         $content = isset( $options['mcstyles-content'] ) && !empty( $options['mcstyles-content'] ) ? $options['mcstyles-content'] : '/* Enter Your Custom Styles Here */';
                         $enable = isset( $options['enable'] ) && !empty( $options['enable'] ) && $options['enable'] == 'on' ? 'checked' : ' ';
                     ?>
@@ -86,7 +86,7 @@ defined('ABSPATH') or die("Restricted access!");
 
                     <?php submit_button( __( 'Save Changes', MCSTYLES_TEXT ), 'primary', 'submit', true ); ?>
 
-                    <div id="support-addition" class="postbox">
+                    <div class="postbox" id="support-addition">
                         <h3 class="title"><?php _e( 'Support', MCSTYLES_TEXT ); ?></h3>
                         <div class="inside">
                             <p><?php _e( 'I\'m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy.', MCSTYLES_TEXT ); ?></p>

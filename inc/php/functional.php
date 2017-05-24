@@ -5,17 +5,17 @@
  *
  * @since 0.1
  */
-defined('ABSPATH') or die("Restricted access!");
+defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Include custom CSS in HEAD section
  *
- * @since 2.3
+ * @since 4.1
  */
 function mcstyles_add_styling() {
 
     // Read variables from DB
-    $options = get_option( 'mcstyles_settings' );
+    $options = get_option( MCSTYLES_SETTINGS . '_settings' );
     $content = isset( $options['mcstyles-content'] ) && !empty( $options['mcstyles-content'] ) ? $options['mcstyles-content'] : ' ';
     $enable = isset( $options['enable'] ) && !empty( $options['enable'] ) ? $options['enable'] : ' ';
 
@@ -25,7 +25,7 @@ function mcstyles_add_styling() {
     }
 
     // If content is empty...
-    if ( empty($content) OR $content == ' ' ) {
+    if ( empty( $content ) OR $content == ' ' ) {
         return;   // EXIT
     }
 
@@ -40,4 +40,4 @@ function mcstyles_add_styling() {
     // Return prepared code
     echo $contents_out;
 }
-add_action( 'wp_head', 'mcstyles_add_styling' );
+add_action( 'wp_head', MCSTYLES_PREFIX . '_add_styling' );

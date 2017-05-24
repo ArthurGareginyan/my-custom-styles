@@ -5,7 +5,7 @@
  * Description: Easily and safely add your custom styles (CSS) to WordPress website's HEAD section directly out of your WordPress Dashboard without need of an external editor.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 4.0.1
+ * Version: 4.1
  * License: GPL3
  * Text Domain: my-custom-styles
  * Domain Path: /languages/
@@ -50,19 +50,23 @@
  *
  * @since 0.1
  */
-defined('ABSPATH') or die("Restricted access!");
+defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Define global constants
  *
- * @since 3.4
+ * @since 4.1
  */
-defined('MCSTYLES_DIR') or define('MCSTYLES_DIR', dirname(plugin_basename(__FILE__)));
-defined('MCSTYLES_BASE') or define('MCSTYLES_BASE', plugin_basename(__FILE__));
-defined('MCSTYLES_URL') or define('MCSTYLES_URL', plugin_dir_url(__FILE__));
-defined('MCSTYLES_PATH') or define('MCSTYLES_PATH', plugin_dir_path(__FILE__));
-defined('MCSTYLES_TEXT') or define('MCSTYLES_TEXT', 'my-custom-styles');
-defined('MCSTYLES_VERSION') or define('MCSTYLES_VERSION', '4.0.1');
+defined( 'MCSTYLES_DIR' ) or define( 'MCSTYLES_DIR', dirname( plugin_basename( __FILE__ ) ) );
+defined( 'MCSTYLES_BASE' ) or define( 'MCSTYLES_BASE', plugin_basename( __FILE__ ) );
+defined( 'MCSTYLES_URL' ) or define( 'MCSTYLES_URL', plugin_dir_url( __FILE__ ) );
+defined( 'MCSTYLES_PATH' ) or define( 'MCSTYLES_PATH', plugin_dir_path( __FILE__ ) );
+defined( 'MCSTYLES_TEXT' ) or define( 'MCSTYLES_TEXT', 'my-custom-styles' );
+defined( 'MCSTYLES_SLUG' ) or define( 'MCSTYLES_SLUG', 'my-custom-styles' );
+defined( 'MCSTYLES_PREFIX' ) or define( 'MCSTYLES_PREFIX', 'mcstyles' );
+defined( 'MCSTYLES_SETTINGS' ) or define( 'MCSTYLES_SETTINGS', 'mcstyles' );
+defined( 'MCSTYLES_NAME' ) or define( 'MCSTYLES_NAME', 'My Custom Styles' );
+defined( 'MCSTYLES_VERSION' ) or define( 'MCSTYLES_VERSION', get_file_data( __FILE__, array( 'Version' ) ) );
 
 /**
  * Load the plugin modules

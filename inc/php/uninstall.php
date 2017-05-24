@@ -5,14 +5,14 @@
  *
  * @since 0.1
  */
-defined('ABSPATH') or die("Restricted access!");
+defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Delete options on uninstall
  *
- * @since 0.1
+ * @since 4.1
  */
 function mcstyles_uninstall() {
-    delete_option( 'mcstyles_settings' );
+    delete_option( MCSTYLES_SETTINGS . '_settings' );
 }
-register_uninstall_hook( __FILE__, 'mcstyles_uninstall' );
+register_uninstall_hook( __FILE__, MCSTYLES_PREFIX . '_uninstall' );
