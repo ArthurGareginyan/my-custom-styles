@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Tab
  *
- * @since 4.1
+ * @since 4.2
  */
 ?>
     <!-- SIDEBAR -->
@@ -63,12 +63,12 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                     <?php settings_fields( MCSTYLES_SETTINGS . '_settings_group' ); ?>
 
                     <?php
-                        // Get options from the BD
+                        // Get options from the database
                         $options = get_option( MCSTYLES_SETTINGS . '_settings' );
 
-                        // Set default value if the option is empty
-                        $content = isset( $options['mcstyles-content'] ) && !empty( $options['mcstyles-content'] ) ? $options['mcstyles-content'] : '/* Enter Your Custom Styles Here */';
-                        $enable = isset( $options['enable'] ) && !empty( $options['enable'] ) && $options['enable'] == 'on' ? 'checked' : ' ';
+                        // Set default value if option is empty
+                        $content = !empty( $options['mcstyles-content'] ) ? $options['mcstyles-content'] : '/* Enter your custom styles here */';
+                        $enable = ( $options['enable'] == 'on' ) ? 'checked' : ' ';
                     ?>
 
                     <div class="postbox">

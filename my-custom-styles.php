@@ -5,27 +5,25 @@
  * Description: Easily and safely add your custom styles (CSS) to WordPress website's HEAD section directly out of your WordPress Dashboard without need of an external editor.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 4.1
+ * Version: 4.2
  * License: GPL3
  * Text Domain: my-custom-styles
  * Domain Path: /languages/
  *
  * Copyright 2015-2017 Arthur Gareginyan (email : arthurgareginyan@gmail.com)
  *
- * This file is part of "My Custom Styles".
- *
- * "My Custom Styles" is free software: you can redistribute it and/or modify
+ * This plugin is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * "My Custom Styles" is distributed in the hope that it will be useful,
+ * This plugin is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with "My Custom Styles".  If not, see <http://www.gnu.org/licenses/>.
+ * along with this plugin. If not, see <http://www.gnu.org/licenses/>.
  *
  *
  *               █████╗ ██████╗ ████████╗██╗  ██╗██╗   ██╗██████╗
@@ -55,27 +53,34 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Define global constants
  *
- * @since 4.1
+ * @since 4.2
  */
-defined( 'MCSTYLES_DIR' ) or define( 'MCSTYLES_DIR', dirname( plugin_basename( __FILE__ ) ) );
-defined( 'MCSTYLES_BASE' ) or define( 'MCSTYLES_BASE', plugin_basename( __FILE__ ) );
-defined( 'MCSTYLES_URL' ) or define( 'MCSTYLES_URL', plugin_dir_url( __FILE__ ) );
-defined( 'MCSTYLES_PATH' ) or define( 'MCSTYLES_PATH', plugin_dir_path( __FILE__ ) );
-defined( 'MCSTYLES_TEXT' ) or define( 'MCSTYLES_TEXT', 'my-custom-styles' );
-defined( 'MCSTYLES_SLUG' ) or define( 'MCSTYLES_SLUG', 'my-custom-styles' );
-defined( 'MCSTYLES_PREFIX' ) or define( 'MCSTYLES_PREFIX', 'mcstyles' );
-defined( 'MCSTYLES_SETTINGS' ) or define( 'MCSTYLES_SETTINGS', 'mcstyles' );
-defined( 'MCSTYLES_NAME' ) or define( 'MCSTYLES_NAME', 'My Custom Styles' );
-defined( 'MCSTYLES_VERSION' ) or define( 'MCSTYLES_VERSION', get_file_data( __FILE__, array( 'Version' ) ) );
+$plugin_data = get_file_data( __FILE__, array( 'name'=>'Plugin Name', 'version'=>'Version', 'text'=>'Text Domain' ) );
+function mcstyles_define_constants( $constant_name, $value ) {
+    $constant_name = 'MCSTYLES_' . $constant_name;
+    if ( !defined( $constant_name ) )
+        define( $constant_name, $value );
+}
+mcstyles_define_constants( 'DIR', dirname( plugin_basename( __FILE__ ) ) );
+mcstyles_define_constants( 'BASE', plugin_basename( __FILE__ ) );
+mcstyles_define_constants( 'URL', plugin_dir_url( __FILE__ ) );
+mcstyles_define_constants( 'PATH', plugin_dir_path( __FILE__ ) );
+mcstyles_define_constants( 'SLUG', dirname( plugin_basename( __FILE__ ) ) );
+mcstyles_define_constants( 'NAME', $plugin_data['name'] );
+mcstyles_define_constants( 'VERSION', $plugin_data['version'] );
+mcstyles_define_constants( 'TEXT', $plugin_data['text'] );
+mcstyles_define_constants( 'PREFIX', 'mcstyles' );
+mcstyles_define_constants( 'SETTINGS', 'mcstyles' );
 
 /**
  * Load the plugin modules
  *
- * @since 4.0
+ * @since 4.2
  */
 require_once( MCSTYLES_PATH . 'inc/php/core.php' );
-require_once( MCSTYLES_PATH . 'inc/php/enqueue.php' );
+require_once( MCSTYLES_PATH . 'inc/php/upgrade.php' );
 require_once( MCSTYLES_PATH . 'inc/php/version.php' );
+require_once( MCSTYLES_PATH . 'inc/php/enqueue.php' );
 require_once( MCSTYLES_PATH . 'inc/php/functional.php' );
 require_once( MCSTYLES_PATH . 'inc/php/page.php' );
 require_once( MCSTYLES_PATH . 'inc/php/messages.php' );
