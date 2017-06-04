@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Tab
  *
- * @since 4.2
+ * @since 4.3
  */
 ?>
     <!-- SIDEBAR -->
@@ -21,6 +21,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                 <h3 class="title"><?php _e( 'About', MCSTYLES_TEXT ); ?></h3>
                 <div class="inside">
                     <p><?php _e( 'This plugin allows you to easily add your custom styles (CSS code) to your website.', MCSTYLES_TEXT ); ?></p>
+                    <p class="version"><?php _e( 'Version', MCSTYLES_TEXT ); ?> <?php echo MCSTYLES_VERSION; ?></p>
                 </div>
             </div>
 
@@ -68,7 +69,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 
                         // Set default value if option is empty
                         $content = !empty( $options['mcstyles-content'] ) ? $options['mcstyles-content'] : '/* Enter your custom styles here */';
-                        $enable = ( $options['enable'] == 'on' ) ? 'checked' : ' ';
+                        $enable = ( !empty( $options['enable'] ) && $options['enable'] == "on" ) ? 'checked' : ' ';
                     ?>
 
                     <div class="postbox">

@@ -5,7 +5,7 @@
  * Description: Easily and safely add your custom styles (CSS) to WordPress website's HEAD section directly out of your WordPress Dashboard without need of an external editor.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 4.2
+ * Version: 4.3
  * License: GPL3
  * Text Domain: my-custom-styles
  * Domain Path: /languages/
@@ -79,7 +79,7 @@ mcstyles_define_constants( 'SETTINGS', 'mcstyles' );
  */
 require_once( MCSTYLES_PATH . 'inc/php/core.php' );
 require_once( MCSTYLES_PATH . 'inc/php/upgrade.php' );
-require_once( MCSTYLES_PATH . 'inc/php/version.php' );
+require_once( MCSTYLES_PATH . 'inc/php/versioning.php' );
 require_once( MCSTYLES_PATH . 'inc/php/enqueue.php' );
 require_once( MCSTYLES_PATH . 'inc/php/functional.php' );
 require_once( MCSTYLES_PATH . 'inc/php/page.php' );
