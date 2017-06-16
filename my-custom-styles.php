@@ -5,12 +5,12 @@
  * Description: Easily and safely add your custom styles (CSS) to WordPress website's HEAD section directly out of your WordPress Dashboard without need of an external editor.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 4.3
+ * Version: 4.4
  * License: GPL3
  * Text Domain: my-custom-styles
  * Domain Path: /languages/
  *
- * Copyright 2015-2017 Arthur Gareginyan (email : arthurgareginyan@gmail.com)
+ * Copyright 2015-2017 Arthur Gareginyan ( website : http://www.arthurgareginyan.com )
  *
  * This plugin is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by

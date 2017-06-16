@@ -10,31 +10,39 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Load scripts and style sheet for settings page
  *
- * @since 4.1
+ * @since 4.4
  */
 function mcstyles_load_scripts_admin( $hook ) {
 
+    // Put value of constants to variables for easier access
+    $slug = MCSTYLES_SLUG;
+    $prefix = MCSTYLES_PREFIX;
+    $url = MCSTYLES_URL;
+
     // Return if the page is not a settings page of this plugin
-    $settings_page = 'appearance_page_' . MCSTYLES_SLUG;
+    $settings_page = 'appearance_page_' . $slug;
     if ( $settings_page != $hook ) {
         return;
     }
 
+    // Load jQuery library
+    wp_enqueue_script( 'jquery' );
+
     // Style sheet
-    wp_enqueue_style( MCSTYLES_PREFIX . '-admin-css', MCSTYLES_URL . 'inc/css/admin.css' );
+    wp_enqueue_style( $prefix . '-admin-css', $url . 'inc/css/admin.css' );
 
     // JavaScript
-    wp_enqueue_script( MCSTYLES_PREFIX . '-admin-js', MCSTYLES_URL . 'inc/js/admin.js', array(), false, true );
+    wp_enqueue_script( $prefix . '-admin-js', $url . 'inc/js/admin.js', array(), false, true );
 
     // Bootstrap library
-    wp_enqueue_style( MCSTYLES_PREFIX . '-bootstrap-css', MCSTYLES_URL . 'inc/lib/bootstrap/bootstrap.css' );
-    wp_enqueue_style( MCSTYLES_PREFIX . '-bootstrap-theme-css', MCSTYLES_URL . 'inc/lib/bootstrap/bootstrap-theme.css' );
-    wp_enqueue_script( MCSTYLES_PREFIX . '-bootstrap-js', MCSTYLES_URL . 'inc/lib/bootstrap/bootstrap.js' );
+    wp_enqueue_style( $prefix . '-bootstrap-css', $url . 'inc/lib/bootstrap/bootstrap.css' );
+    wp_enqueue_style( $prefix . '-bootstrap-theme-css', $url . 'inc/lib/bootstrap/bootstrap-theme.css' );
+    wp_enqueue_script( $prefix . '-bootstrap-js', $url . 'inc/lib/bootstrap/bootstrap.js' );
 
     // CodeMirror library
-    wp_enqueue_style( MCSTYLES_PREFIX . '-codemirror-css', MCSTYLES_URL . 'inc/lib/codemirror/codemirror.css' );
-    wp_enqueue_script( MCSTYLES_PREFIX . '-codemirror-js', MCSTYLES_URL . 'inc/lib/codemirror/codemirror-compressed.js' );
-    wp_enqueue_script( MCSTYLES_PREFIX . '-codemirror-active-line-js', MCSTYLES_URL . 'inc/lib/codemirror/addons/active-line.js' );
+    wp_enqueue_style( $prefix . '-codemirror-css', $url . 'inc/lib/codemirror/codemirror.css' );
+    wp_enqueue_script( $prefix . '-codemirror-js', $url . 'inc/lib/codemirror/codemirror-compressed.js' );
+    wp_enqueue_script( $prefix . '-codemirror-active-line-js', $url . 'inc/lib/codemirror/addons/active-line.js' );
 
 }
 add_action( 'admin_enqueue_scripts', MCSTYLES_PREFIX . '_load_scripts_admin' );

@@ -18,6 +18,7 @@ function mcstyles_versioning() {
     //                       SETTING VARIABLES                       //
     ///////////////////////////////////////////////////////////////////
 
+    // Put value of constants to variables for easier access
     $version_files = MCSTYLES_VERSION;
     $settings = MCSTYLES_SETTINGS;
 
