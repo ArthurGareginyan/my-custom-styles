@@ -2,15 +2,15 @@
 /**
  * Plugin Name: My Custom Styles
  * Plugin URI: https://github.com/ArthurGareginyan/my-custom-styles
- * Description: Easily and safely add your custom styles (CSS) to WordPress website's HEAD section directly out of your WordPress Dashboard without need of an external editor.
+ * Description: Easily and safely add your custom styles (CSS) to WordPress website's HEAD section directly out of your WordPress Admin area, without the need to have an external editor.
  * Author: Arthur Gareginyan
- * Author URI: http://www.arthurgareginyan.com
- * Version: 4.4
+ * Author URI: https://www.arthurgareginyan.com
+ * Version: 4.4.1
  * License: GPL3
  * Text Domain: my-custom-styles
  * Domain Path: /languages/
  *
- * Copyright 2015-2017 Arthur Gareginyan ( website : http://www.arthurgareginyan.com )
+ * Copyright 2015-2017 Arthur Gareginyan ( website : https://www.arthurgareginyan.com )
  *
  * This plugin is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by

@@ -4,15 +4,15 @@ Tags: code, snippet, custom, css, css2, css3, edit, editing, editor, simple, sty
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.8
-Stable tag: 4.4
+Stable tag: 4.4.1
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Easily and safely add your custom styles (CSS code) to WordPress website's <head> section directly out of your WordPress Admin area, without need of an external editor.
+Easily and safely add your custom styles (CSS code) directly out of your WordPress Admin area, without the need to have an external editor.
 
 
 == Description ==
-An easy to use, with intuitive interface WordPress plugin that gives you the ability to easily and safely add your custom styles (CSS code) to WordPress website's <head> section, directly out of your WordPress Admin area, without any need of an external editor.
+An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add your custom styles (CSS code) to WordPress website's <head> section, directly out of your WordPress Admin area, without the need to have an external editor.
 
 It's purpose is to provide a familiar experience to WordPress users. No need anymore to editing a files of your theme and/or plugins for to add custom CSS code. Just add your CSS code in the field on the plugin settings page and this plugin will do the rest for you.
 
@@ -32,12 +32,24 @@ On the plugin settings page you find the CSS editor powered by CodeMirror. It ha
 
 **Key features include...**
 
-* Toggle for temporary disable the custom CSS code
+* Ability to temporary disable all custom snippets
 * Syntax highlighting (by CodeMirror)
 * Line numbering
 * Active line highlighting
 * Editor allow for tab indentation
 * And much, much more!
+
+**PRO features include...**
+
+* Unlimited number of fields
+* CSS minifier
+* Automatic backup of all snippets to a file
+* Ability to temporary disable the certain snippet
+* Ability to collapse/expand the certain fields with code
+* Well documented
+
+[Get the PRO version now!](https://www.arthurgareginyan.com/plugin-my-custom-styles-pro.html)
+
 
 **Coming soon:**
 
@@ -51,24 +63,7 @@ This plugin is ready for translation and has already been translated into severa
 * English (default)
 * Russian
 
-Maybe not all existed translations are up to date. You are welcome to contribute corrections!
-
 If you want to help translate this plugin then please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/my-custom-styles).
-
-**Consider Going Pro For Additional Features!**
-
->**Pro Features**
->
-> All features from Free version included plus:
->* Unlimited number of snippets
->* CSS minifier
->* Automatic backup of all snippets to a file
->* Toggle for temporary disable the certain snippets
->* Button for collapse/expand the field with code
->* Sidebar items can be collapsed or expanded
->* Well documented
->
->[Get the PRO version now!](https://www.arthurgareginyan.com/plugin-my-custom-styles-pro.html)
 
 
 == Installation ==
@@ -129,7 +124,7 @@ A. Please visit the [Dedicated Plugin Page on GitHub](https://github.com/ArthurG
 A. Any suggestions are very welcome! Please send me an email to [arthurgareginyan@gmail.com](mailto:arthurgareginyan@gmail.com). Thank you!
 
 = Q. I love this plugin! Can I help somehow? =
-A. Yes, any financial contributions are welcome! Just visit [my website](http://www.arthurgareginyan.com/donate.html), click on the donate button, and thank you!
+A. Yes, any financial contributions are welcome! Just visit [my website](https://www.arthurgareginyan.com/donate.html), click on the donate button, and thank you!
 
 
 == Screenshots ==
@@ -139,7 +134,7 @@ A. Yes, any financial contributions are welcome! Just visit [my website](http://
 
 == Other Notes ==
 
-"My Custom Styles" is one of the personal software projects of [Arthur Gareginyan](http://www.arthurgareginyan.com).
+"My Custom Styles" is one of the personal software projects of [Arthur Gareginyan](https://www.arthurgareginyan.com).
 
 **License**
 
@@ -148,19 +143,23 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 **Credits**
 
-* The icon of plugin is a copyrighted image created by [Arthur Gareginyan](http://www.arthurgareginyan.com). (C) All rights reserved.
-* The banner of plugin is a copyrighted image created by [Arthur Gareginyan](http://www.arthurgareginyan.com). (C) All rights reserved.
+* The icon of plugin is a copyrighted image created by [Arthur Gareginyan](https://www.arthurgareginyan.com). (C) All rights reserved.
+* The banner of plugin is a copyrighted image created by [Arthur Gareginyan](https://www.arthurgareginyan.com). (C) All rights reserved.
 * [CodeMirror](https://codemirror.net/) is an open-source project shared under the [MIT license](https://codemirror.net/LICENSE).
 * [Bootstrap](http://getbootstrap.com) by Twitter, Inc. released under the [MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE).
 
 **Links**
 
-* [Developer Website](http://www.arthurgareginyan.com)
+* [Developer Website](https://www.arthurgareginyan.com)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/my-custom-styles)
 * [Premium Version](https://www.arthurgareginyan.com/plugin-my-custom-styles-pro.html)
 
 
 == Changelog ==
+
+= 4.4.1 =
+* The HTTPS mixed content issue fixed by changing all links to HTTPS.
+* Content of the "FAQ" section updated.
 
 = 4.4 =
 * On the plugin settings page, text of buttons are corrected.
