@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Page
  *
- * @since 4.4.1
+ * @since 4.5
  */
 function mcstyles_render_submenu_page() {
 
@@ -79,7 +79,7 @@ function mcstyles_render_submenu_page() {
 
 body {
     background-color: #b0c4de;
-    
+
 }</code></pre>
                                 <p class="note"><b><?php _e( 'Note!', $text ); ?></b> <?php _e( 'If you want to change the layout of your theme or plugin you should look for the element that you want to change. So first you should inspect your theme or plugin.', $text ); ?></p>
                             </li>

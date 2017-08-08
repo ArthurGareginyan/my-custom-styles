@@ -37,7 +37,7 @@ add_filter( 'plugin_action_links_' . MCSTYLES_BASE, MCSTYLES_PREFIX . '_settings
 /**
  * Print link to My Custom Styles PRO page
  *
- * @since 4.4.1
+ * @since 4.5
  */
 function mcstyles_upgrade_link( $links ) {
     $upgrade_page = '<a href="https://www.spacexchimp.com/plugins/my-custom-styles-pro.html" target="_blank"><b style="color:red;">' . __( 'Upgrade to PRO', MCSTYLES_TEXT ) . '</b></a>';
@@ -49,7 +49,7 @@ add_filter( 'plugin_action_links_' . MCSTYLES_BASE, MCSTYLES_PREFIX . '_upgrade_
 /**
  * Print additional links to plugin meta row
  *
- * @since 4.4.1
+ * @since 4.5
  */
 function mcstyles_plugin_row_meta( $links, $file ) {
 
