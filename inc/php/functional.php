@@ -14,7 +14,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
  */
 function mcstyles_add_styling() {
 
-    // Read variables from DB
+    // Read options from database and declare variables
     $options = get_option( MCSTYLES_SETTINGS . '_settings' );
     $content = isset( $options['mcstyles-content'] ) && !empty( $options['mcstyles-content'] ) ? $options['mcstyles-content'] : ' ';
     $enable = isset( $options['enable'] ) && !empty( $options['enable'] ) ? $options['enable'] : ' ';

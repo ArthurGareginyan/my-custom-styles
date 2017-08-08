@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Styles\n"
-"POT-Creation-Date: 2017-06-21 14:13+0300\n"
-"PO-Revision-Date: 2017-06-21 14:13+0300\n"
+"POT-Creation-Date: 2017-07-17 15:23+0300\n"
+"PO-Revision-Date: 2017-07-17 15:25+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -27,7 +27,7 @@ msgstr "Настройки"
 
 #: inc/php/core.php:43 inc/php/core.php:60
 msgid "Upgrade to PRO"
-msgstr ""
+msgstr "Обновить до PRO"
 
 #: inc/php/core.php:59
 msgid "Donate"
@@ -89,7 +89,7 @@ msgid "Support"
 msgstr "Поддержка"
 
 #: inc/php/page.php:53
-msgid "Family"
+msgid "Store"
 msgstr "Семья"
 
 #: inc/php/page.php:70
@@ -336,7 +336,7 @@ msgstr ""
 
 #: inc/php/settings.php:28
 msgid "Upgrade"
-msgstr ""
+msgstr "Апгрейд"
 
 #: inc/php/settings.php:39 inc/php/settings.php:91
 msgid ""

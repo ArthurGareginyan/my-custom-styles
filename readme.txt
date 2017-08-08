@@ -4,7 +4,7 @@ Tags: code, snippet, custom, css, css2, css3, edit, editing, editor, simple, sty
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.8
-Stable tag: 4.4.1
+Stable tag: 4.5
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -12,6 +12,7 @@ Easily and safely add your custom styles (CSS code) directly out of your WordPre
 
 
 == Description ==
+
 An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add your custom styles (CSS code) to WordPress website's <head> section, directly out of your WordPress Admin area, without the need to have an external editor.
 
 It's purpose is to provide a familiar experience to WordPress users. No need anymore to editing a files of your theme and/or plugins for to add custom CSS code. Just add your CSS code in the field on the plugin settings page and this plugin will do the rest for you.
@@ -20,7 +21,7 @@ It's really useful in case of any theme update, because your custom CSS code wou
 
 On the plugin settings page you find the CSS editor powered by CodeMirror. It have syntax highlighting and line numbering options. Also this editor support a tab indentation. If you want more options then tell me and I will be happy to add it.
 
-= Features =
+**Features**
 
 * Lightweight and fast
 * Secure code with using clear coding standards
@@ -48,15 +49,14 @@ On the plugin settings page you find the CSS editor powered by CodeMirror. It ha
 * Ability to collapse/expand the certain fields with code
 * Well documented
 
-[Get the PRO version now!](https://www.arthurgareginyan.com/plugin-my-custom-styles-pro.html)
-
+[Get the PRO version now!](https://www.spacexchimp.com/plugins/my-custom-styles-pro.html)
 
 **Coming soon:**
 
 * Reload the settings page at same position after pushing the save button
 * Multisite network support
 
-= Translation =
+**Translation**
 
 This plugin is ready for translation and has already been translated into several languages.
 
@@ -65,8 +65,17 @@ This plugin is ready for translation and has already been translated into severa
 
 If you want to help translate this plugin then please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/my-custom-styles).
 
+**Contribution**
+
+Developing plugins is long and tedious work. If you benefit or enjoy this plugin please take the time to:
+
+* [Donate](https://www.arthurgareginyan.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
+* [Rate and Review](https://wordpress.org/support/view/plugin-reviews/my-custom-styles?rate=5#postform) this plugin.
+* [Share with me](mailto:arthurgareginyan@gmail.com) or view the [GitHub Repo](https://github.com/ArthurGareginyan/my-custom-styles) if you have any ideas or suggestions to make this plugin better.
+
 
 == Installation ==
+
 Install "My Custom Styles" just as you would any other WordPress Plugin.
 
 Automatically via WordPress Admin Panel:
@@ -90,6 +99,7 @@ After installation and activation, the "`Custom Styles`" menu item will appear i
 
 
 == Frequently Asked Questions ==
+
 = Q. Will this plugin work on my WordPress.COM website? =
 A. Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) websites.
 
@@ -128,11 +138,14 @@ A. Yes, any financial contributions are welcome! Just visit [my website](https:/
 
 
 == Screenshots ==
+
 1. Plugin page.
 2. Plugin page with custom CSS code added.
 
 
 == Other Notes ==
+
+****
 
 "My Custom Styles" is one of the personal software projects of [Arthur Gareginyan](https://www.arthurgareginyan.com).
 
@@ -152,10 +165,20 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 * [Developer Website](https://www.arthurgareginyan.com)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/my-custom-styles)
-* [Premium Version](https://www.arthurgareginyan.com/plugin-my-custom-styles-pro.html)
+* [Premium Version](https://www.spacexchimp.com/plugins/my-custom-styles-pro.html)
 
 
 == Changelog ==
+
+= 4.5 =
+* Stylesheet in the admin.css file improved.
+* The '!important' declarations in the admin.css file removed.
+* Code formatting in the admin.js file improved.
+* Code commenting improved.
+* Load of the additional remote CSS file removed from the admin.js file.
+* Changed the sorting of enqueueing of scripts.
+* The ''Family' page tab renamed to 'Store'.
+* Added ad banner of my store website.
 
 = 4.4.1 =
 * The HTTPS mixed content issue fixed by changing all links to HTTPS.

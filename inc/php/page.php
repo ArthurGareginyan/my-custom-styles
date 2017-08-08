@@ -50,7 +50,7 @@ function mcstyles_render_submenu_page() {
                 <li><a href="#tab-faq" data-toggle="tab"><?php _e( 'F.A.Q.', $text ); ?></a></li>
                 <li><a href="#tab-author" data-toggle="tab"><?php _e( 'Author', $text ); ?></a></li>
                 <li><a href="#tab-support" data-toggle="tab"><?php _e( 'Support', $text ); ?></a></li>
-                <li><a href="#tab-family" data-toggle="tab"><?php _e( 'Family', $text ); ?></a></li>
+                <li><a href="#tab-store" data-toggle="tab"><?php _e( 'Store', $text ); ?></a></li>
             </ul>
             <!-- END-TABS NAVIGATION MENU -->
 
@@ -209,8 +209,8 @@ body {
             <!-- END-TAB 5 -->
 
             <!-- TAB 6 -->
-            <div class="tab-page fade" id="tab-family">
-                <div class="include-tab-family"></div>
+            <div class="tab-page fade" id="tab-store">
+                <div class="include-tab-store"></div>
             </div>
             <!-- END-TAB 6 -->
 
