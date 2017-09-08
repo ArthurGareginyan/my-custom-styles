@@ -2,25 +2,21 @@
 
 /**
  * Prevent Direct Access
- *
- * @since 0.1
  */
 defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Include custom CSS in HEAD section
- *
- * @since 4.1
  */
-function mcstyles_add_styling() {
+function spacexchimp_p003_add_styling() {
 
     // Read options from database and declare variables
-    $options = get_option( MCSTYLES_SETTINGS . '_settings' );
-    $content = isset( $options['mcstyles-content'] ) && !empty( $options['mcstyles-content'] ) ? $options['mcstyles-content'] : ' ';
-    $enable = isset( $options['enable'] ) && !empty( $options['enable'] ) ? $options['enable'] : ' ';
+    $options = get_option( SPACEXCHIMP_P003_SETTINGS . '_settings' );
+    $content = !empty( $options['snippets'] ) ? $options['snippets'] : ' ';
+    $enable = !empty( $options['enable'] ) ? $options['enable'] : ' ';
 
     // If the user entered code is disabled...
-    if ( $enable == 'on') {
+    if ( $enable != 'on') {
         return;   // EXIT
     }
 
@@ -40,4 +36,4 @@ function mcstyles_add_styling() {
     // Return prepared code
     echo $contents_out;
 }
-add_action( 'wp_head', MCSTYLES_PREFIX . '_add_styling' );
+add_action( 'wp_head', 'spacexchimp_p003_add_styling' );

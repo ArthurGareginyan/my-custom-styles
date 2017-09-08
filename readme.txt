@@ -4,7 +4,7 @@ Tags: code, snippet, custom, css, css2, css3, edit, editing, editor, simple, sty
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.8
-Stable tag: 4.6
+Stable tag: 4.7
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -33,7 +33,7 @@ On the plugin settings page you find the CSS editor powered by CodeMirror. It ha
 
 **Key features include...**
 
-* Ability to temporary disable all custom snippets
+* Ability to temporarily disable all custom snippets
 * Syntax highlighting (by CodeMirror)
 * Line numbering
 * Active line highlighting
@@ -45,7 +45,7 @@ On the plugin settings page you find the CSS editor powered by CodeMirror. It ha
 * Unlimited number of fields
 * CSS minifier
 * Automatic backup of all snippets to a file
-* Ability to temporary disable the certain snippet
+* Ability to temporarily disable the certain snippet
 * Ability to collapse/expand the certain fields with code
 * Well documented
 
@@ -62,6 +62,7 @@ This plugin is ready for translation and has already been translated into severa
 
 * English (default)
 * Russian (translation by [Milena Kiseleva](https://www.instagram.com/milava_kiseleva/))
+* Spanish (translation by Patricio Toledo)
 
 If you want to help translate this plugin then please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/my-custom-styles).
 
@@ -169,6 +170,17 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.7 =
+* Added Spanish translation. (Thanks Patricio Toledo)
+* The group name of the '_service_info' option renamed to '_settings_group_si'.
+* The 'admin.css' file improved.
+* The "Font Awesome" library is integrated for use on the plugin settings page.
+* The ON/OFF switch replaced with new.
+* The 'bootstrap-checkbox.js' JavaScript plugin added.
+* Prefixes of the PHP functions changed to ''spacexchimp_p003_.
+* Prefixes of the PHP constants changed to ''SPACEXCHIMP_P003_.
+* Plugin data that saved in the database upgraded to version 0001.
 
 = 4.6 =
 * Russian translation updated. (Thanks to Milena Kiseleva)
@@ -290,7 +302,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Donate text added.
 
 = 2.3 =
-* Added a toggle for temporary disable the custom CSS code.
+* Added a toggle for temporarily disable the custom CSS code.
 * Added active-line.js add-on to CodeMirror editor.
 * Added function for stoping execution of user entered code if it empty.
 * Added function of automatic remove the "successful" message after 3 seconds.
@@ -365,7 +377,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Beta version.
 
 = 0.1 =
-* Alfa version.
+* Alpha version.
 
 
 == Upgrade Notice ==

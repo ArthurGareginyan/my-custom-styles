@@ -2,15 +2,11 @@
 
 /**
  * Prevent Direct Access
- *
- * @since 0.1
  */
 defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Render Settings Tab Content
- *
- * @since 4.6
  */
 ?>
     <div class="has-sidebar sm-padded">
@@ -18,39 +14,38 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
             <div class="meta-box-sortabless">
 
                 <form action="options.php" method="post" enctype="multipart/form-data">
-                    <?php settings_fields( MCSTYLES_SETTINGS . '_settings_group' ); ?>
+                    <?php settings_fields( SPACEXCHIMP_P003_SETTINGS . '_settings_group' ); ?>
 
                     <?php
                         // Get options from the database
-                        $options = get_option( MCSTYLES_SETTINGS . '_settings' );
+                        $options = get_option( SPACEXCHIMP_P003_SETTINGS . '_settings' );
 
                         // Set default value if option is empty
-                        $content = !empty( $options['mcstyles-content'] ) ? $options['mcstyles-content'] : '/* Enter your custom styles here */';
+                        $content = !empty( $options['snippets'] ) ? $options['snippets'] : '/* Enter your custom styles here */';
                         $enable = ( !empty( $options['enable'] ) && $options['enable'] == "on" ) ? 'checked' : ' ';
                     ?>
 
                     <div class="postbox">
                         <h3 class="title">
-                            <label for="mcstyles_settings[mcstyles-content]" ><?php _e( 'Styles (CSS code)', $text ); ?></label>
-                            <div class="trigger">
-                                <input type="checkbox" name="mcstyles_settings[enable]" id="mcstyles_settings[enable]" <?php echo $enable; ?> >
-                                <label for="mcstyles_settings[enable]"></label>
+                            <label for="spacexchimp_p003_settings[snippets]" ><?php _e( 'Styles (CSS code)', $text ); ?></label>
+                            <div class="pull-right">
+                                <input type="checkbox" name="spacexchimp_p003_settings[enable]" id="spacexchimp_p003_settings[enable]" <?php echo $enable; ?> class="control-switch-onoff">
                             </div>
                         </h3>
                         <div class="inside">
-                            <textarea name="mcstyles_settings[mcstyles-content]" id="mcstyles_settings[mcstyles-content]" ><?php echo esc_attr( $content ); ?></textarea>
+                            <textarea name="spacexchimp_p003_settings[snippets]" id="spacexchimp_p003_settings[snippets]" ><?php echo esc_attr( $content ); ?></textarea>
                         </div>
                     </div>
 
-                    <?php submit_button( __( 'Save changes', $text ), 'primary', 'submit', true ); ?>
+                    <input type="submit" name="submit" id="submit" class="btn btn-primary" value="<?php _e( 'Save changes', $text ); ?>">
 
                     <div class="postbox" id="support-addition">
                         <h3 class="title"><?php _e( 'Support', $text ); ?></h3>
                         <div class="inside">
                             <p><?php _e( 'I\'m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy.', $text ); ?></p>
-                            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" class="btn btn-default btn-labeled">
+                            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" class="btn btn-default button-labeled">
                                                         <span class="btn-label">
-                                                            <img src="<?php echo MCSTYLES_URL . 'inc/img/paypal.svg'; ?>" alt="PayPal">
+                                                            <img src="<?php echo SPACEXCHIMP_P003_URL . 'inc/img/paypal.svg'; ?>" alt="PayPal">
                                                         </span>
                                                         <?php _e( 'Donate with PayPal', $text ); ?>
                                                 </a>
