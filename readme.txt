@@ -4,7 +4,7 @@ Tags: code, snippet, custom, css, css2, css3, edit, editing, editor, simple, sty
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.8
-Stable tag: 4.8
+Stable tag: 4.9
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -94,7 +94,7 @@ Manually via FTP access:
 4. Log into Admin Panel of your WordPress website.
 5. Activate this plugin through the "`Plugins`" tab.
 
-After installation and activation, the "`CSS Inserter`" menu item will appear in the "`Space X-Chimp`" section. Click on this in order to view plugin administration page.
+After installation and activation, the "`CSS Inserter`" menu item will appear in the "`Space X-Chimp`" section of Admin Panel. Click on it in order to view the plugin settings page.
 
 [More help installing plugins](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins "WordPress Codex: Installing Plugins")
 
@@ -170,6 +170,10 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.9 =
+* Fixed the issue due tof which the 'Space X-Chimp' sub menu item in the brand menu item was displayed.
+* Added branded footer text on the plugin's settings page.
 
 = 4.8 =
 * Added the top level menu item of the brand.
