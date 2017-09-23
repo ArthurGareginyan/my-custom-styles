@@ -94,7 +94,7 @@ Manually via FTP access:
 4. Log into Admin Panel of your WordPress website.
 5. Activate this plugin through the "`Plugins`" tab.
 
-After installation and activation, the "`CSS Inserter`" menu item will appear in the "`Space X-Chimp`" section of Admin Panel. Click on it in order to view the plugin settings page.
+After installation and activation, the "`CSS Inserter`" menu item will appear in the "`Settings`" section of Admin Panel. Click on it in order to view the plugin settings page.
 
 [More help installing plugins](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins "WordPress Codex: Installing Plugins")
 
@@ -109,7 +109,7 @@ A. Yes. This plugin is ready for translation and has already been translated int
 
 = Q. How does it work? =
 A. Simply go to the plugin settings page, place your CSS code in the field, switch the toggle to the "ON" position and click the "Save changes" button. Enjoy the result of applying your CSS code. It's that simple!
-You can find the plugin settings page at "`WP Admin Panel`" -> "`Space X-Chimp`" -> "`CSS Inserter`".
+You can find the plugin settings page at "`WP Admin Panel`" -> "`Settings`" -> "`CSS Inserter`".
 
 = Q. How much of CSS code (characters) I can enter in the text field? =
 A. I don't limit the number of characters.
