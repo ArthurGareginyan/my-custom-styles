@@ -4,7 +4,7 @@ Tags: code, snippet, custom, css, css2, css3, edit, editing, editor, simple, sty
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.8
-Stable tag: 4.10
+Stable tag: 4.11
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -62,6 +62,7 @@ This plugin is ready for translation and has already been translated into severa
 
 * English (default)
 * Russian (translation by [Milena Kiseleva](https://www.instagram.com/milava_kiseleva/))
+* German (translation by Michael)
 * Spanish (translation by Patricio Toledo)
 
 If you want to help translate this plugin then please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/my-custom-styles).
@@ -170,6 +171,11 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.11 =
+* German translation added. (Thanks to Michael)
+* Spanish translation updated. (Thanks to Patricio Toledo)
+* Fixed an issue where the "Hello" message could not be hidden.
 
 = 4.10 =
 * At the request of some users, plugin settings page moved to the submenu item in the top-level menu item "Settings", like before.
