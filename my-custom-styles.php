@@ -5,7 +5,7 @@
  * Description: Easily and safely add your custom styles (CSS) to WordPress website's HEAD section directly out of your WordPress Admin area, without the need to have an external editor.
  * Author: Arthur Gareginyan
  * Author URI: https://www.arthurgareginyan.com
- * Version: 4.11
+ * Version: 4.12
  * License: GPL3
  * Text Domain: my-custom-styles
  * Domain Path: /languages/
