@@ -93,7 +93,7 @@ function spacexchimp_p003_admin_footer_text() {
     // Filter footer text
     function spacexchimp_p003_new_admin_footer_text() {
         $year = date('Y');
-        return "Copyright &copy; " . $year . " <a href='https://www.spacexchimp.com' target='_blank'>Space X-Chimp</a> Studio | Click <a href='https://www.spacexchimp.com/store.html' target='_blank'>here</a> to see my other products.";
+        return "Copyright &copy; " . $year . " <a href='https://www.spacexchimp.com' target='_blank'>Space X-Chimp</a> | Click <a href='https://www.spacexchimp.com/store.html' target='_blank'>here</a> to see our other products.";
     }
     add_filter( 'admin_footer_text', 'spacexchimp_p003_new_admin_footer_text', 11 );
 }

@@ -46,7 +46,7 @@ On the plugin page you find the CSS editor powered by CodeMirror. It have syntax
 >* Sidebar items can be collapsed or expanded
 >* Well documented
 >
->[Get the premium version now!](https://www.arthurgareginyan.com/plugin-my-custom-styles-pro.html)
+>[Get the premium version now!](https://www.spacexchimp.com/plugins/my-custom-styles-pro.html)
 
 
 
@@ -93,7 +93,7 @@ Arthur Garegnyan
 ## Links
 
 * [Dedicated Plugin Page on WordPress.org](https://wordpress.org/plugins/my-custom-styles/)
-* [My Custom Styles PRO](https://www.arthurgareginyan.com/plugin-my-custom-styles-pro.html)
+* [My Custom Styles PRO](https://www.spacexchimp.com/plugins/my-custom-styles-pro.html)
 
 
 ---
