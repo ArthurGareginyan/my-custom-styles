@@ -44,7 +44,7 @@ function spacexchimp_p003_plugin_row_meta( $links, $file ) {
     if ( strpos( $file, SPACEXCHIMP_P003_SLUG . '.php' ) !== false ) {
 
         $new_links = array(
-                           'donate' => '<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank"><span class="dashicons dashicons-heart"></span> ' . __( 'Donate', SPACEXCHIMP_P003_TEXT ) . '</a>',
+                           'donate' => '<a href="https://www.spacexchimp.com/donate.html" target="_blank"><span class="dashicons dashicons-heart"></span> ' . __( 'Donate', SPACEXCHIMP_P003_TEXT ) . '</a>',
                            'upgrage' => '<a href="https://www.spacexchimp.com/plugins/my-custom-styles-pro.html" target="_blank"><span class="dashicons dashicons-star-filled"></span> ' . __( 'Upgrade to PRO', SPACEXCHIMP_P003_TEXT ) . '</a>'
                            );
         $links = array_merge( $links, $new_links );

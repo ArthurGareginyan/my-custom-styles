@@ -1,19 +1,19 @@
 === My Custom Styles ===
 Contributors: Arthur Gareginyan
 Tags: code, snippet, custom, css, css2, css3, edit, editing, editor, simple, style, styles, styling, stylesheet, style sheet, plugin, codemirror, syntax highlighting, syntaxhighlighting, syntax highlighter, syntaxhighlighter, syntax,
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
+Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.13
+Stable tag: 4.14
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Easily and safely add your custom styles (CSS code) directly out of your WordPress Admin area, without the need to have an external editor.
+Easily and safely add your custom styles (CSS code) directly out of your WordPress Admin Area, without the need to have an external editor.
 
 
 == Description ==
 
-An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add your custom styles (CSS code) to WordPress website's <head> section, directly out of your WordPress Admin area and without any need for an external editor.
+An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add your custom styles (CSS code) to WordPress website's HEAD section directly out of your WordPress Admin Area, without the need to have an external editor.
 
 Its purpose is to provide a familiar experience to WordPress users. No need for any more editing of the files of your theme and/or plugins for to add custom CSS code. Just add your CSS code in the field on the plugin settings page and this plugin will do the rest for you.
 
@@ -67,12 +67,12 @@ This plugin is ready for translation and has already been translated into severa
 
 If you want to help translate this plugin then please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/my-custom-styles).
 
-**System requirements**
+**Minimum system requirements:**
 
 * [PHP](https://php.net) version **5.3** or higher.
 * [MySQL](https://www.mysql.com) version **5.0** or higher.
 
-**Recommendations:**
+**Recommended system requirements:**
 
 * [PHP](https://php.net) version **7.0** or higher.
 * [MySQL](https://www.mysql.com) version **5.6** or higher.
@@ -81,18 +81,18 @@ If you want to help translate this plugin then please visit the [translation pag
 
 Developing plugins is long and tedious work. If you benefit or enjoy this plugin please take the time to:
 
-* [Donate](https://www.arthurgareginyan.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
+* [Donate](https://www.spacexchimp.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
 * [Rate and Review](https://wordpress.org/support/view/plugin-reviews/my-custom-styles?rate=5#postform) this plugin.
-* [Share with me](mailto:arthurgareginyan@gmail.com) or view the [GitHub Repo](https://github.com/ArthurGareginyan/my-custom-styles) if you have any ideas or suggestions to make this plugin better.
+* [Share with us](https://www.spacexchimp.com/contact.html) or view the [GitHub Repo](https://github.com/ArthurGareginyan/my-custom-styles) if you have any ideas or suggestions to make this plugin better.
 
 
 == Installation ==
 
 Install "My Custom Styles" just as you would any other WordPress Plugin.
 
-Automatically via WordPress Admin Panel:
+Automatically via WordPress Admin Area:
 
-1. Log into Admin Panel of your WordPress website.
+1. Log in to Admin Area of your WordPress website.
 2. Go to "`Plugins`" -> "`Add New`".
 3. Find this plugin and click install.
 4. Activate this plugin through the "`Plugins`" tab.
@@ -102,10 +102,10 @@ Manually via FTP access:
 1. Download a copy (ZIP file) of this plugin from WordPress.org.
 2. Unzip the ZIP file.
 3. Upload the unzipped catalog to your website's plugin directory (`/wp-content/plugins/`).
-4. Log into Admin Panel of your WordPress website.
+4. Log in to Admin Area of your WordPress website.
 5. Activate this plugin through the "`Plugins`" tab.
 
-After installation and activation, the "`CSS Inserter`" menu item will appear in the "`Settings`" section of Admin Panel. Click on it in order to view the plugin settings page.
+After installation and activation, the "`CSS Inserter`" menu item will appear in the "`Settings`" section of Admin Area. Click on it in order to view the plugin settings page.
 
 [More help installing plugins](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins "WordPress Codex: Installing Plugins")
 
@@ -116,17 +116,17 @@ After installation and activation, the "`CSS Inserter`" menu item will appear in
 A. Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) websites.
 
 = Q. Can I use this plugin on my language? =
-A. Yes. This plugin is ready for translation and has already been translated into several languages. But If your language is not available then you can make one. The POT file is included and placed in the "`languages`" folder. Just send the PO file to us at the arthurgareginyan@gmail.com and we will include this translation within the next plugin update. Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!
+A. Yes. This plugin is ready for translation and has already been translated into several languages. But If your language is not available then you can make one. The POT file is included and placed in the "`languages`" folder. Just [send the PO file to us](https://www.spacexchimp.com/contact.html) and we will include this translation within the next plugin update. Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!
 
 = Q. How does it work? =
 A. Simply go to the plugin settings page, place your CSS code in the field, switch the toggle to the "ON" position and click the "Save changes" button. Enjoy the result of applying your CSS code. It's that simple!
-You can find the plugin settings page at "`WP Admin Panel`" -> "`Settings`" -> "`CSS Inserter`".
+You can find the plugin settings page at "`WordPress Admin Area`" -> "`Settings`" -> "`CSS Inserter`".
 
 = Q. How much of CSS code (characters) I can enter in the text field? =
 A. We don't limit the number of characters.
 
 = Q. Does this plugin requires any modification of the theme? =
-A. Absolutely not. This plugin is configurable entirely from the plugin settings page that you can find in the Admin Panel of your WordPress website.
+A. Absolutely not. This plugin is configurable entirely from the plugin settings page that you can find in the Admin Area of your WordPress website.
 
 = Q. Does this require any knowledge of HTML or CSS? =
 A. This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page. But you need to know the HTML or CSS in order to add/remove/modify the HTML or CSS code by using this plugin.
@@ -136,17 +136,17 @@ A. As with every plugin, it's possible that things don't work. The most common r
 
 It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's support forum on WordPress.org, we'd be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen.
 
-= Q. The last WordPress update is preventing me from editing the website of the creator that is using this plugin. Why is this? =
+= Q. The last WordPress update is preventing me from editing my website that is using this plugin. Why is this? =
 A. This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website's cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help.
 
 = Q. Where to report bug if found? =
-A. Please visit the [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/my-custom-styles) and report.
+A. Bug reports are very welcome! Please visit [our contact page](https://www.spacexchimp.com/contact.html) and report. Thank you!
 
 = Q. Where to share any ideas or suggestions to make the plugin better? =
-A. Any suggestions are very welcome! Please send us an email to [arthurgareginyan@gmail.com](mailto:arthurgareginyan@gmail.com). Thank you!
+A. Any suggestions are very welcome! Please visit [our contact page](https://www.spacexchimp.com/contact.html) and share. Thank you!
 
 = Q. I love this plugin! Can I help somehow? =
-A. Yes, any financial contributions are welcome! Just visit [the website of the creator](https://www.arthurgareginyan.com/donate.html), click on the donate button, and thank you!
+A. Yes, any contributions are very welcome! Please visit [our donation page](https://www.spacexchimp.com/donate.html). Thank you!
 
 
 == Screenshots ==
@@ -159,7 +159,7 @@ A. Yes, any financial contributions are welcome! Just visit [the website of the 
 
 ****
 
-"My Custom Styles" is one of the personal software projects of [Arthur Gareginyan](https://www.arthurgareginyan.com).
+"My Custom Styles" is one of the own software projects of [Space X-Chimp](https://www.spacexchimp.com).
 
 **License**
 
@@ -168,19 +168,25 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 **Credits**
 
-* The icon of plugin is a copyrighted image created by [Arthur Gareginyan](https://www.arthurgareginyan.com). (C) All rights reserved.
-* The banner of plugin is a copyrighted image created by [Arthur Gareginyan](https://www.arthurgareginyan.com). (C) All rights reserved.
+* The icon of plugin is a copyrighted image created by the [Space X-Chimp](https://www.spacexchimp.com) team. (C) All rights reserved.
+* The banner of plugin is a copyrighted image created by the [Space X-Chimp](https://www.spacexchimp.com) team. (C) All rights reserved.
 * [CodeMirror](https://codemirror.net/) is an open-source project shared under the [MIT license](https://codemirror.net/LICENSE).
 * [Bootstrap](http://getbootstrap.com) by Twitter, Inc. released under the [MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE).
 
 **Links**
 
-* [Developer Website](https://www.arthurgareginyan.com)
-* [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/my-custom-styles)
+* [Developer website](https://www.spacexchimp.com)
+* [Dedicated plugin page on GitHub](https://github.com/ArthurGareginyan/my-custom-styles)
 * [Premium Version](https://www.spacexchimp.com/plugins/my-custom-styles-pro.html)
 
 
 == Changelog ==
+
+= 4.14 =
+* Some texts updated, and typos corrected.
+* All translation files updated.
+* The information about the author of the plugin (including name, links, copyright, etc.) was changed due to the fact that the plugin became the property of SpaceXChimp.
+* The human.txt file updated.
 
 = 4.13 =
 * Texts updated.
@@ -202,7 +208,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * In the "_register_submenu_page" function, "$capability" changed from the 'edit_theme_options' to 'manage_options'.
 
 = 4.9 =
-* Fixed the issue due tof which the 'Space X-Chimp' sub menu item in the brand menu item was displayed.
+* Fixed the issue due to which the 'Space X-Chimp' sub menu item in the brand menu item was displayed.
 * Added branded footer text on the plugin's settings page.
 
 = 4.8 =
