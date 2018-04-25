@@ -1,8 +1,8 @@
-# Translation of Development (trunk) in German (Germany)
-# This file is distributed under the same license as the Development (trunk) package.
+# Translation of plugin - My Custom Styles - in German (Germany)
+# This file is distributed under the same license as the plugin - My Custom Styles.
 msgid ""
 msgstr ""
-"Project-Id-Version: Development (trunk)\n"
+"Project-Id-Version: My Custom Styles\n"
 "POT-Creation-Date: 2018-04-20 01:35+0300\n"
 "PO-Revision-Date: 2018-04-20 01:35+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
@@ -340,6 +340,3 @@ msgstr "Space X-Chimp"
 #. Author URI of the plugin/theme
 msgid "https://www.spacexchimp.com"
 msgstr "https://www.spacexchimp.com"
-
-#~ msgid "Arthur Gareginyan"
-#~ msgstr "Arthur Gareginyan"
