@@ -29,7 +29,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
             <div class="postbox banner">
                 <div class="inside">
                     <a href="https://www.spacexchimp.com/plugins/my-custom-styles-pro.html" target="_blank">
-                        <img src="https://www.spacexchimp.com/assets/dynamic-content/images/plugin-upgrade.png" alt="Upgrade" style="margin-top:-16px;">
+                        <img src="<?php echo SPACEXCHIMP_P003_URL . 'inc/img/upgrade.png'; ?>" alt="Upgrade" style="margin-top:-16px;">
                     </a>
                 </div>
             </div>
