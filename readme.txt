@@ -4,7 +4,7 @@ Tags: code, snippet, custom, css, css2, css3, edit, editing, editor, simple, sty
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.19
+Stable tag: 4.20
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -164,7 +164,7 @@ A. Yes, any contributions are very welcome! Please visit [our donation page](htt
 **License**
 
 This plugin is licensed under the [GNU General Public License, version 3 (GPLv3)](http://www.gnu.org/licenses/gpl-3.0.html) and is distributed free of charge.
-Commercial licensing (e.g. for projects that can’t use an open-source license) is available upon request.
+Commercial licensing (e.g. for projects that can’t use an open-source licence) is available upon request.
 
 **Credits**
 
@@ -181,6 +181,10 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.20 =
+* Updated the method of loading the addons of the CodeMirror library.
+* Added the addon 'autorefresh.js' to the CodeMirror editor. The code for manual refreshing the CodeMirror editor is deleted.
 
 = 4.19 =
 * CodeMirror library updated to the latest version v5.38.0. The directory structure is changed (files are better organized). Added a test files for the CodeMirror modes.
