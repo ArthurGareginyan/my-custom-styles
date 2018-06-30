@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Styles\n"
-"POT-Creation-Date: 2018-04-20 01:35+0300\n"
-"PO-Revision-Date: 2018-04-20 01:35+0300\n"
+"POT-Creation-Date: 2018-06-30 20:02+0300\n"
+"PO-Revision-Date: 2018-06-30 20:02+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -78,7 +78,7 @@ msgstr "Uso"
 msgid "F.A.Q."
 msgstr "Preguntas ?"
 
-#: inc/php/page.php:47 inc/php/settings.php:43 inc/php/sidebar.php:46
+#: inc/php/page.php:47 inc/php/settings.php:53 inc/php/sidebar.php:46
 msgid "Support"
 msgstr "Soporte"
 
@@ -264,7 +264,7 @@ msgstr ""
 msgid "Support Me"
 msgstr "Apoyarme!"
 
-#: inc/php/page.php:208 inc/php/settings.php:50 inc/php/sidebar.php:53
+#: inc/php/page.php:208 inc/php/settings.php:60 inc/php/sidebar.php:53
 msgid "Donate with PayPal"
 msgstr "Donar con PayPal"
 
@@ -293,15 +293,19 @@ msgstr "¡Gracias por tu apoyo!"
 msgid "Styles (CSS code)"
 msgstr ""
 
-#: inc/php/settings.php:40
+#: inc/php/settings.php:45
+msgid "Enter your CSS styles here"
+msgstr ""
+
+#: inc/php/settings.php:50
 msgid "Save changes"
 msgstr "Guardar Cambios"
 
-#: inc/php/settings.php:45 inc/php/sidebar.php:48
+#: inc/php/settings.php:55 inc/php/sidebar.php:48
 msgid "I'm an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy."
 msgstr "Soy un desarrollador independiente, sin un ingreso regular, por lo que cada pequeña contribución ayuda a cubrir mis costos y me deja pasar más tiempo construyendo cosas para que personas como tú las disfruten."
 
-#: inc/php/settings.php:52 inc/php/sidebar.php:55
+#: inc/php/settings.php:62 inc/php/sidebar.php:55
 msgid "Thanks for your support!"
 msgstr "¡Gracias por tu apoyo!"
 
