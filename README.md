@@ -1,6 +1,6 @@
 # My Custom Styles
 
-**Free Premium WordPress Plugin**
+**Free WordPress Plugin**
 
 ![screenshot](https://github.com/ArthurGareginyan/my-custom-styles/blob/master/assets/banner-772x250.png)
 
