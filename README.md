@@ -4,13 +4,13 @@
 
 ![screenshot](https://github.com/ArthurGareginyan/my-custom-styles/blob/master/assets/banner-772x250.png)
 
-An easy to use WordPress plugin that gives you the ability to easily and safely add your custom styles (CSS code) to WordPress website's <head> section, directly out of your WordPress Dashboard, without any need of an external editor. This is a "PRO" version of the plugin "My Custom Styles". More features, more power. Unlimited number of snippets, Trigger for temporary disable the snippet, Automatic backup of all snippets to a file, and CSS minifier.
+An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add your custom styles (CSS code) to WordPress website's HEAD section directly out of your WordPress Admin Area, without the need to have an external editor.
 
-It’s purpose is to provide a familiar experience to WordPress users. No need anymore to editing a files of your theme and/or plugins for to add custom CSS code. Just add your CSS code in the field on the plugin page and this plugin will do the rest for you.
+Its purpose is to provide a familiar experience to WordPress users. There is no need for any more editing of the files of your theme or plugins for to add custom CSS code. Just add your custom CSS code in the field on the plugin page and this plugin will do the rest for you.
 
-It's really useful in case of any theme/plugin update, because your custom CSS code would never be overwritten. Your custom CSS code will keep on working, no matter how many times you upgrade or switch your theme.
+The plugin works completely independently of the theme, so you can use it with any theme, and regardless of whether the theme does or does not have a style.css file. The code you place on the plugin page will be entirely unaffected if you edit the contents of the theme’s style.css file, or even completely change the theme. This is really useful in case of updating theme or plugins, because your custom CSS code would never be overwritten. Your custom CSS code will keep on working, no matter how many times you upgrade or switch your theme and plugins.
 
-On the plugin page you find the CSS editor powered by CodeMirror. It have syntax highlighting and line numbering options. Also this editor support a tab indentation.
+On the plugin page you find the code editor powered by CodeMirror. This code editor has options such as syntax highlighting, line numbering, and more. And if you want more options, let us know and we will be happy to add them.
 
 
 ## Features
