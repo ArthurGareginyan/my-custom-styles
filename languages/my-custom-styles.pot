@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: My Custom Styles\n"
-"POT-Creation-Date: 2018-07-24 00:36+0300\n"
+"POT-Creation-Date: 2018-08-07 01:38+0300\n"
 "PO-Revision-Date: 2015-09-09 17:37+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -97,7 +97,7 @@ msgid "Go to the \"Main\" tab."
 msgstr ""
 
 #: inc/php/page.php:69
-msgid "Place your CSS code in the field."
+msgid "Place your custom CSS code in the field."
 msgstr ""
 
 #: inc/php/page.php:70
@@ -121,7 +121,7 @@ msgid "Click the \"Save changes\" button."
 msgstr ""
 
 #: inc/php/page.php:84
-msgid "Enjoy the result of applying your CSS code."
+msgid "Enjoy the result of applying your custom CSS code."
 msgstr ""
 
 #: inc/php/page.php:84
@@ -175,7 +175,7 @@ msgid "How does it work?"
 msgstr ""
 
 #: inc/php/page.php:142
-msgid "On the \"Main\" tab, place your CSS code in the field, switch the toggle to the \"ON\" position and click the \"Save changes\" button. Enjoy the result of applying your CSS code. It's that simple!"
+msgid "On the \"Main\" tab, place your custom CSS code in the field, switch the toggle to the \"ON\" position and click the \"Save changes\" button. Enjoy the result of applying your custom CSS code. It's that simple!"
 msgstr ""
 
 #: inc/php/page.php:144

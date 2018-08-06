@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Styles\n"
-"POT-Creation-Date: 2018-07-24 00:35+0300\n"
-"PO-Revision-Date: 2018-07-24 00:35+0300\n"
+"POT-Creation-Date: 2018-08-07 01:38+0300\n"
+"PO-Revision-Date: 2018-08-07 01:38+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -99,7 +99,7 @@ msgid "Go to the \"Main\" tab."
 msgstr "Ga naar het tabblad “Hoofd”."
 
 #: inc/php/page.php:69
-msgid "Place your CSS code in the field."
+msgid "Place your custom CSS code in the field."
 msgstr ""
 
 #: inc/php/page.php:70
@@ -123,7 +123,7 @@ msgid "Click the \"Save changes\" button."
 msgstr "Klik op de knop \"Wijzigingen opslaan\"."
 
 #: inc/php/page.php:84
-msgid "Enjoy the result of applying your CSS code."
+msgid "Enjoy the result of applying your custom CSS code."
 msgstr ""
 
 #: inc/php/page.php:84
@@ -177,7 +177,7 @@ msgid "How does it work?"
 msgstr "Hoe werkt het?"
 
 #: inc/php/page.php:142
-msgid "On the \"Main\" tab, place your CSS code in the field, switch the toggle to the \"ON\" position and click the \"Save changes\" button. Enjoy the result of applying your CSS code. It's that simple!"
+msgid "On the \"Main\" tab, place your custom CSS code in the field, switch the toggle to the \"ON\" position and click the \"Save changes\" button. Enjoy the result of applying your custom CSS code. It's that simple!"
 msgstr ""
 
 #: inc/php/page.php:144
@@ -331,7 +331,7 @@ msgstr "Als je een vraag hebt, lees dan de informatie in de FAQ-sectie."
 
 #. Plugin Name of the plugin/theme
 msgid "My Custom Styles"
-msgstr "Mijn Persoonlijke Functies"
+msgstr "Mijn Persoonlijke Stijlen"
 
 #. Plugin URI of the plugin/theme
 msgid "https://github.com/ArthurGareginyan/my-custom-styles"

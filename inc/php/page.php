@@ -66,7 +66,7 @@ function spacexchimp_p003_render_submenu_page() {
                         <p><?php _e( 'To add your custom styles (the CSS code) to your website, simply follow these steps:', $text ); ?></p>
                         <ol class="custom-counter">
                             <li><?php _e( 'Go to the "Main" tab.', $text ); ?></li>
-                            <li><?php _e( 'Place your CSS code in the field.', $text ); ?><br><br>
+                            <li><?php _e( 'Place your custom CSS code in the field.', $text ); ?><br><br>
                                 <?php _e( 'Example of CSS code:', $text ); ?>
 <pre><code>#header {
     background:#000;
@@ -81,7 +81,7 @@ body {
                             </li>
                             <li><?php _e( 'Switch the toggle to the "ON" position.', $text ); ?></li>
                             <li><?php _e( 'Click the "Save changes" button.', $text ); ?></li>
-                            <li><?php _e( 'Enjoy the result of applying your CSS code.', $text ); ?> <?php _e( 'It\'s that simple!', $text ); ?></li>
+                            <li><?php _e( 'Enjoy the result of applying your custom CSS code.', $text ); ?> <?php _e( 'It\'s that simple!', $text ); ?></li>
                         </ol>
                         <p class="note"><b><?php _e( 'Note!', $text ); ?></b> <?php printf(
                                                                                             __( 'If you want more options then %s tell us %s and we will be happy to add it.', $text ),
@@ -139,7 +139,7 @@ body {
                                               <?php _e( 'Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!', $text ); ?></div>
 
                         <div class="question-3"><?php _e( 'How does it work?', $text ); ?></div>
-                        <div class="answer-3"><?php _e( 'On the "Main" tab, place your CSS code in the field, switch the toggle to the "ON" position and click the "Save changes" button. Enjoy the result of applying your CSS code. It\'s that simple!', $text ); ?></div>
+                        <div class="answer-3"><?php _e( 'On the "Main" tab, place your custom CSS code in the field, switch the toggle to the "ON" position and click the "Save changes" button. Enjoy the result of applying your custom CSS code. It\'s that simple!', $text ); ?></div>
 
                         <div class="question-4"><?php _e( 'How much of CSS code (characters) I can enter in the text field?', $text ); ?></div>
                         <div class="answer-4"><?php _e( 'We don\'t limit the number of characters.', $text ); ?></div>

@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Styles\n"
-"POT-Creation-Date: 2018-07-24 00:36+0300\n"
-"PO-Revision-Date: 2018-07-24 00:36+0300\n"
+"POT-Creation-Date: 2018-08-07 01:38+0300\n"
+"PO-Revision-Date: 2018-08-07 01:38+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -99,7 +99,7 @@ msgid "Go to the \"Main\" tab."
 msgstr "Перейдите на вкладку «Главная»."
 
 #: inc/php/page.php:69
-msgid "Place your CSS code in the field."
+msgid "Place your custom CSS code in the field."
 msgstr "Поместите ваш CSS-код в поле."
 
 #: inc/php/page.php:70
@@ -123,7 +123,7 @@ msgid "Click the \"Save changes\" button."
 msgstr "Нажмите кнопку «Сохранить изменения»."
 
 #: inc/php/page.php:84
-msgid "Enjoy the result of applying your CSS code."
+msgid "Enjoy the result of applying your custom CSS code."
 msgstr "Наслаждайтесь результатом применения вашего CSS кода."
 
 #: inc/php/page.php:84
@@ -177,7 +177,7 @@ msgid "How does it work?"
 msgstr "Как оно работает?"
 
 #: inc/php/page.php:142
-msgid "On the \"Main\" tab, place your CSS code in the field, switch the toggle to the \"ON\" position and click the \"Save changes\" button. Enjoy the result of applying your CSS code. It's that simple!"
+msgid "On the \"Main\" tab, place your custom CSS code in the field, switch the toggle to the \"ON\" position and click the \"Save changes\" button. Enjoy the result of applying your custom CSS code. It's that simple!"
 msgstr "На вкладке «Основные» поместите ваш CSS код в поле, переключите переключатель в положение «ON» и нажмите кнопку «Сохранить изменения». Наслаждайтесь результатом применения вашего CSS кода. Это так просто!"
 
 #: inc/php/page.php:144
@@ -279,7 +279,7 @@ msgstr ""
 
 #: inc/php/page.php:222
 msgid "We spend a lot of time and effort trying to make sure that the themes, plugins and other things we build are useful, and the ultimate proof of that for us is that you actually want to use them. But we are an independent developers, without a regular income, so every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
-msgstr "Я трачу много времени и сил, пытаясь убедиться в том, что темы, плагины и другие вещи, которые я создаю, полезны и окончательное доказательство этого для меня состоит в том, что вы на самом деле хотите их использовать. Но Я независимый разработчик, без регулярного дохода, поэтому каждый небольшой вклад помогает мне покрыть расходы и позволяет тратить больше времени на создание программ для людей как вы."
+msgstr "Мы тратим много времени и усилий, пытаясь убедиться в том, что темы, плагины и другие вещи, которые мы создаём, полезны, и окончательное доказательство этого для нас то, что вы на самом деле хотите их использовать. Но мы независимые разработчики, без регулярного дохода, поэтому каждый небольшой вклад помогает покрыть наши расходы и позволяет нам тратить больше времени на создание вещей для таких замечательных людей, как вы."
 
 #: inc/php/page.php:223
 msgid "If you appreciate our work, you can buy us a cup of coffee!"

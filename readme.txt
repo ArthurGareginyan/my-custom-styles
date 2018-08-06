@@ -4,7 +4,7 @@ Tags: code, snippet, custom, css, css2, css3, edit, editing, editor, simple, sty
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.24
+Stable tag: 4.25
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -15,11 +15,11 @@ Easily and safely add your custom styles (CSS code) directly out of your WordPre
 
 An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add your custom styles (CSS code) to WordPress website's HEAD section directly out of your WordPress Admin Area, without the need to have an external editor.
 
-Its purpose is to provide a familiar experience to WordPress users. No need for any more editing of the files of your theme and/or plugins for to add custom CSS code. Just add your CSS code in the field on the plugin settings page and this plugin will do the rest for you.
+Its purpose is to provide a familiar experience to WordPress users. There is no need for any more editing of the files of your theme or plugins for to add custom CSS code. Just add your custom CSS code in the field on the plugin page and this plugin will do the rest for you.
 
-It's really useful in case of any theme update, because your custom CSS code would never be overwritten. Your custom CSS code will keep on working, no matter how many times you upgrade or switch your theme.
+The plugin works completely independently of the theme, so you can use it with any theme, and regardless of whether the theme does or does not have a style.css file. The code you place on the plugin page will be entirely unaffected if you edit the contents of the theme’s style.css file, or even completely change the theme. This is really useful in case of updating theme or plugins, because your custom CSS code would never be overwritten. Your custom CSS code will keep on working, no matter how many times you upgrade or switch your theme and plugins.
 
-On the plugin settings page you find the CSS editor powered by CodeMirror. It has syntax highlighting and line numbering options. Also this editor supports a tab indentation. If you want more options then tell us and we will be happy to add it.
+On the plugin page you find the code editor powered by CodeMirror. This code editor has options such as syntax highlighting, line numbering, and more. And if you want more options, let us know and we will be happy to add them.
 
 **Features**
 
@@ -34,18 +34,20 @@ On the plugin settings page you find the CSS editor powered by CodeMirror. It ha
 **Key features include...**
 
 * Ability to temporarily disable all custom snippets
-* Syntax highlighting (by CodeMirror)
+* Code syntax highlighting
 * Line numbering
 * Active line highlighting
-* Editor allow for tab indentation
+* Editor allow for Tab indentation
 * And much, much more!
 
 **PRO features include...**
 
+* Ability to easily customize the code editor by selecting the desired settings
+* 56 themes for syntax highlighting
 * Unlimited number of fields
 * CSS minifier
 * Automatic backup of all snippets to a file
-* Ability to temporarily disable the certain snippet
+* Ability to enable/disable the certain snippet
 * Ability to collapse/expand the certain fields with code
 * Well documented
 
@@ -120,7 +122,7 @@ A. Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) w
 A. Yes. This plugin is ready for translation and has already been translated into several languages. But If your language is not available then you can make one. The POT file is included and placed in the "`languages`" folder. Just [send the PO file to us](https://www.spacexchimp.com/contact.html) and we will include this translation within the next plugin update. Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!
 
 = Q. How does it work? =
-A. Simply go to the plugin settings page, place your CSS code in the field, switch the toggle to the "ON" position and click the "Save changes" button. Enjoy the result of applying your CSS code. It's that simple!
+A. Simply go to the plugin settings page, place your custom CSS code in the field, switch the toggle to the "ON" position and click the "Save changes" button. Enjoy the result of applying your custom CSS code. It's that simple!
 You can find the plugin settings page at "`WordPress Admin Area`" -> "`Settings`" -> "`CSS Inserter`".
 
 = Q. How much of CSS code (characters) I can enter in the text field? =
@@ -182,6 +184,12 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.25 =
+* Some texts are updated.
+* Translation files are updated.
+* The translation into Russian has been corrected.
+* The translation into Dutch has been corrected.
 
 = 4.24 =
 * Dutch translation added. (Thanks to Peter Leenders)
