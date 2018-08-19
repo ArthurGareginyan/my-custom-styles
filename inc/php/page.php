@@ -63,7 +63,7 @@ function spacexchimp_p003_render_submenu_page() {
                 <div class="postbox">
                     <h3 class="title"><?php _e( 'Usage Instructions', $text ); ?></h3>
                     <div class="inside">
-                        <p><?php _e( 'To add your custom styles (the CSS code) to your website, simply follow these steps:', $text ); ?></p>
+                        <p><?php _e( 'To add your custom styles (CSS code) to your website, simply follow these steps:', $text ); ?></p>
                         <ol class="custom-counter">
                             <li><?php _e( 'Go to the "Main" tab.', $text ); ?></li>
                             <li><?php _e( 'Place your custom CSS code in the field.', $text ); ?><br><br>

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: My Custom Styles\n"
-"POT-Creation-Date: 2018-08-07 01:38+0300\n"
+"POT-Creation-Date: 2018-08-18 18:13+0300\n"
 "PO-Revision-Date: 2015-09-09 17:37+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -52,7 +52,7 @@ msgid "Please update the plugin to the latest version, and all will be fine."
 msgstr ""
 
 #: inc/php/messages.php:91
-msgid "Custom styles updated successfully."
+msgid "Custom code updated successfully."
 msgstr ""
 
 #: inc/php/page.php:31
@@ -89,7 +89,7 @@ msgid "Usage Instructions"
 msgstr ""
 
 #: inc/php/page.php:66
-msgid "To add your custom styles (the CSS code) to your website, simply follow these steps:"
+msgid "To add your custom styles (CSS code) to your website, simply follow these steps:"
 msgstr ""
 
 #: inc/php/page.php:68
@@ -316,7 +316,7 @@ msgid "About"
 msgstr ""
 
 #: inc/php/sidebar.php:27
-msgid "This plugin allows you to easily add your custom styles (CSS code) directly out of your WordPress Admin Area, without the need to have an external editor."
+msgid "This plugin allows you to easily and safely add your custom styles (CSS code) directly out of your WordPress Admin Area, without the need to have an external editor."
 msgstr ""
 
 #: inc/php/sidebar.php:32
