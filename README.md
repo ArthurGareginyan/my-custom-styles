@@ -4,50 +4,83 @@
 
 ![screenshot](https://github.com/ArthurGareginyan/my-custom-styles/blob/master/assets/banner-772x250.png)
 
-An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add your custom styles (CSS code) to WordPress website's HEAD section directly out of your WordPress Admin Area, without the need to have an external editor.
+An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add your custom CSS code to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor.
 
-Its purpose is to provide a familiar experience to WordPress users. There is no need for any more editing of the files of your theme or plugins for to add custom CSS code. Just add your custom CSS code in the field on the plugin page and this plugin will do the rest for you.
+This is a must have tool for authors and website's owners. Its purpose is to provide a familiar experience to WordPress users. There is no need for any more editing of the files of your theme or plugins for to add custom CSS code. Just add your custom CSS code in the field on the plugin page and this plugin will do the rest for you. It will automatically add your CSS code to the desired section of your website, without changing any of your theme files and without slowing down your website.
 
 The plugin works completely independently of the theme, so you can use it with any theme, and regardless of whether the theme does or does not have a style.css file. The code you place on the plugin page will be entirely unaffected if you edit the contents of the theme’s style.css file, or even completely change the theme. This is really useful in case of updating theme or plugins, because your custom CSS code would never be overwritten. Your custom CSS code will keep on working, no matter how many times you upgrade or switch your theme and plugins.
 
 On the plugin page you find the code editor powered by CodeMirror. This code editor has options such as syntax highlighting, line numbering, and more. And if you want more options, let us know and we will be happy to add them.
 
+**Features**
 
-## Features
-
-* Responsive & Mobile optimized settings page
-* Trigger for temporary disable the custom CSS code
-* Syntax highlighting (by CodeMirror)
-* Line numbering
-* Active line highlighting
-* Editor allow for tab indentation
-* Ready for translation (POT file included)
+* Lightweight and fast
+* Secure code with using clear coding standards
+* Intuitive interface
+* Cross browser compatible (work smooth in any modern browser)
+* Compatible with all WordPress themes
+* RTL compatible (right to left)
+* Translation ready
 * Published on [WordPess.org](http://wordpess.org/)
 
-**Coming soon:**
+**Key features include...**
 
-* Reload the settings page at same position after pushing the save button
-* Multisite network support
+* Insert custom CSS code into the site
+* Ability to temporarily disable all custom CSS code
+* Code syntax highlighting
+* Line numbering
+* Active line highlighting
+* Editor allow for Tab indentation
+* And much, much more!
 
-**Translation:**
+**Supported languages**
 
-* English
-* Russian
+* CSS
 
-**Consider Going Pro For Additional Features!**
+**PRO features include...**
 
->**Pro Features**
->
->* Unlimited number of snippets
->* CSS minifier
->* Automatic backup of all snippets to a file
->* Trigger for temporary disable the certain snippets
->* Button for collapse/expand the field with code
->* Sidebar items can be collapsed or expanded
->* Well documented
->
->[Get the premium version now!](https://www.spacexchimp.com/plugins/my-custom-styles-pro.html)
+* CSS minifier
+* Manage which HTML code load on HEAD or FOOTER
+* Controlling the priority of loading HTML code
+* Ability to easily customize the code editor by selecting the desired settings
+* 56 themes for syntax highlighting
+* Unlimited number of fields for snippets
+* Automatic backup of all snippets to a downloadable text file
+* Separate activation and deactivation of snippets
+* Ability to collapse/expand the certain fields with code
+* Well documented
 
+[Get the PRO version now!](https://www.spacexchimp.com/plugins/my-custom-styles-pro.html)
+
+**Translation**
+
+This plugin is ready for translation and has already been translated into several languages.
+
+* English (default)
+* Russian (translation by [Milena Kiseleva](https://www.instagram.com/milava_kiseleva/))
+* German (translation by Michael)
+* Spanish (translation by Patricio Toledo)
+* Dutch (translation by Peter Leenders)
+
+If you want to help translate this plugin then please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/my-custom-styles).
+
+**Minimum system requirements:**
+
+* [PHP](https://php.net) version **5.3** or higher.
+* [MySQL](https://www.mysql.com) version **5.0** or higher.
+
+**Recommended system requirements:**
+
+* [PHP](https://php.net) version **7.0** or higher.
+* [MySQL](https://www.mysql.com) version **5.6** or higher.
+
+**Contribution**
+
+Developing plugins is long and tedious work. If you benefit or enjoy this plugin please take the time to:
+
+* [Donate](https://www.spacexchimp.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
+* [Rate and Review](https://wordpress.org/support/view/plugin-reviews/my-custom-styles?rate=5#postform) this plugin.
+* [Share with us](https://www.spacexchimp.com/contact.html) or view the [GitHub Repo](https://github.com/ArthurGareginyan/my-custom-styles) if you have any ideas or suggestions to make this plugin better.
 
 
 ## Contributing
