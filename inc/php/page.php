@@ -63,7 +63,7 @@ function spacexchimp_p003_render_submenu_page() {
                 <div class="postbox">
                     <h3 class="title"><?php _e( 'Usage Instructions', $text ); ?></h3>
                     <div class="inside">
-                        <p><?php _e( 'To add your custom styles (CSS code) to your website, simply follow these steps:', $text ); ?></p>
+                        <p><?php _e( 'To add your custom CSS code to your website, simply follow these steps:', $text ); ?></p>
                         <ol class="custom-counter">
                             <li><?php _e( 'Go to the "Main" tab.', $text ); ?></li>
                             <li><?php _e( 'Place your custom CSS code in the field.', $text ); ?><br><br>
@@ -141,7 +141,7 @@ body {
                         <div class="question-3"><?php _e( 'How does it work?', $text ); ?></div>
                         <div class="answer-3"><?php _e( 'On the "Main" tab, place your custom CSS code in the field, switch the toggle to the "ON" position and click the "Save changes" button. Enjoy the result of applying your custom CSS code. It\'s that simple!', $text ); ?></div>
 
-                        <div class="question-4"><?php _e( 'How much of CSS code (characters) I can enter in the text field?', $text ); ?></div>
+                        <div class="question-4"><?php _e( 'How much of CSS code (characters) I can enter in the code editor?', $text ); ?></div>
                         <div class="answer-4"><?php _e( 'We don\'t limit the number of characters.', $text ); ?></div>
 
                         <div class="question-5"><?php _e( 'Does this plugin requires any modification of the theme?', $text ); ?></div>

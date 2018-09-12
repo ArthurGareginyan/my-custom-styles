@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Styles\n"
-"POT-Creation-Date: 2018-08-18 18:13+0300\n"
-"PO-Revision-Date: 2018-08-18 18:13+0300\n"
+"POT-Creation-Date: 2018-09-12 18:19+0300\n"
+"PO-Revision-Date: 2018-09-12 18:19+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -91,7 +91,7 @@ msgid "Usage Instructions"
 msgstr "Инструкция по использованию"
 
 #: inc/php/page.php:66
-msgid "To add your custom styles (CSS code) to your website, simply follow these steps:"
+msgid "To add your custom CSS code to your website, simply follow these steps:"
 msgstr "Чтобы добавить свои пользовательские стили (код CSS) на свой вебсайт, просто выполните следующие действия:"
 
 #: inc/php/page.php:68
@@ -181,7 +181,7 @@ msgid "On the \"Main\" tab, place your custom CSS code in the field, switch the 
 msgstr "На вкладке «Основные» поместите ваш CSS код в поле, переключите переключатель в положение «ON» и нажмите кнопку «Сохранить изменения». Наслаждайтесь результатом применения вашего CSS кода. Это так просто!"
 
 #: inc/php/page.php:144
-msgid "How much of CSS code (characters) I can enter in the text field?"
+msgid "How much of CSS code (characters) I can enter in the code editor?"
 msgstr "Сколько CSS-кода (символов) можно ввести в текстовом поле?"
 
 #: inc/php/page.php:145
@@ -318,7 +318,7 @@ msgid "About"
 msgstr "О плагине"
 
 #: inc/php/sidebar.php:27
-msgid "This plugin allows you to easily and safely add your custom styles (CSS code) directly out of your WordPress Admin Area, without the need to have an external editor."
+msgid "This plugin allows you to easily and safely add your custom CSS code to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor."
 msgstr "Этот плагин позволяет вам легко и безопасно добавлять ваши пользовательские стили (CSS-код) непосредственно из вашей WordPress админки, без необходимости иметь внешний редактор."
 
 #: inc/php/sidebar.php:32
@@ -338,7 +338,7 @@ msgid "https://github.com/ArthurGareginyan/my-custom-styles"
 msgstr "https://github.com/ArthurGareginyan/my-custom-styles"
 
 #. Description of the plugin/theme
-msgid "Easily and safely add your custom styles (CSS) to WordPress website's HEAD section directly out of your WordPress Admin Area, without the need to have an external editor."
+msgid "Easily and safely add your custom CSS code to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor."
 msgstr "Легко и безопасно добавлять свои пользовательские стили (CSS) в раздел HEAD в WordPress прямо из области администрирования WordPress без необходимости иметь внешний редактор."
 
 #. Author of the plugin/theme

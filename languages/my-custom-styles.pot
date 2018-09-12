@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: My Custom Styles\n"
-"POT-Creation-Date: 2018-08-18 18:13+0300\n"
+"POT-Creation-Date: 2018-09-12 18:20+0300\n"
 "PO-Revision-Date: 2015-09-09 17:37+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -89,7 +89,7 @@ msgid "Usage Instructions"
 msgstr ""
 
 #: inc/php/page.php:66
-msgid "To add your custom styles (CSS code) to your website, simply follow these steps:"
+msgid "To add your custom CSS code to your website, simply follow these steps:"
 msgstr ""
 
 #: inc/php/page.php:68
@@ -179,7 +179,7 @@ msgid "On the \"Main\" tab, place your custom CSS code in the field, switch the 
 msgstr ""
 
 #: inc/php/page.php:144
-msgid "How much of CSS code (characters) I can enter in the text field?"
+msgid "How much of CSS code (characters) I can enter in the code editor?"
 msgstr ""
 
 #: inc/php/page.php:145
@@ -316,7 +316,7 @@ msgid "About"
 msgstr ""
 
 #: inc/php/sidebar.php:27
-msgid "This plugin allows you to easily and safely add your custom styles (CSS code) directly out of your WordPress Admin Area, without the need to have an external editor."
+msgid "This plugin allows you to easily and safely add your custom CSS code to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor."
 msgstr ""
 
 #: inc/php/sidebar.php:32
@@ -336,7 +336,7 @@ msgid "https://github.com/ArthurGareginyan/my-custom-styles"
 msgstr ""
 
 #. Description of the plugin/theme
-msgid "Easily and safely add your custom styles (CSS) to WordPress website's HEAD section directly out of your WordPress Admin Area, without the need to have an external editor."
+msgid "Easily and safely add your custom CSS code to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor."
 msgstr ""
 
 #. Author of the plugin/theme

@@ -2,10 +2,10 @@
 /**
  * Plugin Name: My Custom Styles
  * Plugin URI: https://github.com/ArthurGareginyan/my-custom-styles
- * Description: Easily and safely add your custom styles (CSS) to WordPress website's HEAD section directly out of your WordPress Admin Area, without the need to have an external editor.
+ * Description: Easily and safely add your custom CSS code to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor.
  * Author: Space X-Chimp
  * Author URI: https://www.spacexchimp.com
- * Version: 4.26
+ * Version: 4.27
  * License: GPL3
  * Text Domain: my-custom-styles
  * Domain Path: /languages/
