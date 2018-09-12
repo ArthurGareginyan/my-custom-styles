@@ -33,15 +33,11 @@ On the plugin page you find the code editor powered by CodeMirror. This code edi
 * Editor allow for Tab indentation
 * And much, much more!
 
-**Supported languages**
-
-* CSS
-
 **PRO features include...**
 
 * CSS minifier
-* Manage which HTML code load on HEAD or FOOTER
-* Controlling the priority of loading HTML code
+* Manage which CSS code load on HEAD or FOOTER
+* Controlling the priority of loading CSS code
 * Ability to easily customize the code editor by selecting the desired settings
 * 56 themes for syntax highlighting
 * Unlimited number of fields for snippets
@@ -51,6 +47,10 @@ On the plugin page you find the code editor powered by CodeMirror. This code edi
 * Well documented
 
 [Get the PRO version now!](https://www.spacexchimp.com/plugins/my-custom-styles-pro.html)
+
+**Supported languages**
+
+* CSS
 
 **Translation**
 
