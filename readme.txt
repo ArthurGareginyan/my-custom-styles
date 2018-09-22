@@ -4,7 +4,7 @@ Tags: inject code, inject snippet, inject css, insert code, insert snippet, inse
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.27
+Stable tag: 4.28
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -124,7 +124,7 @@ A. Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) w
 A. Yes. This plugin is ready for translation and has already been translated into several languages. But If your language is not available then you can make one. The POT file is included and placed in the "`languages`" folder. Just [send the PO file to us](https://www.spacexchimp.com/contact.html) and we will include this translation within the next plugin update. Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!
 
 = Q. How does it work? =
-A. Simply go to the plugin settings page, place your custom CSS code in the field, switch the toggle to the "ON" position and click the "Save changes" button. Enjoy the result of applying your custom CSS code. It's that simple!
+A. Simply go to the plugin settings page, place your custom CSS code in the code editor field, switch the toggle to the "ON" position and click the "Save changes" button. Enjoy the result of applying your custom CSS code. It's that simple!
 You can find the plugin settings page at "`WordPress Admin Area`" -> "`Settings`" -> "`CSS Inserter`".
 
 = Q. How much of CSS code (characters) I can enter in the code editor? =
@@ -135,6 +135,24 @@ A. Absolutely not. This plugin is configurable entirely from the plugin settings
 
 = Q. Does this require any knowledge of HTML or CSS? =
 A. This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page. But you need to know the HTML or CSS in order to add/remove/modify the HTML or CSS code by using this plugin.
+
+= Q. Can I add my custom CSS code to a specific page of my website? =
+A. For now, this plugin does not have an option to apply the custom CSS code only on specific pages. We plan to add this feature soon. But for now in order to apply your custom CSS code only on specific pages of your website, you need to wrap your custom CSS code in a PHP code that will determine the page you want. You need something like this:
+
+`function my_custom_css_code() {
+
+    // Stop the function if this is not the Home page of website
+    if ( !is_home() ) {
+        return;
+    }
+
+    // Print the custom CSS code
+    echo '<style>YOUR CUSTOM CSS CODE HERE</style>';
+
+}
+add_action( 'wp_head', 'my_custom_css_code' );`
+
+To apply the PHP code on a website, we can recommend you to use another our plugin called [My Custom Functions](https://wordpress.org/plugins/my-custom-functions/).
 
 = Q. It's not working. What could be wrong? =
 A. As with every plugin, it's possible that things don't work. The most common reason for this is a web browser's cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load. This is called the browser's cache.​ Clearing your browser's cache may solve the problem.
@@ -188,6 +206,13 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.28 =
+* Content of the "FAQ" section updated.
+* CSS code, which is located in the file "admin.css" and is related to the "FAQ" section, is improved.
+* The sidebar items are rearranged.
+* Some texts are updated.
+* Translation files are updated.
 
 = 4.27 =
 * The design of the message "Successful" is improved.
