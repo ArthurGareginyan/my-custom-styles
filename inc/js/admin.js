@@ -34,11 +34,11 @@ jQuery(document).ready(function($) {
          }
     });
 
-    // Enable switches (on/off)
+    // Enable switches
     $('.control-switch-onoff').checkboxpicker({
         reverse: true,
         offLabel: 'OFF',
         onLabel: 'ON'
-    });    
+    });
 
 });

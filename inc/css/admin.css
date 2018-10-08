@@ -563,6 +563,14 @@ td.help-text {
     font-size: 1.5em;
     vertical-align: middle;
 }
+.not-saved {
+    display: none;
+    margin-right: 15px;
+    font-family: Helvetica;
+    line-height: 35px;
+    vertical-align: middle;
+    color: red;
+}
 
 /* Titles */
 .meta-box-sortabless .title label {

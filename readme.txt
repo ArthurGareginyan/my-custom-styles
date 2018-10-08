@@ -4,7 +4,7 @@ Tags: inject code, inject snippet, inject css, insert code, insert snippet, inse
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.28
+Stable tag: 4.29
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -206,6 +206,11 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.29 =
+* Added new feature: If the changes in the code editor were made, but not saved, the message "NOT SAVED" is displayed.
+* Code commenting improved.
+* Translation files are updated.
 
 = 4.28 =
 * Content of the "FAQ" section updated.

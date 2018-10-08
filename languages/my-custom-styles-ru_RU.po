@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Styles\n"
-"POT-Creation-Date: 2018-09-22 15:32+0300\n"
-"PO-Revision-Date: 2018-09-22 15:44+0300\n"
+"POT-Creation-Date: 2018-10-08 08:37+0300\n"
+"PO-Revision-Date: 2018-10-08 08:37+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.1.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: my-custom-styles.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -78,7 +78,7 @@ msgstr "Применение"
 msgid "F.A.Q."
 msgstr "F.A.Q."
 
-#: inc/php/page.php:47 inc/php/settings.php:53 inc/php/sidebar.php:47
+#: inc/php/page.php:47 inc/php/settings.php:54 inc/php/sidebar.php:47
 msgid "Support"
 msgstr "Поддержка"
 
@@ -281,7 +281,7 @@ msgstr "Вы можете задать ваш вопрос на %s этой ст
 msgid "Support Us"
 msgstr "Поддержать нас"
 
-#: inc/php/page.php:231 inc/php/settings.php:60 inc/php/sidebar.php:54
+#: inc/php/page.php:231 inc/php/settings.php:61 inc/php/sidebar.php:54
 msgid "Donate with PayPal"
 msgstr "Пожертвовать через PayPal"
 
@@ -310,19 +310,23 @@ msgstr "Спасибо за вашу поддержку!"
 msgid "Styles (CSS code)"
 msgstr "Стили (CSS код)"
 
-#: inc/php/settings.php:45
+#: inc/php/settings.php:32
+msgid "NOT SAVED!"
+msgstr ""
+
+#: inc/php/settings.php:46
 msgid "Enter your CSS styles here"
 msgstr ""
 
-#: inc/php/settings.php:50
+#: inc/php/settings.php:51
 msgid "Save changes"
 msgstr "Сохранить изменения"
 
-#: inc/php/settings.php:55 inc/php/sidebar.php:49
+#: inc/php/settings.php:56 inc/php/sidebar.php:49
 msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr "Я независимый разработчик, без регулярного дохода, так что каждый маленький вклад помогает мне покрыть затраты и позволяет тратить больше времени на создание программ для людей как вы."
 
-#: inc/php/settings.php:62 inc/php/sidebar.php:56
+#: inc/php/settings.php:63 inc/php/sidebar.php:56
 msgid "Thanks for your support!"
 msgstr "Спасибо за вашу поддержку!"
 

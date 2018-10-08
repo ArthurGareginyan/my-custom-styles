@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: My Custom Styles\n"
-"POT-Creation-Date: 2018-09-22 15:33+0300\n"
+"POT-Creation-Date: 2018-10-08 08:37+0300\n"
 "PO-Revision-Date: 2015-09-09 17:37+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.1.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: my-custom-styles.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -76,7 +76,7 @@ msgstr ""
 msgid "F.A.Q."
 msgstr ""
 
-#: inc/php/page.php:47 inc/php/settings.php:53 inc/php/sidebar.php:47
+#: inc/php/page.php:47 inc/php/settings.php:54 inc/php/sidebar.php:47
 msgid "Support"
 msgstr ""
 
@@ -279,7 +279,7 @@ msgstr ""
 msgid "Support Us"
 msgstr ""
 
-#: inc/php/page.php:231 inc/php/settings.php:60 inc/php/sidebar.php:54
+#: inc/php/page.php:231 inc/php/settings.php:61 inc/php/sidebar.php:54
 msgid "Donate with PayPal"
 msgstr ""
 
@@ -308,19 +308,23 @@ msgstr ""
 msgid "Styles (CSS code)"
 msgstr ""
 
-#: inc/php/settings.php:45
+#: inc/php/settings.php:32
+msgid "NOT SAVED!"
+msgstr ""
+
+#: inc/php/settings.php:46
 msgid "Enter your CSS styles here"
 msgstr ""
 
-#: inc/php/settings.php:50
+#: inc/php/settings.php:51
 msgid "Save changes"
 msgstr ""
 
-#: inc/php/settings.php:55 inc/php/sidebar.php:49
+#: inc/php/settings.php:56 inc/php/sidebar.php:49
 msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr ""
 
-#: inc/php/settings.php:62 inc/php/sidebar.php:56
+#: inc/php/settings.php:63 inc/php/sidebar.php:56
 msgid "Thanks for your support!"
 msgstr ""
 

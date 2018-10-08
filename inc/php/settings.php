@@ -29,6 +29,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                         <h3 class="title">
                             <label for="spacexchimp_p003_settings[snippets]" ><?php _e( 'Styles (CSS code)', $text ); ?></label>
                             <div class="pull-right">
+                                <span class="not-saved"><?php _e( 'NOT SAVED!', $text ); ?></span>
                                 <input
                                     type="checkbox"
                                     name="spacexchimp_p003_settings[enable]"
