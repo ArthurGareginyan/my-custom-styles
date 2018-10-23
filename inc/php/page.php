@@ -67,26 +67,14 @@ function spacexchimp_p003_render_submenu_page() {
                         <ol class="custom-counter">
                             <li><?php _e( 'Go to the "Main" tab on this page.', $text ); ?></li>
                             <li><?php _e( 'Place your custom CSS code in the code editor field.', $text ); ?><br><br>
-                                <?php _e( 'An example of CSS code:', $text ); ?><br><br>
-<pre><code>h1, h2, h3 {
-    color: #000;
-    text-align: center;
-}
-
-p {
-    color: red;
-    /* This is a comment */
-    text-align: center;
-}</code></pre>
                                 <p class="note"><b><?php _e( 'Note!', $text ); ?></b> <?php _e( 'Do not wrap your custom CSS code in HTML tags, such as <code>&lt;style&gt;</code>...<code>&lt;/style&gt;</code>.', $text ); ?></p>
-                                <p class="note"><b><?php _e( 'Note!', $text ); ?></b> <?php _e( 'If you want to change the layout of your theme or plugin you should look for the element that you want to change. So first you should inspect your theme or plugin.', $text ); ?></p>
                             </li>
                             <li><?php _e( 'Switch the toggle to the "ON" position.', $text ); ?></li>
                             <li><?php _e( 'Click the "Save changes" button.', $text ); ?></li>
                             <li><?php _e( 'Enjoy the result of applying your custom CSS code.', $text ); ?> <?php _e( 'It\'s that simple!', $text ); ?></li>
                         </ol>
                         <p class="note"><b><?php _e( 'Note!', $text ); ?></b> <?php printf(
-                                                                                            __( 'If you want more options then %s tell us %s and we will be happy to add it.', $text ),
+                                                                                            __( 'If you want more options, then %s let us know %s and we will be happy to add them.', $text ),
                                                                                                 '<a href="https://www.spacexchimp.com/contact.html" target="_blank">',
                                                                                                 '</a>'
                                                                                           );
