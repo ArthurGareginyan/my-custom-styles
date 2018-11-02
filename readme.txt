@@ -4,7 +4,7 @@ Tags: inject code, inject snippet, inject css, insert code, insert snippet, inse
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.30
+Stable tag: 4.31
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -53,7 +53,7 @@ On the plugin page you find the code editor powered by CodeMirror. This code edi
 * Unlimited number of fields for snippets
 * Automatic backup of all snippets to a downloadable text file
 * Separate activation and deactivation of snippets
-* Ability to collapse/expand the certain fields with code
+* No ads on the settings page
 * Well documented
 
 [Get the PRO version now!](https://www.spacexchimp.com/plugins/my-custom-styles-pro.html)
@@ -208,6 +208,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.31 =
+* Improvement: Design of the plugin settings page is improved.
 
 = 4.30 =
 * Improvement: Design of the plugin settings page is improved.
