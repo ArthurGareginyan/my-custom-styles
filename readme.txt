@@ -3,7 +3,7 @@ Contributors: Arthur Gareginyan
 Tags: inject code, inject snippet, inject css, insert code, insert snippet, insert css, inject custom code, inject custom snippet, inject custom css, insert custom code, insert custom snippet, insert custom css, code, snippet, css, css2, css3, style, styles, styling, stylesheet, style sheet
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
-Tested up to: 4.9
+Tested up to: 5.0
 Stable tag: 4.31
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
