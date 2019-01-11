@@ -4,7 +4,7 @@ Tags: inject code, inject snippet, inject css, insert code, insert snippet, inse
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 5.0
-Stable tag: 4.31
+Stable tag: 4.32
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -69,7 +69,7 @@ This plugin is ready for translation and has already been translated into severa
 * English (default)
 * Russian (translation by [Milena Kiseleva](https://www.instagram.com/milava_kiseleva/))
 * German (translation by Michael)
-* Spanish (translation by Patricio Toledo)
+* Spanish (translation by Ramiro Garcés and Patricio Toledo)
 * Dutch (translation by Peter Leenders)
 
 If you want to help translate this plugin then please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/my-custom-styles).
@@ -156,6 +156,13 @@ add_action( 'wp_head', 'my_custom_css_code' );`
 
 To apply the PHP code on a website, we can recommend you to use another our plugin called [My Custom Functions](https://wordpress.org/plugins/my-custom-functions/).
 
+= Q. My custom CSS code is not working. What could be wrong? =
+A. It happens that your custom CSS code that you insert on the plugin page does not work, even if an error message does not appear. Here are a few of the most likely causes of the issue:
+
+1. You have a typo during the insertion of your custom CSS code.
+2. Your custom CSS code has a syntax error.
+3. Your custom CSS code is incorrect and may not work.
+
 = Q. It's not working. What could be wrong? =
 A. As with every plugin, it's possible that things don't work. The most common reason for this is a web browser's cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load. This is called the browser's cache.​ Clearing your browser's cache may solve the problem.
 
@@ -208,6 +215,14 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.32 =
+* Content of the "Usage" section updated.
+* Content of the "FAQ" section updated.
+* Code formatting in the "admin.js" file improved.
+* Code commenting improved.
+* The copyright date updated.
+* Translation files are updated.
 
 = 4.31 =
 * Improvement: Design of the plugin settings page is improved.

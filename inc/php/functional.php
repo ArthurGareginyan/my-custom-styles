@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
  */
 function spacexchimp_p003_prepare() {
 
-    // Read options from database and declare variables
+    // Retrieve options from database and declare variables
     $options = get_option( SPACEXCHIMP_P003_SETTINGS . '_settings' );
     $data = !empty( $options['snippets'] ) ? $options['snippets'] : '';
     $enable = !empty( $options['enable'] ) ? $options['enable'] : '';
