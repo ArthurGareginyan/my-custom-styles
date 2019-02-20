@@ -23,12 +23,18 @@ function spacexchimp_p003_hello_message() {
                     <div class="modal-body">
                         <img src="<?php echo SPACEXCHIMP_P003_URL . 'inc/img/spacexchimp-logo.png'; ?>">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <p><?php _e( 'Hello. We are the team of Space X-Chimp.', SPACEXCHIMP_P003_TEXT ); ?></p>
-                        <p><?php printf(
-                                        __( 'Thank you for installing our plugin! We hope you will love it! %s', SPACEXCHIMP_P003_TEXT ),
-                                        '&#x1F603;'
-                                        );
-                            ?></p>
+                        <p>
+                            <?php _e( 'Hello!', SPACEXCHIMP_P003_TEXT ); ?>
+                            <?php _e( 'We are the team of Space X-Chimp.', SPACEXCHIMP_P003_TEXT ); ?>
+                        </p>
+                        <p>
+                            <?php
+                                printf(
+                                    __( 'Thank you for installing our plugin! We hope you will love it! %s', SPACEXCHIMP_P003_TEXT ),
+                                    '&#x1F603;'
+                                );
+                            ?>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -88,7 +94,10 @@ function spacexchimp_p003_successfull_message() {
     if ( isset( $_GET['settings-updated'] ) ) {
         ?>
             <div id="message" class="updated">
-                <p><i class="fa fa-check" aria-hidden="true"></i> <?php _e( 'Custom code updated successfully.', SPACEXCHIMP_P003_TEXT ); ?></p>
+                <p>
+                    <i class="fa fa-check" aria-hidden="true"></i>
+                    <?php _e( 'Custom code updated successfully.', SPACEXCHIMP_P003_TEXT ); ?>
+                </p>
             </div>
         <?php
     }
