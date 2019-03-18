@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: My Custom Styles\n"
-"POT-Creation-Date: 2019-03-01 06:45+0300\n"
+"POT-Creation-Date: 2019-03-18 21:13+0300\n"
 "PO-Revision-Date: 2015-09-09 17:37+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -34,29 +34,29 @@ msgstr ""
 msgid "CSS Inserter"
 msgstr ""
 
-#: inc/php/messages.php:27 inc/php/tabs/support.php:25
+#: inc/php/messages.php:35 inc/php/tabs/support.php:25
 msgid "Hello!"
 msgstr ""
 
-#: inc/php/messages.php:28
+#: inc/php/messages.php:36
 msgid "We are the team of Space X-Chimp."
 msgstr ""
 
-#: inc/php/messages.php:33
+#: inc/php/messages.php:41
 #, php-format
 msgid "Thank you for installing our plugin! We hope you will love it! %s"
 msgstr ""
 
-#: inc/php/messages.php:74
+#: inc/php/messages.php:93
 msgid "You have installed an old version of this plugin."
 msgstr ""
 
-#: inc/php/messages.php:75
+#: inc/php/messages.php:94
 msgid "Please update the plugin to the latest version, and all will be fine."
 msgstr ""
 
-#: inc/php/messages.php:99
-msgid "Custom code updated successfully."
+#: inc/php/messages.php:129
+msgid "Custom code saved successfully."
 msgstr ""
 
 #: inc/php/page.php:34

@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Styles\n"
-"POT-Creation-Date: 2019-03-01 06:44+0300\n"
-"PO-Revision-Date: 2019-03-01 06:44+0300\n"
+"POT-Creation-Date: 2019-03-18 21:13+0300\n"
+"PO-Revision-Date: 2019-03-18 21:13+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -36,29 +36,29 @@ msgstr "Spende"
 msgid "CSS Inserter"
 msgstr "CSS Inserter"
 
-#: inc/php/messages.php:27 inc/php/tabs/support.php:25
+#: inc/php/messages.php:35 inc/php/tabs/support.php:25
 msgid "Hello!"
 msgstr "Hallo!"
 
-#: inc/php/messages.php:28
+#: inc/php/messages.php:36
 msgid "We are the team of Space X-Chimp."
 msgstr "Wir sind das Team von Space X-Chimp."
 
-#: inc/php/messages.php:33
+#: inc/php/messages.php:41
 #, php-format
 msgid "Thank you for installing our plugin! We hope you will love it! %s"
 msgstr "Danke, dass Sie mein Plugin installiert haben. Ich hoffe, sie werden es mögen. %s"
 
-#: inc/php/messages.php:74
+#: inc/php/messages.php:93
 msgid "You have installed an old version of this plugin."
 msgstr "Sie haben eine veraltete Version dieses Plugin installiert."
 
-#: inc/php/messages.php:75
+#: inc/php/messages.php:94
 msgid "Please update the plugin to the latest version, and all will be fine."
 msgstr "Bitte installieren Sie die aktuelle Version des Plugins und alles wir gut."
 
-#: inc/php/messages.php:99
-msgid "Custom code updated successfully."
+#: inc/php/messages.php:129
+msgid "Custom code saved successfully."
 msgstr ""
 
 #: inc/php/page.php:34
