@@ -10,8 +10,11 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
  */
 function spacexchimp_p003_prepare() {
 
+    // Put value of plugin constants into an array for easier access
+    $plugin = spacexchimp_p003_plugin();
+
     // Retrieve options from database and declare variables
-    $options = get_option( SPACEXCHIMP_P003_SETTINGS . '_settings' );
+    $options = get_option( $plugin['settings'] . '_settings' );
     $data = !empty( $options['snippets'] ) ? $options['snippets'] : '';
     $enable = !empty( $options['enable'] ) ? $options['enable'] : '';
 
@@ -19,7 +22,7 @@ function spacexchimp_p003_prepare() {
     $data_out = "";
 
     // If data is not empty...
-    if ( !empty( $data ) ) {
+    if ( ! empty( $data ) ) {
 
         // If the custom code is enabled...
         if ( $enable == "on") {
