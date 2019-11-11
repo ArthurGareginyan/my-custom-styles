@@ -3,8 +3,8 @@ Contributors: Arthur Gareginyan
 Tags: inject code, inject snippet, inject css, insert code, insert snippet, insert css, inject custom code, inject custom snippet, inject custom css, insert custom code, insert custom snippet, insert custom css, code, snippet, css, css2, css3, style, styles, styling, stylesheet, style sheet
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
-Tested up to: 5.2
-Stable tag: 4.39
+Tested up to: 5.3
+Stable tag: 4.40
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -218,6 +218,11 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.40 - Nov 11, 2019 =
+* Maintenance: Compatibility with upcoming WordPress 5.3.
+* Framework update: Bootstrap library updated to the latest version; v3.4.1.
+* Framework update: The list control has been redesigned.
 
 = 4.39 - Oct 2, 2019 =
 * French translation updated. (Thanks to Hervé Bouzin)
