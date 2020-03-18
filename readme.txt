@@ -2,7 +2,7 @@
 Contributors: Arthur Gareginyan
 Tags: inject code, inject snippet, inject css, insert code, insert snippet, insert css, inject custom code, inject custom snippet, inject custom css, insert custom code, insert custom snippet, insert custom css, code, snippet, css, css2, css3, style, styles, styling, stylesheet, style sheet
 Donate link: https://www.spacexchimp.com/donate.html
-Requires at least: 3.9
+Requires at least: 4.9
 Tested up to: 5.3
 Stable tag: 4.41
 License: GPL3
@@ -77,11 +77,13 @@ If you want to help translate this plugin, please visit the [translation page](h
 
 **Minimum system requirements:**
 
+* [WordPress](https://wordpress.org) version **4.9** or higher.
 * [PHP](https://secure.php.net) version **5.3** or higher.
 * [MySQL](https://www.mysql.com) version **5.0** or higher.
 
 **Recommended system requirements:**
 
+* [WordPress](https://wordpress.org) version **5.0** or higher.
 * [PHP](https://secure.php.net) version **7.0** or higher.
 * [MySQL](https://www.mysql.com) version **5.6** or higher.
 
