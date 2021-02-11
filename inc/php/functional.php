@@ -47,6 +47,6 @@ function spacexchimp_p003_prepare() {
 }
 
 /**
- * Inject the custom code into the website's frontend
+ * Inject the custom code into the website's frontend (head section)
  */
 add_action( 'wp_head', 'spacexchimp_p003_prepare' );
