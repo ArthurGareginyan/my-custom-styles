@@ -48,7 +48,7 @@ function spacexchimp_p003_upgrade_4_7() {
     $settings_new = is_array( $settings_current ) ? $settings_current : array();
     $settings_new['snippets'] = $snippets_old;
     $settings_new['enable'] = $enable_old;
-    unset($settings_new['mcstyles-content']);
+    unset( $settings_new['mcstyles-content'] );
 
     // Exit if the upgrade is not needed or already done
     if ( empty( $settings_current ) ) return;
