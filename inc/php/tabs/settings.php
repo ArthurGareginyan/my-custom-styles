@@ -21,7 +21,6 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                         $options = spacexchimp_p003_options();
 
                         // Set default value if option is empty
-                        $snippets = !empty( $options['snippets'] ) ? $options['snippets'] : '';
                         $checked = ( !empty( $options['enable'] ) && $options['enable'] == "on" ) ? 'checked' : '';
                     ?>
 
@@ -44,7 +43,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                 name="spacexchimp_p003_settings[snippets]"
                                 id="spacexchimp_p003_settings[snippets]"
                                 placeholder="<?php _e( 'Enter your CSS styles here', $plugin['text'] ); ?>"
-                            ><?php echo esc_attr( $snippets ); ?></textarea>
+                            ><?php echo esc_attr( $options['snippets'] ); ?></textarea>
                         </div>
                     </div>
 
