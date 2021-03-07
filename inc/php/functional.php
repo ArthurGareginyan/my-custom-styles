@@ -24,7 +24,7 @@ function spacexchimp_p003_prepare() {
     if ( ! empty( $options['snippets'] ) ) {
 
         // If the custom code is enabled...
-        if ( $options['enable'] == "on") {
+        if ( $options['enable'] === true ) {
 
             // Add an additional code to the beginning of the variable
             $data_out = '<style type="text/css">' . "\n";
