@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Styles PRO\n"
-"POT-Creation-Date: 2021-01-02 21:08+0300\n"
-"PO-Revision-Date: 2021-01-02 21:08+0300\n"
+"POT-Creation-Date: 2021-03-09 01:20+0300\n"
+"PO-Revision-Date: 2021-03-09 01:20+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -82,7 +82,7 @@ msgstr "Utilisation"
 msgid "F.A.Q."
 msgstr "FAQ."
 
-#: inc/php/page.php:46 inc/php/sidebar.php:56 inc/php/tabs/settings.php:65
+#: inc/php/page.php:46 inc/php/sidebar.php:56 inc/php/tabs/settings.php:68
 msgid "Support"
 msgstr "Soutien"
 
@@ -110,16 +110,16 @@ msgstr "Aide"
 msgid "If you have a question, please read the information in the FAQ section."
 msgstr "Si vous avez une question, veuillez lire les informations dans la section FAQ."
 
-#: inc/php/sidebar.php:58 inc/php/tabs/settings.php:67
+#: inc/php/sidebar.php:58 inc/php/tabs/settings.php:70
 msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr "Toute contribution même minime nous aident à couvrir nos frais et nous laisse plus de temps pour ajouter des fonctionnalités que les utilisateurs comme vous apprécient."
 
-#: inc/php/sidebar.php:63 inc/php/tabs/settings.php:72
+#: inc/php/sidebar.php:63 inc/php/tabs/settings.php:75
 #: inc/php/tabs/support.php:25
 msgid "Donate with PayPal"
 msgstr "Faire un don avec PayPal"
 
-#: inc/php/sidebar.php:65 inc/php/tabs/settings.php:74
+#: inc/php/sidebar.php:65 inc/php/tabs/settings.php:77
 msgid "Thanks for your support!"
 msgstr "Merci pour votre soutien!"
 
@@ -535,19 +535,19 @@ msgstr "Vous pouvez poser votre question sur %s cette page %s."
 msgid "But please keep in mind that this plugin is free, and there is no a special support team, so we have no way to answer everyone."
 msgstr ""
 
-#: inc/php/tabs/settings.php:30
+#: inc/php/tabs/settings.php:33
 msgid "Styles (CSS code)"
 msgstr ""
 
-#: inc/php/tabs/settings.php:32
+#: inc/php/tabs/settings.php:35
 msgid "NOT SAVED!"
 msgstr "N'EST PAS SAUVÉ!"
 
-#: inc/php/tabs/settings.php:46
+#: inc/php/tabs/settings.php:49
 msgid "Enter your CSS styles here"
 msgstr "Entrez votre extrait de code CSS ici"
 
-#: inc/php/tabs/settings.php:60
+#: inc/php/tabs/settings.php:63
 msgid "Save changes"
 msgstr "Enregistrer les modifications"
 
