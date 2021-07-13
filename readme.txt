@@ -3,7 +3,7 @@ Contributors: Arthur Gareginyan
 Tags: inject code, inject snippet, inject css, insert code, insert snippet, insert css, inject custom code, inject custom snippet, inject custom css, insert custom code, insert custom snippet, insert custom css, code, snippet, css, css2, css3, style, styles, styling, stylesheet, style sheet
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 4.9
-Tested up to: 5.7
+Tested up to: 5.8
 Requires PHP: 5.6
 Stable tag: 4.49
 License: GPL3
@@ -223,6 +223,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+=
+* Maintenance: Ensure compatibility with upcoming WordPress 5.8.
 
 = 4.49 - Mar 8, 2021 =
 * Maintenance: Ensure compatibility with upcoming WordPress 5.7.
